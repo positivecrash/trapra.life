@@ -1,0 +1,45 @@
+doctype html
+
+block html
+html(lang='en')
+	head
+		meta(http-equiv="Content-Type" content="text/html;charset=UTF-8")
+		meta(name='viewport' content="width=device-width, initial-scale=1, shrink-to-fit=no")
+
+		if metaRobots
+			meta(name="robots" content=metaRobots)
+		
+		//-- Basic SEO
+		block html_head
+		title #{pageTitle} | Trapra
+		meta(name='description' content=pageDescription || '')
+		meta(name='keywords' content=pageKeywords || '')
+
+
+		//-- Open Graph
+		block html_head_og
+		meta(property='og:url' content='http://trapra.life/'+ogUrl)
+		meta(property='og:type' content=ogType || 'website')
+		meta(property='og:title' content=ogTitle || 'Trapra')
+		meta(property='og:description' content=ogDescription || 'Фото, поэзия, для тех, кто чуток сердцем')
+		meta(property='og:image' content=ogImage || 'http://trapra.life/assets/i/trapra.png')
+		meta(property='og:site_name' content="Trapra")
+
+
+		//-- Icons
+		link(rel="icon" href="favicon.ico" sizes="32x32" type="image/x-icon")
+		link(rel="shortcut icon" href="favicon.ico" sizes="32x32" type="image/x-icon")
+		link(rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png")
+		link(rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png")
+
+	body
+		//- include  ../includes/header.pug
+		
+		block content
+
+		//- include ../includes/footer.pug
+
+		//-- Resources
+		link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=cyrillic" type="text/css" media="all")
+		link(href='assets/css/trapra.min.css?v=1' rel='stylesheet prefetch')
+		script(src='assets/js/main.min.js?v=1' rel='prefetch')

@@ -1,0 +1,116 @@
+/* EXTENDS */
+%font_base
+	{
+		font-size: rem($font-size-basic);
+		line-height: 1.4;
+		font-family: $font-family-base;
+		word-spacing: normal;
+		letter-spacing: 0;
+		font-weight: 300;
+	}
+
+
+
+
+/* TITLES */
+#{headings()}
+	{
+		margin-top: rem($vertical-rythm*4);
+		margin-bottom: rem($vertical-rythm);
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+	  	&:first-child
+		  	{
+		  		margin-top: 0;
+			}
+	}
+
+
+@for $i from 2 through 5
+	{
+	  h#{$i}{
+	    font-size: rem($font-size-title - 6 * $i);
+	    font-weight: 400;
+	  }
+	}
+
+
+h1
+	{
+		font-size: rem($font-size-title);
+		margin-bottom: rem($vertical-rythm*2);
+	}
+
+
+
+
+
+/* TEXT ELEMENTS */
+a 
+	{
+	  @extend %link_noline;
+	  transition: 0.2s ease-in all;
+	}
+
+ul, ol
+	{
+	  margin-left: 20px;
+	  margin-bottom: rem($vertical-rythm);
+
+	  ul, ol{
+	  	margin-top: rem($vertical-rythm);
+	  }
+	}
+
+
+
+li, p, blockquote
+	{
+	  margin-bottom: rem($vertical-rythm);
+
+	  &:last-child{
+	  	margin-bottom: 0;
+	  }
+	}
+
+hr
+	{
+		margin: rem($vertical-rythm 0);
+		background-color: $c-gray--dark;
+		height: 1px;
+		border: 0;
+	}
+
+b { font-weight: 500; }
+
+
+
+
+
+/* TEXT ADDITIONAL FORMAT */
+.t-align-center { text-align: center; }
+.t-align-right { text-align: right; }
+.t-align-left { text-align: left; }
+
+.t-paragraph-hyphened
+	{
+		text-align: justify;
+		hyphens: auto;
+	}
+
+.t-paragraph-nowrap { white-space: nowrap; }
+
+
+.t-uppercase
+	{
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+
+.i-block
+	{
+		@extend %i_block;
+	}

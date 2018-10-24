@@ -1,0 +1,100 @@
+html, body
+  {
+    height: 100%;
+    min-height: 100%;
+  }
+
+html
+  {
+    position: relative;
+    font-size: 100%;
+
+    @include mobile(){ font-size: 80%; }
+    @include tablet(){ font-size: 90%; }
+  }
+
+body
+  {
+    @extend %font_base;
+    position: relative;
+
+    opacity: 0;
+    animation: 0.4s FadeIn ease-in forwards;
+
+    background-color: $c-bg-body;
+    color: $c-text;
+  }
+
+
+/* DISPLAY */
+
+.w-wide
+{
+  padding-left: $padding-base-side; 
+  padding-right: $padding-base-side;
+}
+.w-base { @extend %width_base; }
+
+.w-text 
+  {
+    @extend %width_base;
+    max-width: $width-text - $padding-base-side * 2;
+  }
+
+.w-small 
+  {
+    @extend %width_base;
+    max-width: $width-small - $padding-base-side * 2;
+  }
+
+
+
+.w-paddings
+  {
+    padding-left: $padding-base-side;
+    padding-right: $padding-base-side;
+    box-sizing: border-box;
+  }
+
+.w-full
+  {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+
+.f-zoom{ @extend %floating-fix; }
+.f-left { float: left; }
+.f-right { float: right; }
+
+.d-t { display: table; }
+.d-t_row { display: table-row; }
+.d-t_cell { display: table-cell; }
+
+.d-ib { @extend %inline-block; }
+.d-b { display: block; }
+
+.align-v-m { vertical-align: middle; }
+
+
+.screen
+  {
+    box-sizing: border-box;
+    min-height: 100%;
+    @extend %flex-align--center;
+  }
+
+/* END OF DISPLAY */
+
+
+
+
+
+/* MARGINS, PADDING */
+
+.m-r-base { margin-right: rem($vertical-rythm); }
+.m-t-base-2 { margin-top: rem($vertical-rythm*2); }
+
+.m-b-0 { margin-bottom: 0; }
+
+/* end of MARGINS, PADDING */

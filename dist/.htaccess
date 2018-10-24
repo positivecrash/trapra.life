@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.drone-p2p.io$ [NC]
+RewriteRule (.*) https://drone-p2p.io/$1 [R=301]
+
+
+ErrorDocument 404 https://drone-p2p.io/404
+
+#Убираем расширение файла из URL
+RewriteRule ^(([^/]+/)*[^.]+)$ /$1.html [L]

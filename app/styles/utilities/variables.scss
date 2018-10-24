@@ -1,0 +1,49 @@
+/* MEDIA QUERIES */
+$mq-desktop: 1056px;
+$mq-tablet: 750px;
+$mq-mobile: 500px;
+$mq-menuhide: $mq-tablet;
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+
+
+
+/* MESUARES */
+$width-base: $mq-desktop;
+$width-text: 780px;
+$width-small: 550px;
+$padding-base-side: 20px;
+
+
+
+/* COLORS */
+$c-dark--vivid: #000;
+$c-dark--mid: #0F0F0F;
+$c-dark--pale: #242424;
+$c-light--vivid: #fff;
+
+$c-blue--neon: #00FFFF;
+$c-blue--normal: #03A5ED;
+$c-blue--normal-dark: #0081BA;
+
+$c-gray--dark: #707070;
+$c-gray--mid: #C7C5C5;
+$c-gray--light: #F2F2F2;
+
+$c-crimson--neon: #FF00FF;
+$c-crimson--normal: #A316A3;
+
+
+/* THEME COLORS */
+$c-bg-body: $c-light--vivid; // фон <body>
+$c-text: $c-dark--mid;
+$c-link: $c-blue--normal;
+
+
+/* TEXT SETTINGS */
+$font-size-basic: 20px;
+$font-size-title: 42px; //h1
+$font-family-title:  'Montserrat', sans-serif;
+$font-family-base:  $font-family-title;
+$vertical-rythm: $font-size-basic * 1.2;
+
