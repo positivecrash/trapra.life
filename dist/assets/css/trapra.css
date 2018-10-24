@@ -170,11 +170,11 @@ body {
 /* END OF DISPLAY */
 /* MARGINS, PADDING */
 .m-r-base {
-  margin-right: 1.5rem;
+  margin-right: 1.95rem;
 }
 
 .m-t-base-2 {
-  margin-top: 3rem;
+  margin-top: 3.9rem;
 }
 
 .m-b-0 {
@@ -184,7 +184,7 @@ body {
 /* end of MARGINS, PADDING */
 /* EXTENDS */
 body {
-  font-size: 1.25rem;
+  font-size: 1.625rem;
   line-height: 1.4;
   font-family: "Montserrat", sans-serif;
   word-spacing: normal;
@@ -194,8 +194,8 @@ body {
 
 /* TITLES */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 6rem;
-  margin-bottom: 1.5rem;
+  margin-top: 7.8rem;
+  margin-bottom: 1.95rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -226,7 +226,7 @@ h5 {
 
 h1 {
   font-size: 2.625rem;
-  margin-bottom: 3rem;
+  margin-bottom: 3.9rem;
 }
 
 /* TEXT ELEMENTS */
@@ -236,21 +236,21 @@ a {
 
 ul, ol {
   margin-left: 20px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.95rem;
 }
 ul ul, ul ol, ol ul, ol ol {
-  margin-top: 1.5rem;
+  margin-top: 1.95rem;
 }
 
 li, p, blockquote {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.95rem;
 }
 li:last-child, p:last-child, blockquote:last-child {
   margin-bottom: 0;
 }
 
 hr {
-  margin: 1.5rem 0;
+  margin: 1.95rem 0;
   background-color: #707070;
   height: 1px;
   border: 0;
@@ -290,6 +290,23 @@ b {
   letter-spacing: 1px;
 }
 
+.text-clipped {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-smooth {
+  opacity: 0;
+  animation: 0.3s FadeIn ease-in forwards;
+  transition: font-size 0.1s ease;
+  transform-origin: 50% 50%;
+}
+
 @keyframes FadeIn {
   0% {
     opacity: 0;
@@ -311,13 +328,13 @@ b {
   }
 }
 section {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-top: 7.8rem;
+  margin-bottom: 7.8rem;
 }
 
 .section-padding {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 7.8rem;
+  padding-bottom: 7.8rem;
 }
 
 .section-main {
@@ -338,17 +355,7 @@ section {
 }
 
 .section-title h1 {
-  opacity: 0;
-  animation: 0.3s FadeIn ease-in forwards;
-  transition: font-size 0.1s ease;
-  transform-origin: 50% 50%;
   font-size: 12.5rem;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 @media screen and (max-width: 500px) {
   .section-title h1 {

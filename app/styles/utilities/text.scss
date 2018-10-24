@@ -114,3 +114,24 @@ b { font-weight: 500; }
 	{
 		@extend %i_block;
 	}
+
+
+
+.text-clipped
+	{
+		background-clip: text;
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+		color: transparent;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+.text-smooth
+	{
+		opacity: 0;
+		animation: 0.3s FadeIn ease-in forwards;
+		transition: font-size 0.1s ease;
+		transform-origin: 50% 50%;
+	}
