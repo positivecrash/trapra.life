@@ -1,0 +1,1080 @@
+$icons: (
+    sprite: (width: 3895px, height: 114.4px, pngPath: '../i/sprite-avatar.png?1', svgPath: '../i/sprite-avatar.svg?1'),
+    p-1: (width: 15.6px, height: 48px, backgroundX: 0px, backgroundY: 0px),
+    p-10: (width: 9px, height: 71.7px, backgroundX: -16px, backgroundY: 0px),
+    p-100: (width: 15.4px, height: 3.6px, backgroundX: -25px, backgroundY: 0px),
+    p-101: (width: 15.5px, height: 10.6px, backgroundX: -41px, backgroundY: 0px),
+    p-102: (width: 7px, height: 8.3px, backgroundX: -57px, backgroundY: 0px),
+    p-103: (width: 16.9px, height: 17.9px, backgroundX: -64px, backgroundY: 0px),
+    p-104: (width: 16.9px, height: 23.1px, backgroundX: -81px, backgroundY: 0px),
+    p-105: (width: 4.7px, height: 17px, backgroundX: -98px, backgroundY: 0px),
+    p-106: (width: 2.5px, height: 9px, backgroundX: -103px, backgroundY: 0px),
+    p-107: (width: 12.3px, height: 19.2px, backgroundX: -106px, backgroundY: 0px),
+    p-108: (width: 6.6px, height: 15.1px, backgroundX: -119px, backgroundY: 0px),
+    p-109: (width: 4.1px, height: 15.1px, backgroundX: -126px, backgroundY: 0px),
+    p-11: (width: 9.4px, height: 40.6px, backgroundX: -131px, backgroundY: 0px),
+    p-110: (width: 5.1px, height: 15.1px, backgroundX: -141px, backgroundY: 0px),
+    p-111: (width: 10.6px, height: 12.4px, backgroundX: -147px, backgroundY: 0px),
+    p-112: (width: 10.6px, height: 11px, backgroundX: -158px, backgroundY: 0px),
+    p-113: (width: 2.8px, height: 1.4px, backgroundX: -169px, backgroundY: 0px),
+    p-114: (width: 2.8px, height: 1.8px, backgroundX: -172px, backgroundY: 0px),
+    p-115: (width: 7.9px, height: 3.9px, backgroundX: -175px, backgroundY: 0px),
+    p-116: (width: 6.4px, height: 3.9px, backgroundX: -183px, backgroundY: 0px),
+    p-117: (width: 12.8px, height: 8px, backgroundX: -190px, backgroundY: 0px),
+    p-118: (width: 6.6px, height: 7.1px, backgroundX: -203px, backgroundY: 0px),
+    p-119: (width: 11.1px, height: 8px, backgroundX: -210px, backgroundY: 0px),
+    p-12: (width: 6.3px, height: 25.3px, backgroundX: -222px, backgroundY: 0px),
+    p-120: (width: 4.8px, height: 7.9px, backgroundX: -229px, backgroundY: 0px),
+    p-121: (width: 6.2px, height: 7.1px, backgroundX: -234px, backgroundY: 0px),
+    p-122: (width: 4.8px, height: 7.1px, backgroundX: -241px, backgroundY: 0px),
+    p-123: (width: 5.5px, height: 9.3px, backgroundX: -246px, backgroundY: 0px),
+    p-124: (width: 5.7px, height: 9.3px, backgroundX: -252px, backgroundY: 0px),
+    p-125: (width: 10.6px, height: 7.6px, backgroundX: -258px, backgroundY: 0px),
+    p-126: (width: 15.3px, height: 5.7px, backgroundX: -269px, backgroundY: 0px),
+    p-127: (width: 7.9px, height: 1.1px, backgroundX: -285px, backgroundY: 0px),
+    p-128: (width: 11.5px, height: 2px, backgroundX: -293px, backgroundY: 0px),
+    p-129: (width: 6.2px, height: 1.5px, backgroundX: -305px, backgroundY: 0px),
+    p-13: (width: 6.3px, height: 20.2px, backgroundX: -312px, backgroundY: 0px),
+    p-130: (width: 4px, height: 2.6px, backgroundX: -319px, backgroundY: 0px),
+    p-131: (width: 2.4px, height: 1.5px, backgroundX: -323px, backgroundY: 0px),
+    p-132: (width: 5.7px, height: 1.7px, backgroundX: -326px, backgroundY: 0px),
+    p-133: (width: 7.5px, height: 3px, backgroundX: -332px, backgroundY: 0px),
+    p-134: (width: 15.9px, height: 3px, backgroundX: -340px, backgroundY: 0px),
+    p-135: (width: 15.5px, height: 4.2px, backgroundX: -356px, backgroundY: 0px),
+    p-136: (width: 7.1px, height: 8.2px, backgroundX: -372px, backgroundY: 0px),
+    p-137: (width: 12.8px, height: 19.4px, backgroundX: -380px, backgroundY: 0px),
+    p-138: (width: 4.1px, height: 3.4px, backgroundX: -393px, backgroundY: 0px),
+    p-139: (width: 7.5px, height: 3.4px, backgroundX: -398px, backgroundY: 0px),
+    p-14: (width: 5.8px, height: 20.2px, backgroundX: -406px, backgroundY: 0px),
+    p-140: (width: 10.5px, height: 5.3px, backgroundX: -412px, backgroundY: 0px),
+    p-141: (width: 18.5px, height: 5.3px, backgroundX: -423px, backgroundY: 0px),
+    p-142: (width: 18.5px, height: 7.3px, backgroundX: -442px, backgroundY: 0px),
+    p-143: (width: 7px, height: 7.3px, backgroundX: -461px, backgroundY: 0px),
+    p-144: (width: 9.9px, height: 9.6px, backgroundX: -468px, backgroundY: 0px),
+    p-145: (width: 24.2px, height: 12.6px, backgroundX: -478px, backgroundY: 0px),
+    p-146: (width: 15.8px, height: 8.2px, backgroundX: -503px, backgroundY: 0px),
+    p-147: (width: 5.7px, height: 10.5px, backgroundX: -519px, backgroundY: 0px),
+    p-148: (width: 8.5px, height: 28.3px, backgroundX: -525px, backgroundY: 0px),
+    p-149: (width: 15.4px, height: 28.3px, backgroundX: -534px, backgroundY: 0px),
+    p-15: (width: 20.7px, height: 23.8px, backgroundX: -550px, backgroundY: 0px),
+    p-150: (width: 15.4px, height: 22.1px, backgroundX: -571px, backgroundY: 0px),
+    p-151: (width: 12.6px, height: 16.9px, backgroundX: -587px, backgroundY: 0px),
+    p-152: (width: 18.2px, height: 22.1px, backgroundX: -600px, backgroundY: 0px),
+    p-153: (width: 15.4px, height: 14.7px, backgroundX: -619px, backgroundY: 0px),
+    p-154: (width: 14.9px, height: 14.7px, backgroundX: -635px, backgroundY: 0px),
+    p-155: (width: 13.7px, height: 9.4px, backgroundX: -650px, backgroundY: 0px),
+    p-156: (width: 12.1px, height: 8.5px, backgroundX: -664px, backgroundY: 0px),
+    p-157: (width: 23.6px, height: 9.4px, backgroundX: -677px, backgroundY: 0px),
+    p-158: (width: 10.2px, height: 23px, backgroundX: -701px, backgroundY: 0px),
+    p-159: (width: 16.1px, height: 28.2px, backgroundX: -712px, backgroundY: 0px),
+    p-16: (width: 47.3px, height: 25px, backgroundX: -729px, backgroundY: 0px),
+    p-160: (width: 10.6px, height: 28.2px, backgroundX: -777px, backgroundY: 0px),
+    p-161: (width: 19.8px, height: 23.8px, backgroundX: -788px, backgroundY: 0px),
+    p-162: (width: 19.8px, height: 31.5px, backgroundX: -808px, backgroundY: 0px),
+    p-163: (width: 2px, height: 31.5px, backgroundX: -828px, backgroundY: 0px),
+    p-164: (width: 4.3px, height: 5.4px, backgroundX: -830px, backgroundY: 0px),
+    p-165: (width: 8.8px, height: 15.4px, backgroundX: -835px, backgroundY: 0px),
+    p-166: (width: 8.8px, height: 6.2px, backgroundX: -844px, backgroundY: 0px),
+    p-167: (width: 4.5px, height: 20.8px, backgroundX: -853px, backgroundY: 0px),
+    p-168: (width: 3.5px, height: 15.7px, backgroundX: -858px, backgroundY: 0px),
+    p-169: (width: 4.5px, height: 14.2px, backgroundX: -862px, backgroundY: 0px),
+    p-17: (width: 47.3px, height: 16.7px, backgroundX: -867px, backgroundY: 0px),
+    p-170: (width: 4.5px, height: 14.8px, backgroundX: -915px, backgroundY: 0px),
+    p-171: (width: 4.5px, height: 9.9px, backgroundX: -920px, backgroundY: 0px),
+    p-172: (width: 4.5px, height: 17.4px, backgroundX: -925px, backgroundY: 0px),
+    p-173: (width: 10.6px, height: 8.6px, backgroundX: -930px, backgroundY: 0px),
+    p-174: (width: 8.2px, height: 7.1px, backgroundX: -941px, backgroundY: 0px),
+    p-175: (width: 8.2px, height: 3px, backgroundX: -950px, backgroundY: 0px),
+    p-176: (width: 10.6px, height: 11.6px, backgroundX: -959px, backgroundY: 0px),
+    p-177: (width: 4.7px, height: 17.2px, backgroundX: -970px, backgroundY: 0px),
+    p-178: (width: 5.3px, height: 7.1px, backgroundX: -975px, backgroundY: 0px),
+    p-179: (width: 9.4px, height: 11px, backgroundX: -981px, backgroundY: 0px),
+    p-18: (width: 34.7px, height: 33.9px, backgroundX: -991px, backgroundY: 0px),
+    p-180: (width: 7px, height: 10.3px, backgroundX: -1026px, backgroundY: 0px),
+    p-181: (width: 8.8px, height: 11.6px, backgroundX: -1033px, backgroundY: 0px),
+    p-182: (width: 9.4px, height: 11px, backgroundX: -1042px, backgroundY: 0px),
+    p-183: (width: 2.9px, height: 15.9px, backgroundX: -1052px, backgroundY: 0px),
+    p-184: (width: 2.7px, height: 8.3px, backgroundX: -1055px, backgroundY: 0px),
+    p-185: (width: 4.1px, height: 15.9px, backgroundX: -1058px, backgroundY: 0px),
+    p-186: (width: 5.9px, height: 13.6px, backgroundX: -1063px, backgroundY: 0px),
+    p-187: (width: 3.2px, height: 10.3px, backgroundX: -1069px, backgroundY: 0px),
+    p-188: (width: 5.9px, height: 10.1px, backgroundX: -1073px, backgroundY: 0px),
+    p-189: (width: 5.3px, height: 10.3px, backgroundX: -1079px, backgroundY: 0px),
+    p-19: (width: 29.7px, height: 33.9px, backgroundX: -1085px, backgroundY: 0px),
+    p-190: (width: 8px, height: 11px, backgroundX: -1115px, backgroundY: 0px),
+    p-191: (width: 4.4px, height: 11px, backgroundX: -1123px, backgroundY: 0px),
+    p-192: (width: 6.8px, height: 14.5px, backgroundX: -1128px, backgroundY: 0px),
+    p-193: (width: 6.8px, height: 14.5px, backgroundX: -1135px, backgroundY: 0px),
+    p-194: (width: 88.4px, height: 114.4px, backgroundX: -1142px, backgroundY: 0px),
+    p-195: (width: 114.4px, height: 99.5px, backgroundX: -1231px, backgroundY: 0px),
+    p-196: (width: 114.4px, height: 71.5px, backgroundX: -1346px, backgroundY: 0px),
+    p-197: (width: 28.9px, height: 78.4px, backgroundX: -1461px, backgroundY: 0px),
+    p-198: (width: 50.4px, height: 81.8px, backgroundX: -1490px, backgroundY: 0px),
+    p-199: (width: 126.6px, height: 81.8px, backgroundX: -1541px, backgroundY: 0px),
+    p-2: (width: 5.8px, height: 40.2px, backgroundX: -1668px, backgroundY: 0px),
+    p-20: (width: 33.2px, height: 32.7px, backgroundX: -1674px, backgroundY: 0px),
+    p-200: (width: 87.7px, height: 40.9px, backgroundX: -1708px, backgroundY: 0px),
+    p-201: (width: 115.2px, height: 81.8px, backgroundX: -1796px, backgroundY: 0px),
+    p-202: (width: 115.2px, height: 18.8px, backgroundX: -1912px, backgroundY: 0px),
+    p-203: (width: 11.5px, height: 36px, backgroundX: -2028px, backgroundY: 0px),
+    p-204: (width: 28.9px, height: 28.4px, backgroundX: -2040px, backgroundY: 0px),
+    p-205: (width: 19.6px, height: 24.8px, backgroundX: -2069px, backgroundY: 0px),
+    p-206: (width: 30.8px, height: 28.4px, backgroundX: -2089px, backgroundY: 0px),
+    p-207: (width: 37.1px, height: 24.6px, backgroundX: -2120px, backgroundY: 0px),
+    p-208: (width: 46.6px, height: 24.6px, backgroundX: -2158px, backgroundY: 0px),
+    p-209: (width: 19.3px, height: 26.8px, backgroundX: -2205px, backgroundY: 0px),
+    p-21: (width: 44.6px, height: 23.5px, backgroundX: -2225px, backgroundY: 0px),
+    p-210: (width: 9.8px, height: 1.7px, backgroundX: -2270px, backgroundY: 0px),
+    p-211: (width: 0.6px, height: 8.3px, backgroundX: -2280px, backgroundY: 0px),
+    p-212: (width: 20.7px, height: 14.1px, backgroundX: -2281px, backgroundY: 0px),
+    p-22: (width: 9.6px, height: 4px, backgroundX: -2302px, backgroundY: 0px),
+    p-23: (width: 15.6px, height: 28px, backgroundX: -2312px, backgroundY: 0px),
+    p-24: (width: 19px, height: 35.3px, backgroundX: -2328px, backgroundY: 0px),
+    p-25: (width: 14.6px, height: 34.5px, backgroundX: -2347px, backgroundY: 0px),
+    p-26: (width: 34.2px, height: 62.5px, backgroundX: -2362px, backgroundY: 0px),
+    p-27: (width: 52.8px, height: 65.5px, backgroundX: -2397px, backgroundY: 0px),
+    p-28: (width: 18.7px, height: 47.3px, backgroundX: -2450px, backgroundY: 0px),
+    p-29: (width: 15px, height: 45px, backgroundX: -2469px, backgroundY: 0px),
+    p-3: (width: 45.3px, height: 66.2px, backgroundX: -2484px, backgroundY: 0px),
+    p-30: (width: 17.2px, height: 17.8px, backgroundX: -2530px, backgroundY: 0px),
+    p-31: (width: 52.8px, height: 21.5px, backgroundX: -2548px, backgroundY: 0px),
+    p-32: (width: 5.4px, height: 17.2px, backgroundX: -2601px, backgroundY: 0px),
+    p-33: (width: 14.6px, height: 27.3px, backgroundX: -2607px, backgroundY: 0px),
+    p-34: (width: 8.3px, height: 27.3px, backgroundX: -2622px, backgroundY: 0px),
+    p-35: (width: 19.5px, height: 28px, backgroundX: -2631px, backgroundY: 0px),
+    p-36: (width: 19.5px, height: 35.6px, backgroundX: -2651px, backgroundY: 0px),
+    p-37: (width: 23.3px, height: 35px, backgroundX: -2671px, backgroundY: 0px),
+    p-38: (width: 21.2px, height: 14.9px, backgroundX: -2695px, backgroundY: 0px),
+    p-39: (width: 21.2px, height: 26.4px, backgroundX: -2717px, backgroundY: 0px),
+    p-4: (width: 26.2px, height: 69.1px, backgroundX: -2739px, backgroundY: 0px),
+    p-40: (width: 25.4px, height: 26.4px, backgroundX: -2766px, backgroundY: 0px),
+    p-41: (width: 24px, height: 25px, backgroundX: -2792px, backgroundY: 0px),
+    p-42: (width: 25.4px, height: 25px, backgroundX: -2816px, backgroundY: 0px),
+    p-43: (width: 30.8px, height: 27.4px, backgroundX: -2842px, backgroundY: 0px),
+    p-44: (width: 20.4px, height: 30.4px, backgroundX: -2873px, backgroundY: 0px),
+    p-45: (width: 17px, height: 30.4px, backgroundX: -2894px, backgroundY: 0px),
+    p-46: (width: 17px, height: 9.5px, backgroundX: -2911px, backgroundY: 0px),
+    p-47: (width: 19.7px, height: 39.5px, backgroundX: -2928px, backgroundY: 0px),
+    p-48: (width: 22.3px, height: 39.5px, backgroundX: -2948px, backgroundY: 0px),
+    p-49: (width: 12.8px, height: 34.9px, backgroundX: -2971px, backgroundY: 0px),
+    p-5: (width: 29.6px, height: 69.1px, backgroundX: -2984px, backgroundY: 0px),
+    p-50: (width: 8.1px, height: 57.9px, backgroundX: -3014px, backgroundY: 0px),
+    p-51: (width: 3.6px, height: 68.2px, backgroundX: -3023px, backgroundY: 0px),
+    p-52: (width: 23.6px, height: 16.5px, backgroundX: -3027px, backgroundY: 0px),
+    p-53: (width: 28.5px, height: 27px, backgroundX: -3051px, backgroundY: 0px),
+    p-54: (width: 14.8px, height: 17.6px, backgroundX: -3080px, backgroundY: 0px),
+    p-55: (width: 14.8px, height: 17.5px, backgroundX: -3095px, backgroundY: 0px),
+    p-56: (width: 11px, height: 17.6px, backgroundX: -3110px, backgroundY: 0px),
+    p-57: (width: 22.4px, height: 22px, backgroundX: -3121px, backgroundY: 0px),
+    p-58: (width: 22.4px, height: 25.2px, backgroundX: -3144px, backgroundY: 0px),
+    p-59: (width: 7.6px, height: 4.6px, backgroundX: -3167px, backgroundY: 0px),
+    p-6: (width: 58.2px, height: 60.8px, backgroundX: -3175px, backgroundY: 0px),
+    p-60: (width: 6.5px, height: 4.6px, backgroundX: -3234px, backgroundY: 0px),
+    p-61: (width: 10.6px, height: 3.9px, backgroundX: -3241px, backgroundY: 0px),
+    p-62: (width: 8.9px, height: 3.6px, backgroundX: -3252px, backgroundY: 0px),
+    p-63: (width: 5.4px, height: 7.4px, backgroundX: -3261px, backgroundY: 0px),
+    p-64: (width: 3.8px, height: 2.9px, backgroundX: -3267px, backgroundY: 0px),
+    p-65: (width: 11.7px, height: 46.9px, backgroundX: -3271px, backgroundY: 0px),
+    p-66: (width: 11.2px, height: 47.7px, backgroundX: -3283px, backgroundY: 0px),
+    p-67: (width: 3.4px, height: 47.7px, backgroundX: -3295px, backgroundY: 0px),
+    p-68: (width: 14.8px, height: 46.2px, backgroundX: -3299px, backgroundY: 0px),
+    p-69: (width: 20.9px, height: 40.5px, backgroundX: -3314px, backgroundY: 0px),
+    p-7: (width: 68.4px, height: 63px, backgroundX: -3335px, backgroundY: 0px),
+    p-70: (width: 4.1px, height: 3.9px, backgroundX: -3404px, backgroundY: 0px),
+    p-71: (width: 9.6px, height: 4.6px, backgroundX: -3409px, backgroundY: 0px),
+    p-72: (width: 8.9px, height: 4.6px, backgroundX: -3419px, backgroundY: 0px),
+    p-73: (width: 3.5px, height: 8.8px, backgroundX: -3428px, backgroundY: 0px),
+    p-74: (width: 5px, height: 8.8px, backgroundX: -3432px, backgroundY: 0px),
+    p-75: (width: 18.7px, height: 3.1px, backgroundX: -3437px, backgroundY: 0px),
+    p-76: (width: 6.1px, height: 5.5px, backgroundX: -3456px, backgroundY: 0px),
+    p-77: (width: 4.6px, height: 5.5px, backgroundX: -3463px, backgroundY: 0px),
+    p-78: (width: 6.2px, height: 19.5px, backgroundX: -3468px, backgroundY: 0px),
+    p-79: (width: 5.4px, height: 23.1px, backgroundX: -3475px, backgroundY: 0px),
+    p-8: (width: 15px, height: 42.6px, backgroundX: -3481px, backgroundY: 0px),
+    p-80: (width: 43.1px, height: 10.8px, backgroundX: -3496px, backgroundY: 0px),
+    p-81: (width: 18.6px, height: 6.9px, backgroundX: -3540px, backgroundY: 0px),
+    p-82: (width: 47.1px, height: 36.4px, backgroundX: -3559px, backgroundY: 0px),
+    p-83: (width: 10.4px, height: 5.8px, backgroundX: -3607px, backgroundY: 0px),
+    p-84: (width: 9.2px, height: 3.7px, backgroundX: -3618px, backgroundY: 0px),
+    p-85: (width: 11.6px, height: 6.1px, backgroundX: -3628px, backgroundY: 0px),
+    p-86: (width: 24.5px, height: 6.9px, backgroundX: -3640px, backgroundY: 0px),
+    p-87: (width: 17px, height: 4.9px, backgroundX: -3665px, backgroundY: 0px),
+    p-88: (width: 6.5px, height: 3.7px, backgroundX: -3682px, backgroundY: 0px),
+    p-89: (width: 17.7px, height: 21.6px, backgroundX: -3689px, backgroundY: 0px),
+    p-9: (width: 18.5px, height: 71.7px, backgroundX: -3707px, backgroundY: 0px),
+    p-90: (width: 9.8px, height: 21.9px, backgroundX: -3726px, backgroundY: 0px),
+    p-91: (width: 28.6px, height: 14px, backgroundX: -3736px, backgroundY: 0px),
+    p-92: (width: 27.6px, height: 29px, backgroundX: -3765px, backgroundY: 0px),
+    p-93: (width: 4.1px, height: 21.9px, backgroundX: -3793px, backgroundY: 0px),
+    p-94: (width: 4.1px, height: 38.3px, backgroundX: -3798px, backgroundY: 0px),
+    p-95: (width: 2.7px, height: 38.3px, backgroundX: -3803px, backgroundY: 0px),
+    p-96: (width: 27.6px, height: 34.4px, backgroundX: -3806px, backgroundY: 0px),
+    p-97: (width: 25.3px, height: 34.4px, backgroundX: -3834px, backgroundY: 0px),
+    p-98: (width: 18.4px, height: 11px, backgroundX: -3860px, backgroundY: 0px),
+    p-99: (width: 15.4px, height: 10.6px, backgroundX: -3879px, backgroundY: 0px),
+);
+
+$sprite: map-get($icons, sprite);
+
+%back_svg{ background-image: url(map-get($sprite, svgPath)); }
+%back_png{ background-image: url(map-get($sprite, pngPath)); }
+
+@mixin get-sprite($spritename){
+    $spritename: map-get($icons, $spritename);
+    
+    width: map-get($spritename, width);
+    height: map-get($spritename, height);
+    background-position: map-get($spritename, backgroundX) map-get($spritename, backgroundY);
+
+    @extend %back_png;
+    .svg & { @extend %back_svg; }
+}
+
+.sprite-avatar-p-1{
+  @include get-sprite('p-1');
+  @extend %inline-block;
+}
+.sprite-avatar-p-10{
+  @include get-sprite('p-10');
+  @extend %inline-block;
+}
+.sprite-avatar-p-100{
+  @include get-sprite('p-100');
+  @extend %inline-block;
+}
+.sprite-avatar-p-101{
+  @include get-sprite('p-101');
+  @extend %inline-block;
+}
+.sprite-avatar-p-102{
+  @include get-sprite('p-102');
+  @extend %inline-block;
+}
+.sprite-avatar-p-103{
+  @include get-sprite('p-103');
+  @extend %inline-block;
+}
+.sprite-avatar-p-104{
+  @include get-sprite('p-104');
+  @extend %inline-block;
+}
+.sprite-avatar-p-105{
+  @include get-sprite('p-105');
+  @extend %inline-block;
+}
+.sprite-avatar-p-106{
+  @include get-sprite('p-106');
+  @extend %inline-block;
+}
+.sprite-avatar-p-107{
+  @include get-sprite('p-107');
+  @extend %inline-block;
+}
+.sprite-avatar-p-108{
+  @include get-sprite('p-108');
+  @extend %inline-block;
+}
+.sprite-avatar-p-109{
+  @include get-sprite('p-109');
+  @extend %inline-block;
+}
+.sprite-avatar-p-11{
+  @include get-sprite('p-11');
+  @extend %inline-block;
+}
+.sprite-avatar-p-110{
+  @include get-sprite('p-110');
+  @extend %inline-block;
+}
+.sprite-avatar-p-111{
+  @include get-sprite('p-111');
+  @extend %inline-block;
+}
+.sprite-avatar-p-112{
+  @include get-sprite('p-112');
+  @extend %inline-block;
+}
+.sprite-avatar-p-113{
+  @include get-sprite('p-113');
+  @extend %inline-block;
+}
+.sprite-avatar-p-114{
+  @include get-sprite('p-114');
+  @extend %inline-block;
+}
+.sprite-avatar-p-115{
+  @include get-sprite('p-115');
+  @extend %inline-block;
+}
+.sprite-avatar-p-116{
+  @include get-sprite('p-116');
+  @extend %inline-block;
+}
+.sprite-avatar-p-117{
+  @include get-sprite('p-117');
+  @extend %inline-block;
+}
+.sprite-avatar-p-118{
+  @include get-sprite('p-118');
+  @extend %inline-block;
+}
+.sprite-avatar-p-119{
+  @include get-sprite('p-119');
+  @extend %inline-block;
+}
+.sprite-avatar-p-12{
+  @include get-sprite('p-12');
+  @extend %inline-block;
+}
+.sprite-avatar-p-120{
+  @include get-sprite('p-120');
+  @extend %inline-block;
+}
+.sprite-avatar-p-121{
+  @include get-sprite('p-121');
+  @extend %inline-block;
+}
+.sprite-avatar-p-122{
+  @include get-sprite('p-122');
+  @extend %inline-block;
+}
+.sprite-avatar-p-123{
+  @include get-sprite('p-123');
+  @extend %inline-block;
+}
+.sprite-avatar-p-124{
+  @include get-sprite('p-124');
+  @extend %inline-block;
+}
+.sprite-avatar-p-125{
+  @include get-sprite('p-125');
+  @extend %inline-block;
+}
+.sprite-avatar-p-126{
+  @include get-sprite('p-126');
+  @extend %inline-block;
+}
+.sprite-avatar-p-127{
+  @include get-sprite('p-127');
+  @extend %inline-block;
+}
+.sprite-avatar-p-128{
+  @include get-sprite('p-128');
+  @extend %inline-block;
+}
+.sprite-avatar-p-129{
+  @include get-sprite('p-129');
+  @extend %inline-block;
+}
+.sprite-avatar-p-13{
+  @include get-sprite('p-13');
+  @extend %inline-block;
+}
+.sprite-avatar-p-130{
+  @include get-sprite('p-130');
+  @extend %inline-block;
+}
+.sprite-avatar-p-131{
+  @include get-sprite('p-131');
+  @extend %inline-block;
+}
+.sprite-avatar-p-132{
+  @include get-sprite('p-132');
+  @extend %inline-block;
+}
+.sprite-avatar-p-133{
+  @include get-sprite('p-133');
+  @extend %inline-block;
+}
+.sprite-avatar-p-134{
+  @include get-sprite('p-134');
+  @extend %inline-block;
+}
+.sprite-avatar-p-135{
+  @include get-sprite('p-135');
+  @extend %inline-block;
+}
+.sprite-avatar-p-136{
+  @include get-sprite('p-136');
+  @extend %inline-block;
+}
+.sprite-avatar-p-137{
+  @include get-sprite('p-137');
+  @extend %inline-block;
+}
+.sprite-avatar-p-138{
+  @include get-sprite('p-138');
+  @extend %inline-block;
+}
+.sprite-avatar-p-139{
+  @include get-sprite('p-139');
+  @extend %inline-block;
+}
+.sprite-avatar-p-14{
+  @include get-sprite('p-14');
+  @extend %inline-block;
+}
+.sprite-avatar-p-140{
+  @include get-sprite('p-140');
+  @extend %inline-block;
+}
+.sprite-avatar-p-141{
+  @include get-sprite('p-141');
+  @extend %inline-block;
+}
+.sprite-avatar-p-142{
+  @include get-sprite('p-142');
+  @extend %inline-block;
+}
+.sprite-avatar-p-143{
+  @include get-sprite('p-143');
+  @extend %inline-block;
+}
+.sprite-avatar-p-144{
+  @include get-sprite('p-144');
+  @extend %inline-block;
+}
+.sprite-avatar-p-145{
+  @include get-sprite('p-145');
+  @extend %inline-block;
+}
+.sprite-avatar-p-146{
+  @include get-sprite('p-146');
+  @extend %inline-block;
+}
+.sprite-avatar-p-147{
+  @include get-sprite('p-147');
+  @extend %inline-block;
+}
+.sprite-avatar-p-148{
+  @include get-sprite('p-148');
+  @extend %inline-block;
+}
+.sprite-avatar-p-149{
+  @include get-sprite('p-149');
+  @extend %inline-block;
+}
+.sprite-avatar-p-15{
+  @include get-sprite('p-15');
+  @extend %inline-block;
+}
+.sprite-avatar-p-150{
+  @include get-sprite('p-150');
+  @extend %inline-block;
+}
+.sprite-avatar-p-151{
+  @include get-sprite('p-151');
+  @extend %inline-block;
+}
+.sprite-avatar-p-152{
+  @include get-sprite('p-152');
+  @extend %inline-block;
+}
+.sprite-avatar-p-153{
+  @include get-sprite('p-153');
+  @extend %inline-block;
+}
+.sprite-avatar-p-154{
+  @include get-sprite('p-154');
+  @extend %inline-block;
+}
+.sprite-avatar-p-155{
+  @include get-sprite('p-155');
+  @extend %inline-block;
+}
+.sprite-avatar-p-156{
+  @include get-sprite('p-156');
+  @extend %inline-block;
+}
+.sprite-avatar-p-157{
+  @include get-sprite('p-157');
+  @extend %inline-block;
+}
+.sprite-avatar-p-158{
+  @include get-sprite('p-158');
+  @extend %inline-block;
+}
+.sprite-avatar-p-159{
+  @include get-sprite('p-159');
+  @extend %inline-block;
+}
+.sprite-avatar-p-16{
+  @include get-sprite('p-16');
+  @extend %inline-block;
+}
+.sprite-avatar-p-160{
+  @include get-sprite('p-160');
+  @extend %inline-block;
+}
+.sprite-avatar-p-161{
+  @include get-sprite('p-161');
+  @extend %inline-block;
+}
+.sprite-avatar-p-162{
+  @include get-sprite('p-162');
+  @extend %inline-block;
+}
+.sprite-avatar-p-163{
+  @include get-sprite('p-163');
+  @extend %inline-block;
+}
+.sprite-avatar-p-164{
+  @include get-sprite('p-164');
+  @extend %inline-block;
+}
+.sprite-avatar-p-165{
+  @include get-sprite('p-165');
+  @extend %inline-block;
+}
+.sprite-avatar-p-166{
+  @include get-sprite('p-166');
+  @extend %inline-block;
+}
+.sprite-avatar-p-167{
+  @include get-sprite('p-167');
+  @extend %inline-block;
+}
+.sprite-avatar-p-168{
+  @include get-sprite('p-168');
+  @extend %inline-block;
+}
+.sprite-avatar-p-169{
+  @include get-sprite('p-169');
+  @extend %inline-block;
+}
+.sprite-avatar-p-17{
+  @include get-sprite('p-17');
+  @extend %inline-block;
+}
+.sprite-avatar-p-170{
+  @include get-sprite('p-170');
+  @extend %inline-block;
+}
+.sprite-avatar-p-171{
+  @include get-sprite('p-171');
+  @extend %inline-block;
+}
+.sprite-avatar-p-172{
+  @include get-sprite('p-172');
+  @extend %inline-block;
+}
+.sprite-avatar-p-173{
+  @include get-sprite('p-173');
+  @extend %inline-block;
+}
+.sprite-avatar-p-174{
+  @include get-sprite('p-174');
+  @extend %inline-block;
+}
+.sprite-avatar-p-175{
+  @include get-sprite('p-175');
+  @extend %inline-block;
+}
+.sprite-avatar-p-176{
+  @include get-sprite('p-176');
+  @extend %inline-block;
+}
+.sprite-avatar-p-177{
+  @include get-sprite('p-177');
+  @extend %inline-block;
+}
+.sprite-avatar-p-178{
+  @include get-sprite('p-178');
+  @extend %inline-block;
+}
+.sprite-avatar-p-179{
+  @include get-sprite('p-179');
+  @extend %inline-block;
+}
+.sprite-avatar-p-18{
+  @include get-sprite('p-18');
+  @extend %inline-block;
+}
+.sprite-avatar-p-180{
+  @include get-sprite('p-180');
+  @extend %inline-block;
+}
+.sprite-avatar-p-181{
+  @include get-sprite('p-181');
+  @extend %inline-block;
+}
+.sprite-avatar-p-182{
+  @include get-sprite('p-182');
+  @extend %inline-block;
+}
+.sprite-avatar-p-183{
+  @include get-sprite('p-183');
+  @extend %inline-block;
+}
+.sprite-avatar-p-184{
+  @include get-sprite('p-184');
+  @extend %inline-block;
+}
+.sprite-avatar-p-185{
+  @include get-sprite('p-185');
+  @extend %inline-block;
+}
+.sprite-avatar-p-186{
+  @include get-sprite('p-186');
+  @extend %inline-block;
+}
+.sprite-avatar-p-187{
+  @include get-sprite('p-187');
+  @extend %inline-block;
+}
+.sprite-avatar-p-188{
+  @include get-sprite('p-188');
+  @extend %inline-block;
+}
+.sprite-avatar-p-189{
+  @include get-sprite('p-189');
+  @extend %inline-block;
+}
+.sprite-avatar-p-19{
+  @include get-sprite('p-19');
+  @extend %inline-block;
+}
+.sprite-avatar-p-190{
+  @include get-sprite('p-190');
+  @extend %inline-block;
+}
+.sprite-avatar-p-191{
+  @include get-sprite('p-191');
+  @extend %inline-block;
+}
+.sprite-avatar-p-192{
+  @include get-sprite('p-192');
+  @extend %inline-block;
+}
+.sprite-avatar-p-193{
+  @include get-sprite('p-193');
+  @extend %inline-block;
+}
+.sprite-avatar-p-194{
+  @include get-sprite('p-194');
+  @extend %inline-block;
+}
+.sprite-avatar-p-195{
+  @include get-sprite('p-195');
+  @extend %inline-block;
+}
+.sprite-avatar-p-196{
+  @include get-sprite('p-196');
+  @extend %inline-block;
+}
+.sprite-avatar-p-197{
+  @include get-sprite('p-197');
+  @extend %inline-block;
+}
+.sprite-avatar-p-198{
+  @include get-sprite('p-198');
+  @extend %inline-block;
+}
+.sprite-avatar-p-199{
+  @include get-sprite('p-199');
+  @extend %inline-block;
+}
+.sprite-avatar-p-2{
+  @include get-sprite('p-2');
+  @extend %inline-block;
+}
+.sprite-avatar-p-20{
+  @include get-sprite('p-20');
+  @extend %inline-block;
+}
+.sprite-avatar-p-200{
+  @include get-sprite('p-200');
+  @extend %inline-block;
+}
+.sprite-avatar-p-201{
+  @include get-sprite('p-201');
+  @extend %inline-block;
+}
+.sprite-avatar-p-202{
+  @include get-sprite('p-202');
+  @extend %inline-block;
+}
+.sprite-avatar-p-203{
+  @include get-sprite('p-203');
+  @extend %inline-block;
+}
+.sprite-avatar-p-204{
+  @include get-sprite('p-204');
+  @extend %inline-block;
+}
+.sprite-avatar-p-205{
+  @include get-sprite('p-205');
+  @extend %inline-block;
+}
+.sprite-avatar-p-206{
+  @include get-sprite('p-206');
+  @extend %inline-block;
+}
+.sprite-avatar-p-207{
+  @include get-sprite('p-207');
+  @extend %inline-block;
+}
+.sprite-avatar-p-208{
+  @include get-sprite('p-208');
+  @extend %inline-block;
+}
+.sprite-avatar-p-209{
+  @include get-sprite('p-209');
+  @extend %inline-block;
+}
+.sprite-avatar-p-21{
+  @include get-sprite('p-21');
+  @extend %inline-block;
+}
+.sprite-avatar-p-210{
+  @include get-sprite('p-210');
+  @extend %inline-block;
+}
+.sprite-avatar-p-211{
+  @include get-sprite('p-211');
+  @extend %inline-block;
+}
+.sprite-avatar-p-212{
+  @include get-sprite('p-212');
+  @extend %inline-block;
+}
+.sprite-avatar-p-22{
+  @include get-sprite('p-22');
+  @extend %inline-block;
+}
+.sprite-avatar-p-23{
+  @include get-sprite('p-23');
+  @extend %inline-block;
+}
+.sprite-avatar-p-24{
+  @include get-sprite('p-24');
+  @extend %inline-block;
+}
+.sprite-avatar-p-25{
+  @include get-sprite('p-25');
+  @extend %inline-block;
+}
+.sprite-avatar-p-26{
+  @include get-sprite('p-26');
+  @extend %inline-block;
+}
+.sprite-avatar-p-27{
+  @include get-sprite('p-27');
+  @extend %inline-block;
+}
+.sprite-avatar-p-28{
+  @include get-sprite('p-28');
+  @extend %inline-block;
+}
+.sprite-avatar-p-29{
+  @include get-sprite('p-29');
+  @extend %inline-block;
+}
+.sprite-avatar-p-3{
+  @include get-sprite('p-3');
+  @extend %inline-block;
+}
+.sprite-avatar-p-30{
+  @include get-sprite('p-30');
+  @extend %inline-block;
+}
+.sprite-avatar-p-31{
+  @include get-sprite('p-31');
+  @extend %inline-block;
+}
+.sprite-avatar-p-32{
+  @include get-sprite('p-32');
+  @extend %inline-block;
+}
+.sprite-avatar-p-33{
+  @include get-sprite('p-33');
+  @extend %inline-block;
+}
+.sprite-avatar-p-34{
+  @include get-sprite('p-34');
+  @extend %inline-block;
+}
+.sprite-avatar-p-35{
+  @include get-sprite('p-35');
+  @extend %inline-block;
+}
+.sprite-avatar-p-36{
+  @include get-sprite('p-36');
+  @extend %inline-block;
+}
+.sprite-avatar-p-37{
+  @include get-sprite('p-37');
+  @extend %inline-block;
+}
+.sprite-avatar-p-38{
+  @include get-sprite('p-38');
+  @extend %inline-block;
+}
+.sprite-avatar-p-39{
+  @include get-sprite('p-39');
+  @extend %inline-block;
+}
+.sprite-avatar-p-4{
+  @include get-sprite('p-4');
+  @extend %inline-block;
+}
+.sprite-avatar-p-40{
+  @include get-sprite('p-40');
+  @extend %inline-block;
+}
+.sprite-avatar-p-41{
+  @include get-sprite('p-41');
+  @extend %inline-block;
+}
+.sprite-avatar-p-42{
+  @include get-sprite('p-42');
+  @extend %inline-block;
+}
+.sprite-avatar-p-43{
+  @include get-sprite('p-43');
+  @extend %inline-block;
+}
+.sprite-avatar-p-44{
+  @include get-sprite('p-44');
+  @extend %inline-block;
+}
+.sprite-avatar-p-45{
+  @include get-sprite('p-45');
+  @extend %inline-block;
+}
+.sprite-avatar-p-46{
+  @include get-sprite('p-46');
+  @extend %inline-block;
+}
+.sprite-avatar-p-47{
+  @include get-sprite('p-47');
+  @extend %inline-block;
+}
+.sprite-avatar-p-48{
+  @include get-sprite('p-48');
+  @extend %inline-block;
+}
+.sprite-avatar-p-49{
+  @include get-sprite('p-49');
+  @extend %inline-block;
+}
+.sprite-avatar-p-5{
+  @include get-sprite('p-5');
+  @extend %inline-block;
+}
+.sprite-avatar-p-50{
+  @include get-sprite('p-50');
+  @extend %inline-block;
+}
+.sprite-avatar-p-51{
+  @include get-sprite('p-51');
+  @extend %inline-block;
+}
+.sprite-avatar-p-52{
+  @include get-sprite('p-52');
+  @extend %inline-block;
+}
+.sprite-avatar-p-53{
+  @include get-sprite('p-53');
+  @extend %inline-block;
+}
+.sprite-avatar-p-54{
+  @include get-sprite('p-54');
+  @extend %inline-block;
+}
+.sprite-avatar-p-55{
+  @include get-sprite('p-55');
+  @extend %inline-block;
+}
+.sprite-avatar-p-56{
+  @include get-sprite('p-56');
+  @extend %inline-block;
+}
+.sprite-avatar-p-57{
+  @include get-sprite('p-57');
+  @extend %inline-block;
+}
+.sprite-avatar-p-58{
+  @include get-sprite('p-58');
+  @extend %inline-block;
+}
+.sprite-avatar-p-59{
+  @include get-sprite('p-59');
+  @extend %inline-block;
+}
+.sprite-avatar-p-6{
+  @include get-sprite('p-6');
+  @extend %inline-block;
+}
+.sprite-avatar-p-60{
+  @include get-sprite('p-60');
+  @extend %inline-block;
+}
+.sprite-avatar-p-61{
+  @include get-sprite('p-61');
+  @extend %inline-block;
+}
+.sprite-avatar-p-62{
+  @include get-sprite('p-62');
+  @extend %inline-block;
+}
+.sprite-avatar-p-63{
+  @include get-sprite('p-63');
+  @extend %inline-block;
+}
+.sprite-avatar-p-64{
+  @include get-sprite('p-64');
+  @extend %inline-block;
+}
+.sprite-avatar-p-65{
+  @include get-sprite('p-65');
+  @extend %inline-block;
+}
+.sprite-avatar-p-66{
+  @include get-sprite('p-66');
+  @extend %inline-block;
+}
+.sprite-avatar-p-67{
+  @include get-sprite('p-67');
+  @extend %inline-block;
+}
+.sprite-avatar-p-68{
+  @include get-sprite('p-68');
+  @extend %inline-block;
+}
+.sprite-avatar-p-69{
+  @include get-sprite('p-69');
+  @extend %inline-block;
+}
+.sprite-avatar-p-7{
+  @include get-sprite('p-7');
+  @extend %inline-block;
+}
+.sprite-avatar-p-70{
+  @include get-sprite('p-70');
+  @extend %inline-block;
+}
+.sprite-avatar-p-71{
+  @include get-sprite('p-71');
+  @extend %inline-block;
+}
+.sprite-avatar-p-72{
+  @include get-sprite('p-72');
+  @extend %inline-block;
+}
+.sprite-avatar-p-73{
+  @include get-sprite('p-73');
+  @extend %inline-block;
+}
+.sprite-avatar-p-74{
+  @include get-sprite('p-74');
+  @extend %inline-block;
+}
+.sprite-avatar-p-75{
+  @include get-sprite('p-75');
+  @extend %inline-block;
+}
+.sprite-avatar-p-76{
+  @include get-sprite('p-76');
+  @extend %inline-block;
+}
+.sprite-avatar-p-77{
+  @include get-sprite('p-77');
+  @extend %inline-block;
+}
+.sprite-avatar-p-78{
+  @include get-sprite('p-78');
+  @extend %inline-block;
+}
+.sprite-avatar-p-79{
+  @include get-sprite('p-79');
+  @extend %inline-block;
+}
+.sprite-avatar-p-8{
+  @include get-sprite('p-8');
+  @extend %inline-block;
+}
+.sprite-avatar-p-80{
+  @include get-sprite('p-80');
+  @extend %inline-block;
+}
+.sprite-avatar-p-81{
+  @include get-sprite('p-81');
+  @extend %inline-block;
+}
+.sprite-avatar-p-82{
+  @include get-sprite('p-82');
+  @extend %inline-block;
+}
+.sprite-avatar-p-83{
+  @include get-sprite('p-83');
+  @extend %inline-block;
+}
+.sprite-avatar-p-84{
+  @include get-sprite('p-84');
+  @extend %inline-block;
+}
+.sprite-avatar-p-85{
+  @include get-sprite('p-85');
+  @extend %inline-block;
+}
+.sprite-avatar-p-86{
+  @include get-sprite('p-86');
+  @extend %inline-block;
+}
+.sprite-avatar-p-87{
+  @include get-sprite('p-87');
+  @extend %inline-block;
+}
+.sprite-avatar-p-88{
+  @include get-sprite('p-88');
+  @extend %inline-block;
+}
+.sprite-avatar-p-89{
+  @include get-sprite('p-89');
+  @extend %inline-block;
+}
+.sprite-avatar-p-9{
+  @include get-sprite('p-9');
+  @extend %inline-block;
+}
+.sprite-avatar-p-90{
+  @include get-sprite('p-90');
+  @extend %inline-block;
+}
+.sprite-avatar-p-91{
+  @include get-sprite('p-91');
+  @extend %inline-block;
+}
+.sprite-avatar-p-92{
+  @include get-sprite('p-92');
+  @extend %inline-block;
+}
+.sprite-avatar-p-93{
+  @include get-sprite('p-93');
+  @extend %inline-block;
+}
+.sprite-avatar-p-94{
+  @include get-sprite('p-94');
+  @extend %inline-block;
+}
+.sprite-avatar-p-95{
+  @include get-sprite('p-95');
+  @extend %inline-block;
+}
+.sprite-avatar-p-96{
+  @include get-sprite('p-96');
+  @extend %inline-block;
+}
+.sprite-avatar-p-97{
+  @include get-sprite('p-97');
+  @extend %inline-block;
+}
+.sprite-avatar-p-98{
+  @include get-sprite('p-98');
+  @extend %inline-block;
+}
+.sprite-avatar-p-99{
+  @include get-sprite('p-99');
+  @extend %inline-block;
+}

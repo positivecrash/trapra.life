@@ -1,0 +1,30 @@
+extends extends/layout.pug
+
+block html_head
+	- var pageTitle = 'Фото и поэзия не на заказ'
+	- var pageDescription = 'Для тех, кто чуток сердцем'
+	- var pageKeywords = 'фото фотография искусство поэзия стихи стихотворения'
+
+block html_head_og
+	- var ogUrl = ''
+
+block html
+	- var bodyclass = ''
+
+block content
+	.screen.section-main.section-title
+		.w-wide
+			.w-text
+				.text-clipped.text-smooth(style="background-image:url('assets/i/index-titles/P1010241.JPG');")
+					| Встают и падают дома, соборы.
+					br/
+					| Взлетают улицы, трещит проспект
+					br/
+					| Твой силуэт, как корень мандрагоры,
+					br/
+					| Изящества тут нет, но есть эффект.
+
+			nav
+				a(href="poem-1.html") &larr; Назад
+				a(href="index.html") Главная
+				a(href="poem-3.html") Вперед &rarr;

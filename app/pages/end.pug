@@ -1,0 +1,26 @@
+extends extends/layout.pug
+
+block html_head
+	- var pageTitle = 'Фото и поэзия не на заказ'
+	- var pageDescription = 'Для тех, кто чуток сердцем'
+	- var pageKeywords = 'фото фотография искусство поэзия стихи стихотворения'
+
+block html_head_og
+	- var ogUrl = ''
+
+block html
+	- var bodyclass = 'dark'
+
+block content
+	.screen.section-main.section-title
+		.w-wide
+
+			#avatar
+				img(alt="", src="assets/i/lesha.png")
+
+				- var n = 1;
+				while n < 28
+					span(class="sprite-avatar-p-" + n++)
+
+			nav
+				a(href="index.html") Главная

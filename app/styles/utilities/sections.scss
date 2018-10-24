@@ -13,12 +13,13 @@ section
 .section-main
 	{
 		position: relative;
-		padding-bottom: 80px;
+		padding-bottom: rem(100px);
+    	padding-top: rem(40px);
 
 		nav
 			{
 				position: absolute;
-				bottom: 40px;
+				bottom: rem(40px);
 				left: 0;
 				right: 0;
 
@@ -29,8 +30,15 @@ section
 				a
 					{
 						color: $c-gray--dark;
+						margin-left: 20px;
+						&:first-child { margin-left: 0; }
 					}
 			}
+	}
+
+.dark .section-main nav a
+	{
+		color: $c-light--vivid;
 	}
 
 
@@ -46,3 +54,84 @@ section
     			@include wide() { font-size: rem(250px); }
 			}
 	}
+
+
+#avatar
+	{
+		width: 280px;
+		height: 317px;
+
+		position: relative;
+
+		img
+			{
+				position: absolute;
+				top: 0;
+				left: 0;
+				max-width:100%;
+				display: block;
+				opacity: 0.4;
+			}
+	}
+
+span[class *= 'sprite-avatar-p-']
+	{
+		position: absolute;
+		// animation-delay: 0.5s;
+		// animation-duration: 0.8s;
+		// animation-fill-mode: forwards;
+	}
+
+
+// $i: 21;
+// @while $i > 0 {
+
+// 	$x: #{random(500)-250}px;
+// 	$y: #{random(500)-250}px;
+// 	$r: #{random(360)-180}deg;
+
+// 	@keyframes avatar-part-#{$i} {
+// 	  0% {
+// 	    transform: translateX($x) translateY($y) rotate($r);
+// 	  }
+// 	  100% {
+// 	    transform: translateX(0) translateY(0) rotate(0);
+// 	  }
+// 	}
+
+// 	.sprite-avatar-p-#{$i} {
+// 		transform: translateX($x) translateY($y) rotate($r);
+// 		animation-name: avatar-part-#{$i};
+// 	}
+
+// 	$i: $i - 1;
+// }
+
+
+.sprite-avatar-p-1 { top: 30px; left: 154px; }
+.sprite-avatar-p-2 { top: 53px; left: 170px; }
+.sprite-avatar-p-3 { top: 29px; left: 128px; }
+.sprite-avatar-p-4 { top: 27px; left: 129px; }
+.sprite-avatar-p-5 { top: 25px; left: 112px; }
+.sprite-avatar-p-6 { top: 33px; left: 72px; }
+.sprite-avatar-p-7 { top: 32px; left: 61px; }
+.sprite-avatar-p-8 { top: 33px; left: 55px; }
+.sprite-avatar-p-9 { top: 46px; left: 51px; }
+.sprite-avatar-p-10 { top: 46px; left: 44px; }
+.sprite-avatar-p-11 { top: 78px; left: 42px; }
+.sprite-avatar-p-12 { top: 55px; left: 44px; }
+.sprite-avatar-p-13 { top: 35px; left: 44px; }
+.sprite-avatar-p-14 { top: 40px; left: 47px; }
+.sprite-avatar-p-15 { top: 16px; left: 47px; }
+.sprite-avatar-p-16 { top: 7px; left: 61px; }
+.sprite-avatar-p-17 { top: 16px; left: 61px; }
+.sprite-avatar-p-18 { top: -2px; left: 74px; }
+.sprite-avatar-p-19 { top: -2px; left: 98px; }
+.sprite-avatar-p-20 { top: 0px; left: 109px; }
+.sprite-avatar-p-21 { top: 10px; left: 109px; }
+.sprite-avatar-p-22 { top: 24px; left: 144px; }
+.sprite-avatar-p-23 { top: 26px; left: 154px; }
+.sprite-avatar-p-24 { top: 95px; left: 51px; }
+.sprite-avatar-p-25 { top: 115px; left: 57px; }
+.sprite-avatar-p-26 { top: 115px; left: 62px; }
+.sprite-avatar-p-27 { top: 94px; left: 62px; }

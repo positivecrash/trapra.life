@@ -23,6 +23,8 @@ body
 
     background-color: $c-bg-body;
     color: $c-text;
+
+    &.dark { background-color: #163B34; }
   }
 
 

@@ -1,0 +1,43 @@
+extends extends/layout.pug
+
+block html_head
+	- var pageTitle = 'Фото и поэзия не на заказ'
+	- var pageDescription = 'Для тех, кто чуток сердцем'
+	- var pageKeywords = 'фото фотография искусство поэзия стихи стихотворения'
+
+block html_head_og
+	- var ogUrl = ''
+
+block html
+	- var bodyclass = ''
+
+block content
+	.screen.section-main.section-title
+		.w-wide
+			.w-text
+				.text-clipped.text-smooth(style="background-image:url('assets/i/index-titles/P1010241.JPG');")
+					| Мелькают вдалеке
+					br/
+					| улыбки грёз.
+					br/
+					br/
+					| Раскаты тишины и
+					br/
+					| небо гордости.
+					br/
+					br/
+					| Я проживаю
+					br/
+					| отражение вспышек
+					br/
+					| звёзд.
+					br/
+					br/
+					| Стою на месте на
+					br/
+					| Огромной скорости.
+
+			nav
+				a(href="poem-2.html") &larr; Назад
+				a(href="index.html") Главная
+				a(href="end.html") Вперед &rarr;
