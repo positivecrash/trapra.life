@@ -1823,6 +1823,31 @@ span[class*='sprite-avatar-p-'] {
   left: 62px;
 }
 
+.sprite-avatar-p-28 {
+  top: 93px;
+  left: 106px;
+}
+
+.sprite-avatar-p-29 {
+  top: 93px;
+  left: 100px;
+}
+
+.sprite-avatar-p-30 {
+  top: 139px;
+  left: 101px;
+}
+
+.sprite-avatar-p-31 {
+  top: 94px;
+  left: 62px;
+}
+
+.sprite-avatar-p-32 {
+  top: 117px;
+  left: 50px;
+}
+
 @-ms-viewport {
   width: device-width;
 }
