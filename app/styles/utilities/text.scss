@@ -6,7 +6,7 @@
 		font-family: $font-family-base;
 		word-spacing: normal;
 		letter-spacing: 0;
-		font-weight: 300;
+		font-weight: 400;
 	}
 
 
@@ -139,6 +139,9 @@ b { font-weight: 500; }
 			.clipped-reveal-block{
 				animation: 0.4s FadeIn ease-in forwards;
 			}
+
+			.text-clipped.light { color: $c-light--vivid; }
+			.text-clipped.dark { color: $c-dark--vivid; }
 
 			// h1, p, div { color: $c-light--vivid;}
 		}

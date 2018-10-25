@@ -1472,7 +1472,7 @@ body {
   font-family: "Montserrat", sans-serif;
   word-spacing: normal;
   letter-spacing: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* TITLES */
@@ -1590,6 +1590,12 @@ b {
 }
 .clipped-reveal:hover .clipped-reveal-block {
   animation: 0.4s FadeIn ease-in forwards;
+}
+.clipped-reveal:hover .text-clipped.light {
+  color: #fff;
+}
+.clipped-reveal:hover .text-clipped.dark {
+  color: #000;
 }
 
 .text-clipped {
@@ -1728,7 +1734,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-212 {
   0% {
-    transform: translateX(87px) translateY(-28px) rotate(-62deg) scale(0.5);
+    transform: translateX(-239px) translateY(238px) rotate(6deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -1739,11 +1745,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(87px) translateY(-28px) rotate(-62deg) scale(0.5);
+    transform: translateX(-239px) translateY(238px) rotate(6deg) scale(0.5);
   }
 }
 .sprite-avatar-p-212 {
-  transform: translateX(87px) translateY(-28px) rotate(-62deg) scale(0.5);
+  transform: translateX(-239px) translateY(238px) rotate(6deg) scale(0.5);
   animation-name: avatar-part-212;
 }
 
@@ -1754,7 +1760,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-211 {
   0% {
-    transform: translateX(-154px) translateY(176px) rotate(72deg) scale(0.5);
+    transform: translateX(184px) translateY(-210px) rotate(-75deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -1765,11 +1771,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-154px) translateY(176px) rotate(72deg) scale(0.5);
+    transform: translateX(184px) translateY(-210px) rotate(-75deg) scale(0.5);
   }
 }
 .sprite-avatar-p-211 {
-  transform: translateX(-154px) translateY(176px) rotate(72deg) scale(0.5);
+  transform: translateX(184px) translateY(-210px) rotate(-75deg) scale(0.5);
   animation-name: avatar-part-211;
 }
 
@@ -1780,7 +1786,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-210 {
   0% {
-    transform: translateX(-211px) translateY(-18px) rotate(16deg) scale(0.5);
+    transform: translateX(-88px) translateY(-247px) rotate(68deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -1791,11 +1797,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-211px) translateY(-18px) rotate(16deg) scale(0.5);
+    transform: translateX(-88px) translateY(-247px) rotate(68deg) scale(0.5);
   }
 }
 .sprite-avatar-p-210 {
-  transform: translateX(-211px) translateY(-18px) rotate(16deg) scale(0.5);
+  transform: translateX(-88px) translateY(-247px) rotate(68deg) scale(0.5);
   animation-name: avatar-part-210;
 }
 
@@ -1806,7 +1812,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-209 {
   0% {
-    transform: translateX(185px) translateY(-90px) rotate(-34deg) scale(0.5);
+    transform: translateX(-25px) translateY(-206px) rotate(-53deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -1817,11 +1823,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(185px) translateY(-90px) rotate(-34deg) scale(0.5);
+    transform: translateX(-25px) translateY(-206px) rotate(-53deg) scale(0.5);
   }
 }
 .sprite-avatar-p-209 {
-  transform: translateX(185px) translateY(-90px) rotate(-34deg) scale(0.5);
+  transform: translateX(-25px) translateY(-206px) rotate(-53deg) scale(0.5);
   animation-name: avatar-part-209;
 }
 
@@ -1832,7 +1838,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-208 {
   0% {
-    transform: translateX(48px) translateY(-4px) rotate(-29deg) scale(0.5);
+    transform: translateX(31px) translateY(-27px) rotate(16deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -1843,11 +1849,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(48px) translateY(-4px) rotate(-29deg) scale(0.5);
+    transform: translateX(31px) translateY(-27px) rotate(16deg) scale(0.5);
   }
 }
 .sprite-avatar-p-208 {
-  transform: translateX(48px) translateY(-4px) rotate(-29deg) scale(0.5);
+  transform: translateX(31px) translateY(-27px) rotate(16deg) scale(0.5);
   animation-name: avatar-part-208;
 }
 
@@ -1858,7 +1864,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-207 {
   0% {
-    transform: translateX(125px) translateY(-6px) rotate(78deg) scale(0.5);
+    transform: translateX(124px) translateY(112px) rotate(-105deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -1869,11 +1875,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(125px) translateY(-6px) rotate(78deg) scale(0.5);
+    transform: translateX(124px) translateY(112px) rotate(-105deg) scale(0.5);
   }
 }
 .sprite-avatar-p-207 {
-  transform: translateX(125px) translateY(-6px) rotate(78deg) scale(0.5);
+  transform: translateX(124px) translateY(112px) rotate(-105deg) scale(0.5);
   animation-name: avatar-part-207;
 }
 
@@ -1884,7 +1890,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-206 {
   0% {
-    transform: translateX(-224px) translateY(-75px) rotate(-175deg) scale(0.5);
+    transform: translateX(117px) translateY(-4px) rotate(-41deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -1895,11 +1901,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-224px) translateY(-75px) rotate(-175deg) scale(0.5);
+    transform: translateX(117px) translateY(-4px) rotate(-41deg) scale(0.5);
   }
 }
 .sprite-avatar-p-206 {
-  transform: translateX(-224px) translateY(-75px) rotate(-175deg) scale(0.5);
+  transform: translateX(117px) translateY(-4px) rotate(-41deg) scale(0.5);
   animation-name: avatar-part-206;
 }
 
@@ -1910,7 +1916,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-205 {
   0% {
-    transform: translateX(44px) translateY(118px) rotate(63deg) scale(0.5);
+    transform: translateX(105px) translateY(124px) rotate(21deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -1921,11 +1927,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(44px) translateY(118px) rotate(63deg) scale(0.5);
+    transform: translateX(105px) translateY(124px) rotate(21deg) scale(0.5);
   }
 }
 .sprite-avatar-p-205 {
-  transform: translateX(44px) translateY(118px) rotate(63deg) scale(0.5);
+  transform: translateX(105px) translateY(124px) rotate(21deg) scale(0.5);
   animation-name: avatar-part-205;
 }
 
@@ -1936,7 +1942,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-204 {
   0% {
-    transform: translateX(-66px) translateY(-63px) rotate(100deg) scale(0.5);
+    transform: translateX(-42px) translateY(-102px) rotate(95deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -1947,11 +1953,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-66px) translateY(-63px) rotate(100deg) scale(0.5);
+    transform: translateX(-42px) translateY(-102px) rotate(95deg) scale(0.5);
   }
 }
 .sprite-avatar-p-204 {
-  transform: translateX(-66px) translateY(-63px) rotate(100deg) scale(0.5);
+  transform: translateX(-42px) translateY(-102px) rotate(95deg) scale(0.5);
   animation-name: avatar-part-204;
 }
 
@@ -1962,7 +1968,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-203 {
   0% {
-    transform: translateX(-94px) translateY(29px) rotate(-123deg) scale(0.5);
+    transform: translateX(112px) translateY(-46px) rotate(32deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -1973,11 +1979,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-94px) translateY(29px) rotate(-123deg) scale(0.5);
+    transform: translateX(112px) translateY(-46px) rotate(32deg) scale(0.5);
   }
 }
 .sprite-avatar-p-203 {
-  transform: translateX(-94px) translateY(29px) rotate(-123deg) scale(0.5);
+  transform: translateX(112px) translateY(-46px) rotate(32deg) scale(0.5);
   animation-name: avatar-part-203;
 }
 
@@ -1988,7 +1994,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-202 {
   0% {
-    transform: translateX(-78px) translateY(250px) rotate(104deg) scale(0.5);
+    transform: translateX(65px) translateY(-210px) rotate(125deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -1999,11 +2005,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-78px) translateY(250px) rotate(104deg) scale(0.5);
+    transform: translateX(65px) translateY(-210px) rotate(125deg) scale(0.5);
   }
 }
 .sprite-avatar-p-202 {
-  transform: translateX(-78px) translateY(250px) rotate(104deg) scale(0.5);
+  transform: translateX(65px) translateY(-210px) rotate(125deg) scale(0.5);
   animation-name: avatar-part-202;
 }
 
@@ -2014,7 +2020,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-201 {
   0% {
-    transform: translateX(100px) translateY(-195px) rotate(-36deg) scale(0.5);
+    transform: translateX(146px) translateY(215px) rotate(36deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2025,11 +2031,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(100px) translateY(-195px) rotate(-36deg) scale(0.5);
+    transform: translateX(146px) translateY(215px) rotate(36deg) scale(0.5);
   }
 }
 .sprite-avatar-p-201 {
-  transform: translateX(100px) translateY(-195px) rotate(-36deg) scale(0.5);
+  transform: translateX(146px) translateY(215px) rotate(36deg) scale(0.5);
   animation-name: avatar-part-201;
 }
 
@@ -2040,7 +2046,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-200 {
   0% {
-    transform: translateX(-232px) translateY(-225px) rotate(-71deg) scale(0.5);
+    transform: translateX(-20px) translateY(-102px) rotate(0deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2051,11 +2057,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-232px) translateY(-225px) rotate(-71deg) scale(0.5);
+    transform: translateX(-20px) translateY(-102px) rotate(0deg) scale(0.5);
   }
 }
 .sprite-avatar-p-200 {
-  transform: translateX(-232px) translateY(-225px) rotate(-71deg) scale(0.5);
+  transform: translateX(-20px) translateY(-102px) rotate(0deg) scale(0.5);
   animation-name: avatar-part-200;
 }
 
@@ -2066,7 +2072,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-199 {
   0% {
-    transform: translateX(-168px) translateY(82px) rotate(-150deg) scale(0.5);
+    transform: translateX(94px) translateY(108px) rotate(-158deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2077,11 +2083,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-168px) translateY(82px) rotate(-150deg) scale(0.5);
+    transform: translateX(94px) translateY(108px) rotate(-158deg) scale(0.5);
   }
 }
 .sprite-avatar-p-199 {
-  transform: translateX(-168px) translateY(82px) rotate(-150deg) scale(0.5);
+  transform: translateX(94px) translateY(108px) rotate(-158deg) scale(0.5);
   animation-name: avatar-part-199;
 }
 
@@ -2092,7 +2098,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-198 {
   0% {
-    transform: translateX(-240px) translateY(32px) rotate(-145deg) scale(0.5);
+    transform: translateX(-77px) translateY(-79px) rotate(-41deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2103,11 +2109,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-240px) translateY(32px) rotate(-145deg) scale(0.5);
+    transform: translateX(-77px) translateY(-79px) rotate(-41deg) scale(0.5);
   }
 }
 .sprite-avatar-p-198 {
-  transform: translateX(-240px) translateY(32px) rotate(-145deg) scale(0.5);
+  transform: translateX(-77px) translateY(-79px) rotate(-41deg) scale(0.5);
   animation-name: avatar-part-198;
 }
 
@@ -2118,7 +2124,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-197 {
   0% {
-    transform: translateX(-139px) translateY(-40px) rotate(-146deg) scale(0.5);
+    transform: translateX(190px) translateY(-130px) rotate(58deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2129,11 +2135,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-139px) translateY(-40px) rotate(-146deg) scale(0.5);
+    transform: translateX(190px) translateY(-130px) rotate(58deg) scale(0.5);
   }
 }
 .sprite-avatar-p-197 {
-  transform: translateX(-139px) translateY(-40px) rotate(-146deg) scale(0.5);
+  transform: translateX(190px) translateY(-130px) rotate(58deg) scale(0.5);
   animation-name: avatar-part-197;
 }
 
@@ -2144,7 +2150,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-196 {
   0% {
-    transform: translateX(-168px) translateY(1px) rotate(-168deg) scale(0.5);
+    transform: translateX(-42px) translateY(75px) rotate(-96deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2155,11 +2161,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-168px) translateY(1px) rotate(-168deg) scale(0.5);
+    transform: translateX(-42px) translateY(75px) rotate(-96deg) scale(0.5);
   }
 }
 .sprite-avatar-p-196 {
-  transform: translateX(-168px) translateY(1px) rotate(-168deg) scale(0.5);
+  transform: translateX(-42px) translateY(75px) rotate(-96deg) scale(0.5);
   animation-name: avatar-part-196;
 }
 
@@ -2170,7 +2176,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-195 {
   0% {
-    transform: translateX(-8px) translateY(28px) rotate(-168deg) scale(0.5);
+    transform: translateX(175px) translateY(166px) rotate(-83deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2181,11 +2187,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-8px) translateY(28px) rotate(-168deg) scale(0.5);
+    transform: translateX(175px) translateY(166px) rotate(-83deg) scale(0.5);
   }
 }
 .sprite-avatar-p-195 {
-  transform: translateX(-8px) translateY(28px) rotate(-168deg) scale(0.5);
+  transform: translateX(175px) translateY(166px) rotate(-83deg) scale(0.5);
   animation-name: avatar-part-195;
 }
 
@@ -2196,7 +2202,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-194 {
   0% {
-    transform: translateX(-59px) translateY(132px) rotate(153deg) scale(0.5);
+    transform: translateX(162px) translateY(33px) rotate(-32deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2207,11 +2213,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-59px) translateY(132px) rotate(153deg) scale(0.5);
+    transform: translateX(162px) translateY(33px) rotate(-32deg) scale(0.5);
   }
 }
 .sprite-avatar-p-194 {
-  transform: translateX(-59px) translateY(132px) rotate(153deg) scale(0.5);
+  transform: translateX(162px) translateY(33px) rotate(-32deg) scale(0.5);
   animation-name: avatar-part-194;
 }
 
@@ -2222,7 +2228,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-193 {
   0% {
-    transform: translateX(-209px) translateY(-127px) rotate(160deg) scale(0.5);
+    transform: translateX(147px) translateY(3px) rotate(175deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2233,11 +2239,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-209px) translateY(-127px) rotate(160deg) scale(0.5);
+    transform: translateX(147px) translateY(3px) rotate(175deg) scale(0.5);
   }
 }
 .sprite-avatar-p-193 {
-  transform: translateX(-209px) translateY(-127px) rotate(160deg) scale(0.5);
+  transform: translateX(147px) translateY(3px) rotate(175deg) scale(0.5);
   animation-name: avatar-part-193;
 }
 
@@ -2248,7 +2254,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-192 {
   0% {
-    transform: translateX(54px) translateY(139px) rotate(-2deg) scale(0.5);
+    transform: translateX(-37px) translateY(85px) rotate(162deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2259,11 +2265,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(54px) translateY(139px) rotate(-2deg) scale(0.5);
+    transform: translateX(-37px) translateY(85px) rotate(162deg) scale(0.5);
   }
 }
 .sprite-avatar-p-192 {
-  transform: translateX(54px) translateY(139px) rotate(-2deg) scale(0.5);
+  transform: translateX(-37px) translateY(85px) rotate(162deg) scale(0.5);
   animation-name: avatar-part-192;
 }
 
@@ -2274,7 +2280,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-191 {
   0% {
-    transform: translateX(-216px) translateY(56px) rotate(-107deg) scale(0.5);
+    transform: translateX(206px) translateY(173px) rotate(-141deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2285,11 +2291,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-216px) translateY(56px) rotate(-107deg) scale(0.5);
+    transform: translateX(206px) translateY(173px) rotate(-141deg) scale(0.5);
   }
 }
 .sprite-avatar-p-191 {
-  transform: translateX(-216px) translateY(56px) rotate(-107deg) scale(0.5);
+  transform: translateX(206px) translateY(173px) rotate(-141deg) scale(0.5);
   animation-name: avatar-part-191;
 }
 
@@ -2300,7 +2306,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-190 {
   0% {
-    transform: translateX(-113px) translateY(-31px) rotate(-24deg) scale(0.5);
+    transform: translateX(-7px) translateY(-100px) rotate(4deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2311,11 +2317,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-113px) translateY(-31px) rotate(-24deg) scale(0.5);
+    transform: translateX(-7px) translateY(-100px) rotate(4deg) scale(0.5);
   }
 }
 .sprite-avatar-p-190 {
-  transform: translateX(-113px) translateY(-31px) rotate(-24deg) scale(0.5);
+  transform: translateX(-7px) translateY(-100px) rotate(4deg) scale(0.5);
   animation-name: avatar-part-190;
 }
 
@@ -2326,7 +2332,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-189 {
   0% {
-    transform: translateX(195px) translateY(-119px) rotate(-43deg) scale(0.5);
+    transform: translateX(52px) translateY(38px) rotate(161deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2337,11 +2343,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(195px) translateY(-119px) rotate(-43deg) scale(0.5);
+    transform: translateX(52px) translateY(38px) rotate(161deg) scale(0.5);
   }
 }
 .sprite-avatar-p-189 {
-  transform: translateX(195px) translateY(-119px) rotate(-43deg) scale(0.5);
+  transform: translateX(52px) translateY(38px) rotate(161deg) scale(0.5);
   animation-name: avatar-part-189;
 }
 
@@ -2352,7 +2358,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-188 {
   0% {
-    transform: translateX(157px) translateY(231px) rotate(-17deg) scale(0.5);
+    transform: translateX(229px) translateY(-224px) rotate(-122deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2363,11 +2369,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(157px) translateY(231px) rotate(-17deg) scale(0.5);
+    transform: translateX(229px) translateY(-224px) rotate(-122deg) scale(0.5);
   }
 }
 .sprite-avatar-p-188 {
-  transform: translateX(157px) translateY(231px) rotate(-17deg) scale(0.5);
+  transform: translateX(229px) translateY(-224px) rotate(-122deg) scale(0.5);
   animation-name: avatar-part-188;
 }
 
@@ -2378,7 +2384,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-187 {
   0% {
-    transform: translateX(187px) translateY(115px) rotate(-61deg) scale(0.5);
+    transform: translateX(44px) translateY(-55px) rotate(79deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2389,11 +2395,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(187px) translateY(115px) rotate(-61deg) scale(0.5);
+    transform: translateX(44px) translateY(-55px) rotate(79deg) scale(0.5);
   }
 }
 .sprite-avatar-p-187 {
-  transform: translateX(187px) translateY(115px) rotate(-61deg) scale(0.5);
+  transform: translateX(44px) translateY(-55px) rotate(79deg) scale(0.5);
   animation-name: avatar-part-187;
 }
 
@@ -2404,7 +2410,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-186 {
   0% {
-    transform: translateX(163px) translateY(190px) rotate(-94deg) scale(0.5);
+    transform: translateX(4px) translateY(19px) rotate(-94deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2415,11 +2421,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(163px) translateY(190px) rotate(-94deg) scale(0.5);
+    transform: translateX(4px) translateY(19px) rotate(-94deg) scale(0.5);
   }
 }
 .sprite-avatar-p-186 {
-  transform: translateX(163px) translateY(190px) rotate(-94deg) scale(0.5);
+  transform: translateX(4px) translateY(19px) rotate(-94deg) scale(0.5);
   animation-name: avatar-part-186;
 }
 
@@ -2430,7 +2436,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-185 {
   0% {
-    transform: translateX(-2px) translateY(1px) rotate(-14deg) scale(0.5);
+    transform: translateX(198px) translateY(-47px) rotate(-150deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2441,11 +2447,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-2px) translateY(1px) rotate(-14deg) scale(0.5);
+    transform: translateX(198px) translateY(-47px) rotate(-150deg) scale(0.5);
   }
 }
 .sprite-avatar-p-185 {
-  transform: translateX(-2px) translateY(1px) rotate(-14deg) scale(0.5);
+  transform: translateX(198px) translateY(-47px) rotate(-150deg) scale(0.5);
   animation-name: avatar-part-185;
 }
 
@@ -2456,7 +2462,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-184 {
   0% {
-    transform: translateX(56px) translateY(-64px) rotate(88deg) scale(0.5);
+    transform: translateX(241px) translateY(145px) rotate(80deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2467,11 +2473,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(56px) translateY(-64px) rotate(88deg) scale(0.5);
+    transform: translateX(241px) translateY(145px) rotate(80deg) scale(0.5);
   }
 }
 .sprite-avatar-p-184 {
-  transform: translateX(56px) translateY(-64px) rotate(88deg) scale(0.5);
+  transform: translateX(241px) translateY(145px) rotate(80deg) scale(0.5);
   animation-name: avatar-part-184;
 }
 
@@ -2482,7 +2488,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-183 {
   0% {
-    transform: translateX(-157px) translateY(234px) rotate(-66deg) scale(0.5);
+    transform: translateX(131px) translateY(169px) rotate(57deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2493,11 +2499,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-157px) translateY(234px) rotate(-66deg) scale(0.5);
+    transform: translateX(131px) translateY(169px) rotate(57deg) scale(0.5);
   }
 }
 .sprite-avatar-p-183 {
-  transform: translateX(-157px) translateY(234px) rotate(-66deg) scale(0.5);
+  transform: translateX(131px) translateY(169px) rotate(57deg) scale(0.5);
   animation-name: avatar-part-183;
 }
 
@@ -2508,7 +2514,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-182 {
   0% {
-    transform: translateX(-172px) translateY(-225px) rotate(16deg) scale(0.5);
+    transform: translateX(65px) translateY(45px) rotate(167deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2519,11 +2525,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-172px) translateY(-225px) rotate(16deg) scale(0.5);
+    transform: translateX(65px) translateY(45px) rotate(167deg) scale(0.5);
   }
 }
 .sprite-avatar-p-182 {
-  transform: translateX(-172px) translateY(-225px) rotate(16deg) scale(0.5);
+  transform: translateX(65px) translateY(45px) rotate(167deg) scale(0.5);
   animation-name: avatar-part-182;
 }
 
@@ -2534,7 +2540,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-181 {
   0% {
-    transform: translateX(77px) translateY(-73px) rotate(-4deg) scale(0.5);
+    transform: translateX(-64px) translateY(91px) rotate(-42deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2545,11 +2551,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(77px) translateY(-73px) rotate(-4deg) scale(0.5);
+    transform: translateX(-64px) translateY(91px) rotate(-42deg) scale(0.5);
   }
 }
 .sprite-avatar-p-181 {
-  transform: translateX(77px) translateY(-73px) rotate(-4deg) scale(0.5);
+  transform: translateX(-64px) translateY(91px) rotate(-42deg) scale(0.5);
   animation-name: avatar-part-181;
 }
 
@@ -2560,7 +2566,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-180 {
   0% {
-    transform: translateX(-242px) translateY(-48px) rotate(72deg) scale(0.5);
+    transform: translateX(134px) translateY(-167px) rotate(-137deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2571,11 +2577,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-242px) translateY(-48px) rotate(72deg) scale(0.5);
+    transform: translateX(134px) translateY(-167px) rotate(-137deg) scale(0.5);
   }
 }
 .sprite-avatar-p-180 {
-  transform: translateX(-242px) translateY(-48px) rotate(72deg) scale(0.5);
+  transform: translateX(134px) translateY(-167px) rotate(-137deg) scale(0.5);
   animation-name: avatar-part-180;
 }
 
@@ -2586,7 +2592,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-179 {
   0% {
-    transform: translateX(-10px) translateY(-35px) rotate(152deg) scale(0.5);
+    transform: translateX(113px) translateY(-124px) rotate(-137deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2597,11 +2603,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-10px) translateY(-35px) rotate(152deg) scale(0.5);
+    transform: translateX(113px) translateY(-124px) rotate(-137deg) scale(0.5);
   }
 }
 .sprite-avatar-p-179 {
-  transform: translateX(-10px) translateY(-35px) rotate(152deg) scale(0.5);
+  transform: translateX(113px) translateY(-124px) rotate(-137deg) scale(0.5);
   animation-name: avatar-part-179;
 }
 
@@ -2612,7 +2618,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-178 {
   0% {
-    transform: translateX(-111px) translateY(220px) rotate(83deg) scale(0.5);
+    transform: translateX(-71px) translateY(-242px) rotate(-57deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2623,11 +2629,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-111px) translateY(220px) rotate(83deg) scale(0.5);
+    transform: translateX(-71px) translateY(-242px) rotate(-57deg) scale(0.5);
   }
 }
 .sprite-avatar-p-178 {
-  transform: translateX(-111px) translateY(220px) rotate(83deg) scale(0.5);
+  transform: translateX(-71px) translateY(-242px) rotate(-57deg) scale(0.5);
   animation-name: avatar-part-178;
 }
 
@@ -2638,7 +2644,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-177 {
   0% {
-    transform: translateX(-240px) translateY(-120px) rotate(45deg) scale(0.5);
+    transform: translateX(22px) translateY(232px) rotate(40deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2649,11 +2655,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-240px) translateY(-120px) rotate(45deg) scale(0.5);
+    transform: translateX(22px) translateY(232px) rotate(40deg) scale(0.5);
   }
 }
 .sprite-avatar-p-177 {
-  transform: translateX(-240px) translateY(-120px) rotate(45deg) scale(0.5);
+  transform: translateX(22px) translateY(232px) rotate(40deg) scale(0.5);
   animation-name: avatar-part-177;
 }
 
@@ -2664,7 +2670,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-176 {
   0% {
-    transform: translateX(207px) translateY(36px) rotate(69deg) scale(0.5);
+    transform: translateX(-132px) translateY(-171px) rotate(-154deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2675,11 +2681,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(207px) translateY(36px) rotate(69deg) scale(0.5);
+    transform: translateX(-132px) translateY(-171px) rotate(-154deg) scale(0.5);
   }
 }
 .sprite-avatar-p-176 {
-  transform: translateX(207px) translateY(36px) rotate(69deg) scale(0.5);
+  transform: translateX(-132px) translateY(-171px) rotate(-154deg) scale(0.5);
   animation-name: avatar-part-176;
 }
 
@@ -2690,7 +2696,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-175 {
   0% {
-    transform: translateX(-14px) translateY(-179px) rotate(-98deg) scale(0.5);
+    transform: translateX(-51px) translateY(-175px) rotate(-7deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2701,11 +2707,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-14px) translateY(-179px) rotate(-98deg) scale(0.5);
+    transform: translateX(-51px) translateY(-175px) rotate(-7deg) scale(0.5);
   }
 }
 .sprite-avatar-p-175 {
-  transform: translateX(-14px) translateY(-179px) rotate(-98deg) scale(0.5);
+  transform: translateX(-51px) translateY(-175px) rotate(-7deg) scale(0.5);
   animation-name: avatar-part-175;
 }
 
@@ -2716,7 +2722,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-174 {
   0% {
-    transform: translateX(85px) translateY(-112px) rotate(-168deg) scale(0.5);
+    transform: translateX(36px) translateY(-62px) rotate(-42deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2727,11 +2733,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(85px) translateY(-112px) rotate(-168deg) scale(0.5);
+    transform: translateX(36px) translateY(-62px) rotate(-42deg) scale(0.5);
   }
 }
 .sprite-avatar-p-174 {
-  transform: translateX(85px) translateY(-112px) rotate(-168deg) scale(0.5);
+  transform: translateX(36px) translateY(-62px) rotate(-42deg) scale(0.5);
   animation-name: avatar-part-174;
 }
 
@@ -2742,7 +2748,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-173 {
   0% {
-    transform: translateX(222px) translateY(-94px) rotate(57deg) scale(0.5);
+    transform: translateX(-158px) translateY(200px) rotate(42deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2753,11 +2759,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(222px) translateY(-94px) rotate(57deg) scale(0.5);
+    transform: translateX(-158px) translateY(200px) rotate(42deg) scale(0.5);
   }
 }
 .sprite-avatar-p-173 {
-  transform: translateX(222px) translateY(-94px) rotate(57deg) scale(0.5);
+  transform: translateX(-158px) translateY(200px) rotate(42deg) scale(0.5);
   animation-name: avatar-part-173;
 }
 
@@ -2768,7 +2774,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-172 {
   0% {
-    transform: translateX(171px) translateY(94px) rotate(73deg) scale(0.5);
+    transform: translateX(-188px) translateY(-226px) rotate(-100deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2779,11 +2785,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(171px) translateY(94px) rotate(73deg) scale(0.5);
+    transform: translateX(-188px) translateY(-226px) rotate(-100deg) scale(0.5);
   }
 }
 .sprite-avatar-p-172 {
-  transform: translateX(171px) translateY(94px) rotate(73deg) scale(0.5);
+  transform: translateX(-188px) translateY(-226px) rotate(-100deg) scale(0.5);
   animation-name: avatar-part-172;
 }
 
@@ -2794,7 +2800,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-171 {
   0% {
-    transform: translateX(245px) translateY(100px) rotate(-6deg) scale(0.5);
+    transform: translateX(-127px) translateY(26px) rotate(7deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2805,11 +2811,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(245px) translateY(100px) rotate(-6deg) scale(0.5);
+    transform: translateX(-127px) translateY(26px) rotate(7deg) scale(0.5);
   }
 }
 .sprite-avatar-p-171 {
-  transform: translateX(245px) translateY(100px) rotate(-6deg) scale(0.5);
+  transform: translateX(-127px) translateY(26px) rotate(7deg) scale(0.5);
   animation-name: avatar-part-171;
 }
 
@@ -2820,7 +2826,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-170 {
   0% {
-    transform: translateX(-20px) translateY(-154px) rotate(19deg) scale(0.5);
+    transform: translateX(-41px) translateY(119px) rotate(69deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2831,11 +2837,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-20px) translateY(-154px) rotate(19deg) scale(0.5);
+    transform: translateX(-41px) translateY(119px) rotate(69deg) scale(0.5);
   }
 }
 .sprite-avatar-p-170 {
-  transform: translateX(-20px) translateY(-154px) rotate(19deg) scale(0.5);
+  transform: translateX(-41px) translateY(119px) rotate(69deg) scale(0.5);
   animation-name: avatar-part-170;
 }
 
@@ -2846,7 +2852,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-169 {
   0% {
-    transform: translateX(144px) translateY(146px) rotate(-102deg) scale(0.5);
+    transform: translateX(16px) translateY(-239px) rotate(175deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2857,11 +2863,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(144px) translateY(146px) rotate(-102deg) scale(0.5);
+    transform: translateX(16px) translateY(-239px) rotate(175deg) scale(0.5);
   }
 }
 .sprite-avatar-p-169 {
-  transform: translateX(144px) translateY(146px) rotate(-102deg) scale(0.5);
+  transform: translateX(16px) translateY(-239px) rotate(175deg) scale(0.5);
   animation-name: avatar-part-169;
 }
 
@@ -2872,7 +2878,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-168 {
   0% {
-    transform: translateX(37px) translateY(-53px) rotate(-88deg) scale(0.5);
+    transform: translateX(-23px) translateY(-92px) rotate(0deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2883,11 +2889,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(37px) translateY(-53px) rotate(-88deg) scale(0.5);
+    transform: translateX(-23px) translateY(-92px) rotate(0deg) scale(0.5);
   }
 }
 .sprite-avatar-p-168 {
-  transform: translateX(37px) translateY(-53px) rotate(-88deg) scale(0.5);
+  transform: translateX(-23px) translateY(-92px) rotate(0deg) scale(0.5);
   animation-name: avatar-part-168;
 }
 
@@ -2898,7 +2904,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-167 {
   0% {
-    transform: translateX(-81px) translateY(-89px) rotate(139deg) scale(0.5);
+    transform: translateX(1px) translateY(145px) rotate(122deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2909,11 +2915,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-81px) translateY(-89px) rotate(139deg) scale(0.5);
+    transform: translateX(1px) translateY(145px) rotate(122deg) scale(0.5);
   }
 }
 .sprite-avatar-p-167 {
-  transform: translateX(-81px) translateY(-89px) rotate(139deg) scale(0.5);
+  transform: translateX(1px) translateY(145px) rotate(122deg) scale(0.5);
   animation-name: avatar-part-167;
 }
 
@@ -2924,7 +2930,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-166 {
   0% {
-    transform: translateX(203px) translateY(-239px) rotate(-2deg) scale(0.5);
+    transform: translateX(211px) translateY(-76px) rotate(105deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2935,11 +2941,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(203px) translateY(-239px) rotate(-2deg) scale(0.5);
+    transform: translateX(211px) translateY(-76px) rotate(105deg) scale(0.5);
   }
 }
 .sprite-avatar-p-166 {
-  transform: translateX(203px) translateY(-239px) rotate(-2deg) scale(0.5);
+  transform: translateX(211px) translateY(-76px) rotate(105deg) scale(0.5);
   animation-name: avatar-part-166;
 }
 
@@ -2950,7 +2956,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-165 {
   0% {
-    transform: translateX(191px) translateY(56px) rotate(-106deg) scale(0.5);
+    transform: translateX(-233px) translateY(-211px) rotate(169deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2961,11 +2967,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(191px) translateY(56px) rotate(-106deg) scale(0.5);
+    transform: translateX(-233px) translateY(-211px) rotate(169deg) scale(0.5);
   }
 }
 .sprite-avatar-p-165 {
-  transform: translateX(191px) translateY(56px) rotate(-106deg) scale(0.5);
+  transform: translateX(-233px) translateY(-211px) rotate(169deg) scale(0.5);
   animation-name: avatar-part-165;
 }
 
@@ -2976,7 +2982,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-164 {
   0% {
-    transform: translateX(15px) translateY(21px) rotate(176deg) scale(0.5);
+    transform: translateX(-249px) translateY(46px) rotate(-8deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -2987,11 +2993,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(15px) translateY(21px) rotate(176deg) scale(0.5);
+    transform: translateX(-249px) translateY(46px) rotate(-8deg) scale(0.5);
   }
 }
 .sprite-avatar-p-164 {
-  transform: translateX(15px) translateY(21px) rotate(176deg) scale(0.5);
+  transform: translateX(-249px) translateY(46px) rotate(-8deg) scale(0.5);
   animation-name: avatar-part-164;
 }
 
@@ -3002,7 +3008,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-163 {
   0% {
-    transform: translateX(-73px) translateY(186px) rotate(-108deg) scale(0.5);
+    transform: translateX(-29px) translateY(234px) rotate(-156deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3013,11 +3019,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-73px) translateY(186px) rotate(-108deg) scale(0.5);
+    transform: translateX(-29px) translateY(234px) rotate(-156deg) scale(0.5);
   }
 }
 .sprite-avatar-p-163 {
-  transform: translateX(-73px) translateY(186px) rotate(-108deg) scale(0.5);
+  transform: translateX(-29px) translateY(234px) rotate(-156deg) scale(0.5);
   animation-name: avatar-part-163;
 }
 
@@ -3028,7 +3034,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-162 {
   0% {
-    transform: translateX(21px) translateY(166px) rotate(175deg) scale(0.5);
+    transform: translateX(-223px) translateY(36px) rotate(-150deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3039,11 +3045,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(21px) translateY(166px) rotate(175deg) scale(0.5);
+    transform: translateX(-223px) translateY(36px) rotate(-150deg) scale(0.5);
   }
 }
 .sprite-avatar-p-162 {
-  transform: translateX(21px) translateY(166px) rotate(175deg) scale(0.5);
+  transform: translateX(-223px) translateY(36px) rotate(-150deg) scale(0.5);
   animation-name: avatar-part-162;
 }
 
@@ -3054,7 +3060,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-161 {
   0% {
-    transform: translateX(190px) translateY(23px) rotate(-39deg) scale(0.5);
+    transform: translateX(74px) translateY(-34px) rotate(150deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3065,11 +3071,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(190px) translateY(23px) rotate(-39deg) scale(0.5);
+    transform: translateX(74px) translateY(-34px) rotate(150deg) scale(0.5);
   }
 }
 .sprite-avatar-p-161 {
-  transform: translateX(190px) translateY(23px) rotate(-39deg) scale(0.5);
+  transform: translateX(74px) translateY(-34px) rotate(150deg) scale(0.5);
   animation-name: avatar-part-161;
 }
 
@@ -3080,7 +3086,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-160 {
   0% {
-    transform: translateX(-121px) translateY(92px) rotate(96deg) scale(0.5);
+    transform: translateX(231px) translateY(-248px) rotate(-149deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3091,11 +3097,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-121px) translateY(92px) rotate(96deg) scale(0.5);
+    transform: translateX(231px) translateY(-248px) rotate(-149deg) scale(0.5);
   }
 }
 .sprite-avatar-p-160 {
-  transform: translateX(-121px) translateY(92px) rotate(96deg) scale(0.5);
+  transform: translateX(231px) translateY(-248px) rotate(-149deg) scale(0.5);
   animation-name: avatar-part-160;
 }
 
@@ -3106,7 +3112,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-159 {
   0% {
-    transform: translateX(1px) translateY(134px) rotate(5deg) scale(0.5);
+    transform: translateX(117px) translateY(60px) rotate(124deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3117,11 +3123,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(1px) translateY(134px) rotate(5deg) scale(0.5);
+    transform: translateX(117px) translateY(60px) rotate(124deg) scale(0.5);
   }
 }
 .sprite-avatar-p-159 {
-  transform: translateX(1px) translateY(134px) rotate(5deg) scale(0.5);
+  transform: translateX(117px) translateY(60px) rotate(124deg) scale(0.5);
   animation-name: avatar-part-159;
 }
 
@@ -3132,7 +3138,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-158 {
   0% {
-    transform: translateX(128px) translateY(-102px) rotate(-139deg) scale(0.5);
+    transform: translateX(230px) translateY(-9px) rotate(-127deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3143,11 +3149,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(128px) translateY(-102px) rotate(-139deg) scale(0.5);
+    transform: translateX(230px) translateY(-9px) rotate(-127deg) scale(0.5);
   }
 }
 .sprite-avatar-p-158 {
-  transform: translateX(128px) translateY(-102px) rotate(-139deg) scale(0.5);
+  transform: translateX(230px) translateY(-9px) rotate(-127deg) scale(0.5);
   animation-name: avatar-part-158;
 }
 
@@ -3158,7 +3164,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-157 {
   0% {
-    transform: translateX(-230px) translateY(-136px) rotate(-112deg) scale(0.5);
+    transform: translateX(100px) translateY(-40px) rotate(-118deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3169,11 +3175,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-230px) translateY(-136px) rotate(-112deg) scale(0.5);
+    transform: translateX(100px) translateY(-40px) rotate(-118deg) scale(0.5);
   }
 }
 .sprite-avatar-p-157 {
-  transform: translateX(-230px) translateY(-136px) rotate(-112deg) scale(0.5);
+  transform: translateX(100px) translateY(-40px) rotate(-118deg) scale(0.5);
   animation-name: avatar-part-157;
 }
 
@@ -3184,7 +3190,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-156 {
   0% {
-    transform: translateX(-109px) translateY(-190px) rotate(-151deg) scale(0.5);
+    transform: translateX(239px) translateY(183px) rotate(9deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3195,11 +3201,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-109px) translateY(-190px) rotate(-151deg) scale(0.5);
+    transform: translateX(239px) translateY(183px) rotate(9deg) scale(0.5);
   }
 }
 .sprite-avatar-p-156 {
-  transform: translateX(-109px) translateY(-190px) rotate(-151deg) scale(0.5);
+  transform: translateX(239px) translateY(183px) rotate(9deg) scale(0.5);
   animation-name: avatar-part-156;
 }
 
@@ -3210,7 +3216,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-155 {
   0% {
-    transform: translateX(131px) translateY(-219px) rotate(84deg) scale(0.5);
+    transform: translateX(-73px) translateY(-75px) rotate(-36deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3221,11 +3227,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(131px) translateY(-219px) rotate(84deg) scale(0.5);
+    transform: translateX(-73px) translateY(-75px) rotate(-36deg) scale(0.5);
   }
 }
 .sprite-avatar-p-155 {
-  transform: translateX(131px) translateY(-219px) rotate(84deg) scale(0.5);
+  transform: translateX(-73px) translateY(-75px) rotate(-36deg) scale(0.5);
   animation-name: avatar-part-155;
 }
 
@@ -3236,7 +3242,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-154 {
   0% {
-    transform: translateX(-143px) translateY(144px) rotate(-79deg) scale(0.5);
+    transform: translateX(-81px) translateY(-108px) rotate(72deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3247,11 +3253,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-143px) translateY(144px) rotate(-79deg) scale(0.5);
+    transform: translateX(-81px) translateY(-108px) rotate(72deg) scale(0.5);
   }
 }
 .sprite-avatar-p-154 {
-  transform: translateX(-143px) translateY(144px) rotate(-79deg) scale(0.5);
+  transform: translateX(-81px) translateY(-108px) rotate(72deg) scale(0.5);
   animation-name: avatar-part-154;
 }
 
@@ -3262,7 +3268,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-153 {
   0% {
-    transform: translateX(120px) translateY(131px) rotate(-22deg) scale(0.5);
+    transform: translateX(-109px) translateY(137px) rotate(-96deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3273,11 +3279,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(120px) translateY(131px) rotate(-22deg) scale(0.5);
+    transform: translateX(-109px) translateY(137px) rotate(-96deg) scale(0.5);
   }
 }
 .sprite-avatar-p-153 {
-  transform: translateX(120px) translateY(131px) rotate(-22deg) scale(0.5);
+  transform: translateX(-109px) translateY(137px) rotate(-96deg) scale(0.5);
   animation-name: avatar-part-153;
 }
 
@@ -3288,7 +3294,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-152 {
   0% {
-    transform: translateX(-102px) translateY(-117px) rotate(180deg) scale(0.5);
+    transform: translateX(165px) translateY(-74px) rotate(139deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3299,11 +3305,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-102px) translateY(-117px) rotate(180deg) scale(0.5);
+    transform: translateX(165px) translateY(-74px) rotate(139deg) scale(0.5);
   }
 }
 .sprite-avatar-p-152 {
-  transform: translateX(-102px) translateY(-117px) rotate(180deg) scale(0.5);
+  transform: translateX(165px) translateY(-74px) rotate(139deg) scale(0.5);
   animation-name: avatar-part-152;
 }
 
@@ -3314,7 +3320,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-151 {
   0% {
-    transform: translateX(8px) translateY(14px) rotate(108deg) scale(0.5);
+    transform: translateX(-162px) translateY(211px) rotate(-98deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3325,11 +3331,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(8px) translateY(14px) rotate(108deg) scale(0.5);
+    transform: translateX(-162px) translateY(211px) rotate(-98deg) scale(0.5);
   }
 }
 .sprite-avatar-p-151 {
-  transform: translateX(8px) translateY(14px) rotate(108deg) scale(0.5);
+  transform: translateX(-162px) translateY(211px) rotate(-98deg) scale(0.5);
   animation-name: avatar-part-151;
 }
 
@@ -3340,7 +3346,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-150 {
   0% {
-    transform: translateX(-164px) translateY(191px) rotate(70deg) scale(0.5);
+    transform: translateX(170px) translateY(-118px) rotate(175deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3351,11 +3357,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-164px) translateY(191px) rotate(70deg) scale(0.5);
+    transform: translateX(170px) translateY(-118px) rotate(175deg) scale(0.5);
   }
 }
 .sprite-avatar-p-150 {
-  transform: translateX(-164px) translateY(191px) rotate(70deg) scale(0.5);
+  transform: translateX(170px) translateY(-118px) rotate(175deg) scale(0.5);
   animation-name: avatar-part-150;
 }
 
@@ -3366,7 +3372,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-149 {
   0% {
-    transform: translateX(17px) translateY(236px) rotate(156deg) scale(0.5);
+    transform: translateX(120px) translateY(112px) rotate(-46deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3377,11 +3383,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(17px) translateY(236px) rotate(156deg) scale(0.5);
+    transform: translateX(120px) translateY(112px) rotate(-46deg) scale(0.5);
   }
 }
 .sprite-avatar-p-149 {
-  transform: translateX(17px) translateY(236px) rotate(156deg) scale(0.5);
+  transform: translateX(120px) translateY(112px) rotate(-46deg) scale(0.5);
   animation-name: avatar-part-149;
 }
 
@@ -3392,7 +3398,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-148 {
   0% {
-    transform: translateX(-60px) translateY(-231px) rotate(-17deg) scale(0.5);
+    transform: translateX(-19px) translateY(-6px) rotate(80deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3403,11 +3409,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-60px) translateY(-231px) rotate(-17deg) scale(0.5);
+    transform: translateX(-19px) translateY(-6px) rotate(80deg) scale(0.5);
   }
 }
 .sprite-avatar-p-148 {
-  transform: translateX(-60px) translateY(-231px) rotate(-17deg) scale(0.5);
+  transform: translateX(-19px) translateY(-6px) rotate(80deg) scale(0.5);
   animation-name: avatar-part-148;
 }
 
@@ -3418,7 +3424,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-147 {
   0% {
-    transform: translateX(120px) translateY(-220px) rotate(141deg) scale(0.5);
+    transform: translateX(-72px) translateY(70px) rotate(175deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3429,11 +3435,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(120px) translateY(-220px) rotate(141deg) scale(0.5);
+    transform: translateX(-72px) translateY(70px) rotate(175deg) scale(0.5);
   }
 }
 .sprite-avatar-p-147 {
-  transform: translateX(120px) translateY(-220px) rotate(141deg) scale(0.5);
+  transform: translateX(-72px) translateY(70px) rotate(175deg) scale(0.5);
   animation-name: avatar-part-147;
 }
 
@@ -3444,7 +3450,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-146 {
   0% {
-    transform: translateX(226px) translateY(44px) rotate(120deg) scale(0.5);
+    transform: translateX(52px) translateY(109px) rotate(-162deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3455,11 +3461,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(226px) translateY(44px) rotate(120deg) scale(0.5);
+    transform: translateX(52px) translateY(109px) rotate(-162deg) scale(0.5);
   }
 }
 .sprite-avatar-p-146 {
-  transform: translateX(226px) translateY(44px) rotate(120deg) scale(0.5);
+  transform: translateX(52px) translateY(109px) rotate(-162deg) scale(0.5);
   animation-name: avatar-part-146;
 }
 
@@ -3470,7 +3476,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-145 {
   0% {
-    transform: translateX(73px) translateY(33px) rotate(-134deg) scale(0.5);
+    transform: translateX(29px) translateY(35px) rotate(130deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3481,11 +3487,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(73px) translateY(33px) rotate(-134deg) scale(0.5);
+    transform: translateX(29px) translateY(35px) rotate(130deg) scale(0.5);
   }
 }
 .sprite-avatar-p-145 {
-  transform: translateX(73px) translateY(33px) rotate(-134deg) scale(0.5);
+  transform: translateX(29px) translateY(35px) rotate(130deg) scale(0.5);
   animation-name: avatar-part-145;
 }
 
@@ -3496,7 +3502,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-144 {
   0% {
-    transform: translateX(-189px) translateY(27px) rotate(109deg) scale(0.5);
+    transform: translateX(-168px) translateY(24px) rotate(180deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3507,11 +3513,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-189px) translateY(27px) rotate(109deg) scale(0.5);
+    transform: translateX(-168px) translateY(24px) rotate(180deg) scale(0.5);
   }
 }
 .sprite-avatar-p-144 {
-  transform: translateX(-189px) translateY(27px) rotate(109deg) scale(0.5);
+  transform: translateX(-168px) translateY(24px) rotate(180deg) scale(0.5);
   animation-name: avatar-part-144;
 }
 
@@ -3522,7 +3528,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-143 {
   0% {
-    transform: translateX(-142px) translateY(123px) rotate(-84deg) scale(0.5);
+    transform: translateX(134px) translateY(-22px) rotate(-113deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3533,11 +3539,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-142px) translateY(123px) rotate(-84deg) scale(0.5);
+    transform: translateX(134px) translateY(-22px) rotate(-113deg) scale(0.5);
   }
 }
 .sprite-avatar-p-143 {
-  transform: translateX(-142px) translateY(123px) rotate(-84deg) scale(0.5);
+  transform: translateX(134px) translateY(-22px) rotate(-113deg) scale(0.5);
   animation-name: avatar-part-143;
 }
 
@@ -3548,7 +3554,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-142 {
   0% {
-    transform: translateX(135px) translateY(-3px) rotate(-54deg) scale(0.5);
+    transform: translateX(104px) translateY(-231px) rotate(94deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3559,11 +3565,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(135px) translateY(-3px) rotate(-54deg) scale(0.5);
+    transform: translateX(104px) translateY(-231px) rotate(94deg) scale(0.5);
   }
 }
 .sprite-avatar-p-142 {
-  transform: translateX(135px) translateY(-3px) rotate(-54deg) scale(0.5);
+  transform: translateX(104px) translateY(-231px) rotate(94deg) scale(0.5);
   animation-name: avatar-part-142;
 }
 
@@ -3574,7 +3580,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-141 {
   0% {
-    transform: translateX(-71px) translateY(-71px) rotate(-142deg) scale(0.5);
+    transform: translateX(81px) translateY(182px) rotate(-113deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3585,11 +3591,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-71px) translateY(-71px) rotate(-142deg) scale(0.5);
+    transform: translateX(81px) translateY(182px) rotate(-113deg) scale(0.5);
   }
 }
 .sprite-avatar-p-141 {
-  transform: translateX(-71px) translateY(-71px) rotate(-142deg) scale(0.5);
+  transform: translateX(81px) translateY(182px) rotate(-113deg) scale(0.5);
   animation-name: avatar-part-141;
 }
 
@@ -3600,7 +3606,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-140 {
   0% {
-    transform: translateX(35px) translateY(185px) rotate(-31deg) scale(0.5);
+    transform: translateX(245px) translateY(150px) rotate(147deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3611,11 +3617,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(35px) translateY(185px) rotate(-31deg) scale(0.5);
+    transform: translateX(245px) translateY(150px) rotate(147deg) scale(0.5);
   }
 }
 .sprite-avatar-p-140 {
-  transform: translateX(35px) translateY(185px) rotate(-31deg) scale(0.5);
+  transform: translateX(245px) translateY(150px) rotate(147deg) scale(0.5);
   animation-name: avatar-part-140;
 }
 
@@ -3626,7 +3632,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-139 {
   0% {
-    transform: translateX(141px) translateY(-74px) rotate(-135deg) scale(0.5);
+    transform: translateX(111px) translateY(23px) rotate(-82deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3637,11 +3643,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(141px) translateY(-74px) rotate(-135deg) scale(0.5);
+    transform: translateX(111px) translateY(23px) rotate(-82deg) scale(0.5);
   }
 }
 .sprite-avatar-p-139 {
-  transform: translateX(141px) translateY(-74px) rotate(-135deg) scale(0.5);
+  transform: translateX(111px) translateY(23px) rotate(-82deg) scale(0.5);
   animation-name: avatar-part-139;
 }
 
@@ -3652,7 +3658,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-138 {
   0% {
-    transform: translateX(-58px) translateY(-97px) rotate(23deg) scale(0.5);
+    transform: translateX(11px) translateY(139px) rotate(173deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3663,11 +3669,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-58px) translateY(-97px) rotate(23deg) scale(0.5);
+    transform: translateX(11px) translateY(139px) rotate(173deg) scale(0.5);
   }
 }
 .sprite-avatar-p-138 {
-  transform: translateX(-58px) translateY(-97px) rotate(23deg) scale(0.5);
+  transform: translateX(11px) translateY(139px) rotate(173deg) scale(0.5);
   animation-name: avatar-part-138;
 }
 
@@ -3678,7 +3684,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-137 {
   0% {
-    transform: translateX(91px) translateY(-10px) rotate(-127deg) scale(0.5);
+    transform: translateX(-235px) translateY(-128px) rotate(-11deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3689,11 +3695,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(91px) translateY(-10px) rotate(-127deg) scale(0.5);
+    transform: translateX(-235px) translateY(-128px) rotate(-11deg) scale(0.5);
   }
 }
 .sprite-avatar-p-137 {
-  transform: translateX(91px) translateY(-10px) rotate(-127deg) scale(0.5);
+  transform: translateX(-235px) translateY(-128px) rotate(-11deg) scale(0.5);
   animation-name: avatar-part-137;
 }
 
@@ -3704,7 +3710,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-136 {
   0% {
-    transform: translateX(5px) translateY(241px) rotate(8deg) scale(0.5);
+    transform: translateX(207px) translateY(163px) rotate(69deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3715,11 +3721,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(5px) translateY(241px) rotate(8deg) scale(0.5);
+    transform: translateX(207px) translateY(163px) rotate(69deg) scale(0.5);
   }
 }
 .sprite-avatar-p-136 {
-  transform: translateX(5px) translateY(241px) rotate(8deg) scale(0.5);
+  transform: translateX(207px) translateY(163px) rotate(69deg) scale(0.5);
   animation-name: avatar-part-136;
 }
 
@@ -3730,7 +3736,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-135 {
   0% {
-    transform: translateX(90px) translateY(-95px) rotate(-104deg) scale(0.5);
+    transform: translateX(-95px) translateY(-230px) rotate(-87deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3741,11 +3747,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(90px) translateY(-95px) rotate(-104deg) scale(0.5);
+    transform: translateX(-95px) translateY(-230px) rotate(-87deg) scale(0.5);
   }
 }
 .sprite-avatar-p-135 {
-  transform: translateX(90px) translateY(-95px) rotate(-104deg) scale(0.5);
+  transform: translateX(-95px) translateY(-230px) rotate(-87deg) scale(0.5);
   animation-name: avatar-part-135;
 }
 
@@ -3756,7 +3762,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-134 {
   0% {
-    transform: translateX(55px) translateY(120px) rotate(-109deg) scale(0.5);
+    transform: translateX(-113px) translateY(141px) rotate(-54deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3767,11 +3773,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(55px) translateY(120px) rotate(-109deg) scale(0.5);
+    transform: translateX(-113px) translateY(141px) rotate(-54deg) scale(0.5);
   }
 }
 .sprite-avatar-p-134 {
-  transform: translateX(55px) translateY(120px) rotate(-109deg) scale(0.5);
+  transform: translateX(-113px) translateY(141px) rotate(-54deg) scale(0.5);
   animation-name: avatar-part-134;
 }
 
@@ -3782,7 +3788,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-133 {
   0% {
-    transform: translateX(-32px) translateY(-226px) rotate(-131deg) scale(0.5);
+    transform: translateX(22px) translateY(90px) rotate(26deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3793,11 +3799,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-32px) translateY(-226px) rotate(-131deg) scale(0.5);
+    transform: translateX(22px) translateY(90px) rotate(26deg) scale(0.5);
   }
 }
 .sprite-avatar-p-133 {
-  transform: translateX(-32px) translateY(-226px) rotate(-131deg) scale(0.5);
+  transform: translateX(22px) translateY(90px) rotate(26deg) scale(0.5);
   animation-name: avatar-part-133;
 }
 
@@ -3808,7 +3814,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-132 {
   0% {
-    transform: translateX(2px) translateY(-166px) rotate(62deg) scale(0.5);
+    transform: translateX(-90px) translateY(27px) rotate(-44deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3819,11 +3825,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(2px) translateY(-166px) rotate(62deg) scale(0.5);
+    transform: translateX(-90px) translateY(27px) rotate(-44deg) scale(0.5);
   }
 }
 .sprite-avatar-p-132 {
-  transform: translateX(2px) translateY(-166px) rotate(62deg) scale(0.5);
+  transform: translateX(-90px) translateY(27px) rotate(-44deg) scale(0.5);
   animation-name: avatar-part-132;
 }
 
@@ -3834,7 +3840,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-131 {
   0% {
-    transform: translateX(-187px) translateY(-169px) rotate(-105deg) scale(0.5);
+    transform: translateX(-90px) translateY(226px) rotate(139deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3845,11 +3851,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-187px) translateY(-169px) rotate(-105deg) scale(0.5);
+    transform: translateX(-90px) translateY(226px) rotate(139deg) scale(0.5);
   }
 }
 .sprite-avatar-p-131 {
-  transform: translateX(-187px) translateY(-169px) rotate(-105deg) scale(0.5);
+  transform: translateX(-90px) translateY(226px) rotate(139deg) scale(0.5);
   animation-name: avatar-part-131;
 }
 
@@ -3860,7 +3866,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-130 {
   0% {
-    transform: translateX(-91px) translateY(164px) rotate(-76deg) scale(0.5);
+    transform: translateX(-40px) translateY(-60px) rotate(70deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3871,11 +3877,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-91px) translateY(164px) rotate(-76deg) scale(0.5);
+    transform: translateX(-40px) translateY(-60px) rotate(70deg) scale(0.5);
   }
 }
 .sprite-avatar-p-130 {
-  transform: translateX(-91px) translateY(164px) rotate(-76deg) scale(0.5);
+  transform: translateX(-40px) translateY(-60px) rotate(70deg) scale(0.5);
   animation-name: avatar-part-130;
 }
 
@@ -3886,7 +3892,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-129 {
   0% {
-    transform: translateX(-165px) translateY(-103px) rotate(-76deg) scale(0.5);
+    transform: translateX(132px) translateY(-61px) rotate(163deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3897,11 +3903,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-165px) translateY(-103px) rotate(-76deg) scale(0.5);
+    transform: translateX(132px) translateY(-61px) rotate(163deg) scale(0.5);
   }
 }
 .sprite-avatar-p-129 {
-  transform: translateX(-165px) translateY(-103px) rotate(-76deg) scale(0.5);
+  transform: translateX(132px) translateY(-61px) rotate(163deg) scale(0.5);
   animation-name: avatar-part-129;
 }
 
@@ -3912,7 +3918,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-128 {
   0% {
-    transform: translateX(191px) translateY(20px) rotate(88deg) scale(0.5);
+    transform: translateX(232px) translateY(91px) rotate(108deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3923,11 +3929,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(191px) translateY(20px) rotate(88deg) scale(0.5);
+    transform: translateX(232px) translateY(91px) rotate(108deg) scale(0.5);
   }
 }
 .sprite-avatar-p-128 {
-  transform: translateX(191px) translateY(20px) rotate(88deg) scale(0.5);
+  transform: translateX(232px) translateY(91px) rotate(108deg) scale(0.5);
   animation-name: avatar-part-128;
 }
 
@@ -3938,7 +3944,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-127 {
   0% {
-    transform: translateX(137px) translateY(-16px) rotate(51deg) scale(0.5);
+    transform: translateX(29px) translateY(-13px) rotate(-98deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3949,11 +3955,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(137px) translateY(-16px) rotate(51deg) scale(0.5);
+    transform: translateX(29px) translateY(-13px) rotate(-98deg) scale(0.5);
   }
 }
 .sprite-avatar-p-127 {
-  transform: translateX(137px) translateY(-16px) rotate(51deg) scale(0.5);
+  transform: translateX(29px) translateY(-13px) rotate(-98deg) scale(0.5);
   animation-name: avatar-part-127;
 }
 
@@ -3964,7 +3970,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-126 {
   0% {
-    transform: translateX(90px) translateY(181px) rotate(-152deg) scale(0.5);
+    transform: translateX(-117px) translateY(24px) rotate(143deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -3975,11 +3981,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(90px) translateY(181px) rotate(-152deg) scale(0.5);
+    transform: translateX(-117px) translateY(24px) rotate(143deg) scale(0.5);
   }
 }
 .sprite-avatar-p-126 {
-  transform: translateX(90px) translateY(181px) rotate(-152deg) scale(0.5);
+  transform: translateX(-117px) translateY(24px) rotate(143deg) scale(0.5);
   animation-name: avatar-part-126;
 }
 
@@ -3990,7 +3996,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-125 {
   0% {
-    transform: translateX(-165px) translateY(-36px) rotate(-3deg) scale(0.5);
+    transform: translateX(-44px) translateY(216px) rotate(136deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4001,11 +4007,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-165px) translateY(-36px) rotate(-3deg) scale(0.5);
+    transform: translateX(-44px) translateY(216px) rotate(136deg) scale(0.5);
   }
 }
 .sprite-avatar-p-125 {
-  transform: translateX(-165px) translateY(-36px) rotate(-3deg) scale(0.5);
+  transform: translateX(-44px) translateY(216px) rotate(136deg) scale(0.5);
   animation-name: avatar-part-125;
 }
 
@@ -4016,7 +4022,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-124 {
   0% {
-    transform: translateX(-96px) translateY(74px) rotate(-164deg) scale(0.5);
+    transform: translateX(180px) translateY(55px) rotate(90deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4027,11 +4033,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-96px) translateY(74px) rotate(-164deg) scale(0.5);
+    transform: translateX(180px) translateY(55px) rotate(90deg) scale(0.5);
   }
 }
 .sprite-avatar-p-124 {
-  transform: translateX(-96px) translateY(74px) rotate(-164deg) scale(0.5);
+  transform: translateX(180px) translateY(55px) rotate(90deg) scale(0.5);
   animation-name: avatar-part-124;
 }
 
@@ -4042,7 +4048,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-123 {
   0% {
-    transform: translateX(-21px) translateY(63px) rotate(-152deg) scale(0.5);
+    transform: translateX(78px) translateY(228px) rotate(-34deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4053,11 +4059,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-21px) translateY(63px) rotate(-152deg) scale(0.5);
+    transform: translateX(78px) translateY(228px) rotate(-34deg) scale(0.5);
   }
 }
 .sprite-avatar-p-123 {
-  transform: translateX(-21px) translateY(63px) rotate(-152deg) scale(0.5);
+  transform: translateX(78px) translateY(228px) rotate(-34deg) scale(0.5);
   animation-name: avatar-part-123;
 }
 
@@ -4068,7 +4074,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-122 {
   0% {
-    transform: translateX(-146px) translateY(-15px) rotate(-170deg) scale(0.5);
+    transform: translateX(-179px) translateY(-103px) rotate(-167deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4079,11 +4085,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-146px) translateY(-15px) rotate(-170deg) scale(0.5);
+    transform: translateX(-179px) translateY(-103px) rotate(-167deg) scale(0.5);
   }
 }
 .sprite-avatar-p-122 {
-  transform: translateX(-146px) translateY(-15px) rotate(-170deg) scale(0.5);
+  transform: translateX(-179px) translateY(-103px) rotate(-167deg) scale(0.5);
   animation-name: avatar-part-122;
 }
 
@@ -4094,7 +4100,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-121 {
   0% {
-    transform: translateX(134px) translateY(-70px) rotate(114deg) scale(0.5);
+    transform: translateX(-4px) translateY(176px) rotate(56deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4105,11 +4111,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(134px) translateY(-70px) rotate(114deg) scale(0.5);
+    transform: translateX(-4px) translateY(176px) rotate(56deg) scale(0.5);
   }
 }
 .sprite-avatar-p-121 {
-  transform: translateX(134px) translateY(-70px) rotate(114deg) scale(0.5);
+  transform: translateX(-4px) translateY(176px) rotate(56deg) scale(0.5);
   animation-name: avatar-part-121;
 }
 
@@ -4120,7 +4126,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-120 {
   0% {
-    transform: translateX(-28px) translateY(-202px) rotate(90deg) scale(0.5);
+    transform: translateX(234px) translateY(83px) rotate(167deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4131,11 +4137,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-28px) translateY(-202px) rotate(90deg) scale(0.5);
+    transform: translateX(234px) translateY(83px) rotate(167deg) scale(0.5);
   }
 }
 .sprite-avatar-p-120 {
-  transform: translateX(-28px) translateY(-202px) rotate(90deg) scale(0.5);
+  transform: translateX(234px) translateY(83px) rotate(167deg) scale(0.5);
   animation-name: avatar-part-120;
 }
 
@@ -4146,7 +4152,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-119 {
   0% {
-    transform: translateX(121px) translateY(-157px) rotate(17deg) scale(0.5);
+    transform: translateX(231px) translateY(-59px) rotate(58deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4157,11 +4163,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(121px) translateY(-157px) rotate(17deg) scale(0.5);
+    transform: translateX(231px) translateY(-59px) rotate(58deg) scale(0.5);
   }
 }
 .sprite-avatar-p-119 {
-  transform: translateX(121px) translateY(-157px) rotate(17deg) scale(0.5);
+  transform: translateX(231px) translateY(-59px) rotate(58deg) scale(0.5);
   animation-name: avatar-part-119;
 }
 
@@ -4172,7 +4178,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-118 {
   0% {
-    transform: translateX(161px) translateY(105px) rotate(-90deg) scale(0.5);
+    transform: translateX(-240px) translateY(114px) rotate(-76deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4183,11 +4189,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(161px) translateY(105px) rotate(-90deg) scale(0.5);
+    transform: translateX(-240px) translateY(114px) rotate(-76deg) scale(0.5);
   }
 }
 .sprite-avatar-p-118 {
-  transform: translateX(161px) translateY(105px) rotate(-90deg) scale(0.5);
+  transform: translateX(-240px) translateY(114px) rotate(-76deg) scale(0.5);
   animation-name: avatar-part-118;
 }
 
@@ -4198,7 +4204,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-117 {
   0% {
-    transform: translateX(-169px) translateY(241px) rotate(159deg) scale(0.5);
+    transform: translateX(-38px) translateY(26px) rotate(-75deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4209,11 +4215,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-169px) translateY(241px) rotate(159deg) scale(0.5);
+    transform: translateX(-38px) translateY(26px) rotate(-75deg) scale(0.5);
   }
 }
 .sprite-avatar-p-117 {
-  transform: translateX(-169px) translateY(241px) rotate(159deg) scale(0.5);
+  transform: translateX(-38px) translateY(26px) rotate(-75deg) scale(0.5);
   animation-name: avatar-part-117;
 }
 
@@ -4224,7 +4230,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-116 {
   0% {
-    transform: translateX(-205px) translateY(201px) rotate(45deg) scale(0.5);
+    transform: translateX(93px) translateY(134px) rotate(-74deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4235,11 +4241,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-205px) translateY(201px) rotate(45deg) scale(0.5);
+    transform: translateX(93px) translateY(134px) rotate(-74deg) scale(0.5);
   }
 }
 .sprite-avatar-p-116 {
-  transform: translateX(-205px) translateY(201px) rotate(45deg) scale(0.5);
+  transform: translateX(93px) translateY(134px) rotate(-74deg) scale(0.5);
   animation-name: avatar-part-116;
 }
 
@@ -4250,7 +4256,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-115 {
   0% {
-    transform: translateX(158px) translateY(-108px) rotate(-154deg) scale(0.5);
+    transform: translateX(217px) translateY(52px) rotate(-65deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4261,11 +4267,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(158px) translateY(-108px) rotate(-154deg) scale(0.5);
+    transform: translateX(217px) translateY(52px) rotate(-65deg) scale(0.5);
   }
 }
 .sprite-avatar-p-115 {
-  transform: translateX(158px) translateY(-108px) rotate(-154deg) scale(0.5);
+  transform: translateX(217px) translateY(52px) rotate(-65deg) scale(0.5);
   animation-name: avatar-part-115;
 }
 
@@ -4276,7 +4282,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-114 {
   0% {
-    transform: translateX(-246px) translateY(155px) rotate(105deg) scale(0.5);
+    transform: translateX(-87px) translateY(172px) rotate(-127deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4287,11 +4293,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-246px) translateY(155px) rotate(105deg) scale(0.5);
+    transform: translateX(-87px) translateY(172px) rotate(-127deg) scale(0.5);
   }
 }
 .sprite-avatar-p-114 {
-  transform: translateX(-246px) translateY(155px) rotate(105deg) scale(0.5);
+  transform: translateX(-87px) translateY(172px) rotate(-127deg) scale(0.5);
   animation-name: avatar-part-114;
 }
 
@@ -4302,7 +4308,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-113 {
   0% {
-    transform: translateX(-111px) translateY(-41px) rotate(94deg) scale(0.5);
+    transform: translateX(-238px) translateY(-127px) rotate(16deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4313,11 +4319,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-111px) translateY(-41px) rotate(94deg) scale(0.5);
+    transform: translateX(-238px) translateY(-127px) rotate(16deg) scale(0.5);
   }
 }
 .sprite-avatar-p-113 {
-  transform: translateX(-111px) translateY(-41px) rotate(94deg) scale(0.5);
+  transform: translateX(-238px) translateY(-127px) rotate(16deg) scale(0.5);
   animation-name: avatar-part-113;
 }
 
@@ -4328,7 +4334,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-112 {
   0% {
-    transform: translateX(-92px) translateY(28px) rotate(-111deg) scale(0.5);
+    transform: translateX(145px) translateY(-84px) rotate(26deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4339,11 +4345,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-92px) translateY(28px) rotate(-111deg) scale(0.5);
+    transform: translateX(145px) translateY(-84px) rotate(26deg) scale(0.5);
   }
 }
 .sprite-avatar-p-112 {
-  transform: translateX(-92px) translateY(28px) rotate(-111deg) scale(0.5);
+  transform: translateX(145px) translateY(-84px) rotate(26deg) scale(0.5);
   animation-name: avatar-part-112;
 }
 
@@ -4354,7 +4360,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-111 {
   0% {
-    transform: translateX(9px) translateY(22px) rotate(62deg) scale(0.5);
+    transform: translateX(-9px) translateY(-106px) rotate(-164deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4365,11 +4371,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(9px) translateY(22px) rotate(62deg) scale(0.5);
+    transform: translateX(-9px) translateY(-106px) rotate(-164deg) scale(0.5);
   }
 }
 .sprite-avatar-p-111 {
-  transform: translateX(9px) translateY(22px) rotate(62deg) scale(0.5);
+  transform: translateX(-9px) translateY(-106px) rotate(-164deg) scale(0.5);
   animation-name: avatar-part-111;
 }
 
@@ -4380,7 +4386,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-110 {
   0% {
-    transform: translateX(157px) translateY(-182px) rotate(4deg) scale(0.5);
+    transform: translateX(-28px) translateY(-120px) rotate(72deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4391,11 +4397,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(157px) translateY(-182px) rotate(4deg) scale(0.5);
+    transform: translateX(-28px) translateY(-120px) rotate(72deg) scale(0.5);
   }
 }
 .sprite-avatar-p-110 {
-  transform: translateX(157px) translateY(-182px) rotate(4deg) scale(0.5);
+  transform: translateX(-28px) translateY(-120px) rotate(72deg) scale(0.5);
   animation-name: avatar-part-110;
 }
 
@@ -4406,7 +4412,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-109 {
   0% {
-    transform: translateX(212px) translateY(1px) rotate(105deg) scale(0.5);
+    transform: translateX(-79px) translateY(-233px) rotate(-4deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4417,11 +4423,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(212px) translateY(1px) rotate(105deg) scale(0.5);
+    transform: translateX(-79px) translateY(-233px) rotate(-4deg) scale(0.5);
   }
 }
 .sprite-avatar-p-109 {
-  transform: translateX(212px) translateY(1px) rotate(105deg) scale(0.5);
+  transform: translateX(-79px) translateY(-233px) rotate(-4deg) scale(0.5);
   animation-name: avatar-part-109;
 }
 
@@ -4432,7 +4438,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-108 {
   0% {
-    transform: translateX(-25px) translateY(137px) rotate(82deg) scale(0.5);
+    transform: translateX(34px) translateY(226px) rotate(-166deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4443,11 +4449,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-25px) translateY(137px) rotate(82deg) scale(0.5);
+    transform: translateX(34px) translateY(226px) rotate(-166deg) scale(0.5);
   }
 }
 .sprite-avatar-p-108 {
-  transform: translateX(-25px) translateY(137px) rotate(82deg) scale(0.5);
+  transform: translateX(34px) translateY(226px) rotate(-166deg) scale(0.5);
   animation-name: avatar-part-108;
 }
 
@@ -4458,7 +4464,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-107 {
   0% {
-    transform: translateX(-73px) translateY(-112px) rotate(-163deg) scale(0.5);
+    transform: translateX(182px) translateY(-102px) rotate(69deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4469,11 +4475,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-73px) translateY(-112px) rotate(-163deg) scale(0.5);
+    transform: translateX(182px) translateY(-102px) rotate(69deg) scale(0.5);
   }
 }
 .sprite-avatar-p-107 {
-  transform: translateX(-73px) translateY(-112px) rotate(-163deg) scale(0.5);
+  transform: translateX(182px) translateY(-102px) rotate(69deg) scale(0.5);
   animation-name: avatar-part-107;
 }
 
@@ -4484,7 +4490,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-106 {
   0% {
-    transform: translateX(159px) translateY(62px) rotate(13deg) scale(0.5);
+    transform: translateX(247px) translateY(-197px) rotate(-132deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4495,11 +4501,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(159px) translateY(62px) rotate(13deg) scale(0.5);
+    transform: translateX(247px) translateY(-197px) rotate(-132deg) scale(0.5);
   }
 }
 .sprite-avatar-p-106 {
-  transform: translateX(159px) translateY(62px) rotate(13deg) scale(0.5);
+  transform: translateX(247px) translateY(-197px) rotate(-132deg) scale(0.5);
   animation-name: avatar-part-106;
 }
 
@@ -4510,7 +4516,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-105 {
   0% {
-    transform: translateX(-83px) translateY(26px) rotate(54deg) scale(0.5);
+    transform: translateX(-117px) translateY(-45px) rotate(133deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4521,11 +4527,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-83px) translateY(26px) rotate(54deg) scale(0.5);
+    transform: translateX(-117px) translateY(-45px) rotate(133deg) scale(0.5);
   }
 }
 .sprite-avatar-p-105 {
-  transform: translateX(-83px) translateY(26px) rotate(54deg) scale(0.5);
+  transform: translateX(-117px) translateY(-45px) rotate(133deg) scale(0.5);
   animation-name: avatar-part-105;
 }
 
@@ -4536,7 +4542,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-104 {
   0% {
-    transform: translateX(-169px) translateY(138px) rotate(45deg) scale(0.5);
+    transform: translateX(-181px) translateY(-205px) rotate(-168deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4547,11 +4553,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-169px) translateY(138px) rotate(45deg) scale(0.5);
+    transform: translateX(-181px) translateY(-205px) rotate(-168deg) scale(0.5);
   }
 }
 .sprite-avatar-p-104 {
-  transform: translateX(-169px) translateY(138px) rotate(45deg) scale(0.5);
+  transform: translateX(-181px) translateY(-205px) rotate(-168deg) scale(0.5);
   animation-name: avatar-part-104;
 }
 
@@ -4562,7 +4568,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-103 {
   0% {
-    transform: translateX(-103px) translateY(68px) rotate(106deg) scale(0.5);
+    transform: translateX(148px) translateY(70px) rotate(4deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4573,11 +4579,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-103px) translateY(68px) rotate(106deg) scale(0.5);
+    transform: translateX(148px) translateY(70px) rotate(4deg) scale(0.5);
   }
 }
 .sprite-avatar-p-103 {
-  transform: translateX(-103px) translateY(68px) rotate(106deg) scale(0.5);
+  transform: translateX(148px) translateY(70px) rotate(4deg) scale(0.5);
   animation-name: avatar-part-103;
 }
 
@@ -4588,7 +4594,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-102 {
   0% {
-    transform: translateX(239px) translateY(-104px) rotate(-171deg) scale(0.5);
+    transform: translateX(230px) translateY(33px) rotate(-42deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4599,11 +4605,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(239px) translateY(-104px) rotate(-171deg) scale(0.5);
+    transform: translateX(230px) translateY(33px) rotate(-42deg) scale(0.5);
   }
 }
 .sprite-avatar-p-102 {
-  transform: translateX(239px) translateY(-104px) rotate(-171deg) scale(0.5);
+  transform: translateX(230px) translateY(33px) rotate(-42deg) scale(0.5);
   animation-name: avatar-part-102;
 }
 
@@ -4614,7 +4620,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-101 {
   0% {
-    transform: translateX(-65px) translateY(184px) rotate(-156deg) scale(0.5);
+    transform: translateX(-60px) translateY(129px) rotate(-48deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4625,11 +4631,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-65px) translateY(184px) rotate(-156deg) scale(0.5);
+    transform: translateX(-60px) translateY(129px) rotate(-48deg) scale(0.5);
   }
 }
 .sprite-avatar-p-101 {
-  transform: translateX(-65px) translateY(184px) rotate(-156deg) scale(0.5);
+  transform: translateX(-60px) translateY(129px) rotate(-48deg) scale(0.5);
   animation-name: avatar-part-101;
 }
 
@@ -4640,7 +4646,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-100 {
   0% {
-    transform: translateX(-238px) translateY(33px) rotate(-81deg) scale(0.5);
+    transform: translateX(25px) translateY(-234px) rotate(115deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4651,11 +4657,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-238px) translateY(33px) rotate(-81deg) scale(0.5);
+    transform: translateX(25px) translateY(-234px) rotate(115deg) scale(0.5);
   }
 }
 .sprite-avatar-p-100 {
-  transform: translateX(-238px) translateY(33px) rotate(-81deg) scale(0.5);
+  transform: translateX(25px) translateY(-234px) rotate(115deg) scale(0.5);
   animation-name: avatar-part-100;
 }
 
@@ -4666,7 +4672,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-99 {
   0% {
-    transform: translateX(44px) translateY(223px) rotate(-7deg) scale(0.5);
+    transform: translateX(-123px) translateY(-231px) rotate(-125deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4677,11 +4683,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(44px) translateY(223px) rotate(-7deg) scale(0.5);
+    transform: translateX(-123px) translateY(-231px) rotate(-125deg) scale(0.5);
   }
 }
 .sprite-avatar-p-99 {
-  transform: translateX(44px) translateY(223px) rotate(-7deg) scale(0.5);
+  transform: translateX(-123px) translateY(-231px) rotate(-125deg) scale(0.5);
   animation-name: avatar-part-99;
 }
 
@@ -4692,7 +4698,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-98 {
   0% {
-    transform: translateX(-155px) translateY(-61px) rotate(-20deg) scale(0.5);
+    transform: translateX(139px) translateY(-59px) rotate(-147deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4703,11 +4709,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-155px) translateY(-61px) rotate(-20deg) scale(0.5);
+    transform: translateX(139px) translateY(-59px) rotate(-147deg) scale(0.5);
   }
 }
 .sprite-avatar-p-98 {
-  transform: translateX(-155px) translateY(-61px) rotate(-20deg) scale(0.5);
+  transform: translateX(139px) translateY(-59px) rotate(-147deg) scale(0.5);
   animation-name: avatar-part-98;
 }
 
@@ -4718,7 +4724,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-97 {
   0% {
-    transform: translateX(-240px) translateY(-138px) rotate(-117deg) scale(0.5);
+    transform: translateX(-42px) translateY(-154px) rotate(162deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4729,11 +4735,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-240px) translateY(-138px) rotate(-117deg) scale(0.5);
+    transform: translateX(-42px) translateY(-154px) rotate(162deg) scale(0.5);
   }
 }
 .sprite-avatar-p-97 {
-  transform: translateX(-240px) translateY(-138px) rotate(-117deg) scale(0.5);
+  transform: translateX(-42px) translateY(-154px) rotate(162deg) scale(0.5);
   animation-name: avatar-part-97;
 }
 
@@ -4744,7 +4750,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-96 {
   0% {
-    transform: translateX(182px) translateY(159px) rotate(19deg) scale(0.5);
+    transform: translateX(-119px) translateY(-92px) rotate(153deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4755,11 +4761,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(182px) translateY(159px) rotate(19deg) scale(0.5);
+    transform: translateX(-119px) translateY(-92px) rotate(153deg) scale(0.5);
   }
 }
 .sprite-avatar-p-96 {
-  transform: translateX(182px) translateY(159px) rotate(19deg) scale(0.5);
+  transform: translateX(-119px) translateY(-92px) rotate(153deg) scale(0.5);
   animation-name: avatar-part-96;
 }
 
@@ -4770,7 +4776,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-95 {
   0% {
-    transform: translateX(128px) translateY(67px) rotate(-133deg) scale(0.5);
+    transform: translateX(22px) translateY(-112px) rotate(-72deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4781,11 +4787,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(128px) translateY(67px) rotate(-133deg) scale(0.5);
+    transform: translateX(22px) translateY(-112px) rotate(-72deg) scale(0.5);
   }
 }
 .sprite-avatar-p-95 {
-  transform: translateX(128px) translateY(67px) rotate(-133deg) scale(0.5);
+  transform: translateX(22px) translateY(-112px) rotate(-72deg) scale(0.5);
   animation-name: avatar-part-95;
 }
 
@@ -4796,7 +4802,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-94 {
   0% {
-    transform: translateX(177px) translateY(64px) rotate(-46deg) scale(0.5);
+    transform: translateX(-188px) translateY(-147px) rotate(-77deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4807,11 +4813,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(177px) translateY(64px) rotate(-46deg) scale(0.5);
+    transform: translateX(-188px) translateY(-147px) rotate(-77deg) scale(0.5);
   }
 }
 .sprite-avatar-p-94 {
-  transform: translateX(177px) translateY(64px) rotate(-46deg) scale(0.5);
+  transform: translateX(-188px) translateY(-147px) rotate(-77deg) scale(0.5);
   animation-name: avatar-part-94;
 }
 
@@ -4822,7 +4828,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-93 {
   0% {
-    transform: translateX(-134px) translateY(-151px) rotate(51deg) scale(0.5);
+    transform: translateX(175px) translateY(-67px) rotate(-137deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4833,11 +4839,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-134px) translateY(-151px) rotate(51deg) scale(0.5);
+    transform: translateX(175px) translateY(-67px) rotate(-137deg) scale(0.5);
   }
 }
 .sprite-avatar-p-93 {
-  transform: translateX(-134px) translateY(-151px) rotate(51deg) scale(0.5);
+  transform: translateX(175px) translateY(-67px) rotate(-137deg) scale(0.5);
   animation-name: avatar-part-93;
 }
 
@@ -4848,7 +4854,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-92 {
   0% {
-    transform: translateX(-55px) translateY(-27px) rotate(173deg) scale(0.5);
+    transform: translateX(126px) translateY(-83px) rotate(45deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4859,11 +4865,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-55px) translateY(-27px) rotate(173deg) scale(0.5);
+    transform: translateX(126px) translateY(-83px) rotate(45deg) scale(0.5);
   }
 }
 .sprite-avatar-p-92 {
-  transform: translateX(-55px) translateY(-27px) rotate(173deg) scale(0.5);
+  transform: translateX(126px) translateY(-83px) rotate(45deg) scale(0.5);
   animation-name: avatar-part-92;
 }
 
@@ -4874,7 +4880,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-91 {
   0% {
-    transform: translateX(203px) translateY(-67px) rotate(35deg) scale(0.5);
+    transform: translateX(14px) translateY(-207px) rotate(136deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4885,11 +4891,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(203px) translateY(-67px) rotate(35deg) scale(0.5);
+    transform: translateX(14px) translateY(-207px) rotate(136deg) scale(0.5);
   }
 }
 .sprite-avatar-p-91 {
-  transform: translateX(203px) translateY(-67px) rotate(35deg) scale(0.5);
+  transform: translateX(14px) translateY(-207px) rotate(136deg) scale(0.5);
   animation-name: avatar-part-91;
 }
 
@@ -4900,7 +4906,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-90 {
   0% {
-    transform: translateX(-139px) translateY(137px) rotate(-136deg) scale(0.5);
+    transform: translateX(-144px) translateY(221px) rotate(82deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4911,11 +4917,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-139px) translateY(137px) rotate(-136deg) scale(0.5);
+    transform: translateX(-144px) translateY(221px) rotate(82deg) scale(0.5);
   }
 }
 .sprite-avatar-p-90 {
-  transform: translateX(-139px) translateY(137px) rotate(-136deg) scale(0.5);
+  transform: translateX(-144px) translateY(221px) rotate(82deg) scale(0.5);
   animation-name: avatar-part-90;
 }
 
@@ -4926,7 +4932,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-89 {
   0% {
-    transform: translateX(-222px) translateY(123px) rotate(134deg) scale(0.5);
+    transform: translateX(-190px) translateY(128px) rotate(-140deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4937,11 +4943,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-222px) translateY(123px) rotate(134deg) scale(0.5);
+    transform: translateX(-190px) translateY(128px) rotate(-140deg) scale(0.5);
   }
 }
 .sprite-avatar-p-89 {
-  transform: translateX(-222px) translateY(123px) rotate(134deg) scale(0.5);
+  transform: translateX(-190px) translateY(128px) rotate(-140deg) scale(0.5);
   animation-name: avatar-part-89;
 }
 
@@ -4952,7 +4958,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-88 {
   0% {
-    transform: translateX(66px) translateY(-223px) rotate(-128deg) scale(0.5);
+    transform: translateX(187px) translateY(28px) rotate(-39deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4963,11 +4969,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(66px) translateY(-223px) rotate(-128deg) scale(0.5);
+    transform: translateX(187px) translateY(28px) rotate(-39deg) scale(0.5);
   }
 }
 .sprite-avatar-p-88 {
-  transform: translateX(66px) translateY(-223px) rotate(-128deg) scale(0.5);
+  transform: translateX(187px) translateY(28px) rotate(-39deg) scale(0.5);
   animation-name: avatar-part-88;
 }
 
@@ -4978,7 +4984,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-87 {
   0% {
-    transform: translateX(-97px) translateY(13px) rotate(-54deg) scale(0.5);
+    transform: translateX(26px) translateY(-46px) rotate(73deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -4989,11 +4995,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-97px) translateY(13px) rotate(-54deg) scale(0.5);
+    transform: translateX(26px) translateY(-46px) rotate(73deg) scale(0.5);
   }
 }
 .sprite-avatar-p-87 {
-  transform: translateX(-97px) translateY(13px) rotate(-54deg) scale(0.5);
+  transform: translateX(26px) translateY(-46px) rotate(73deg) scale(0.5);
   animation-name: avatar-part-87;
 }
 
@@ -5004,7 +5010,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-86 {
   0% {
-    transform: translateX(-69px) translateY(138px) rotate(-119deg) scale(0.5);
+    transform: translateX(120px) translateY(-139px) rotate(-159deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5015,11 +5021,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-69px) translateY(138px) rotate(-119deg) scale(0.5);
+    transform: translateX(120px) translateY(-139px) rotate(-159deg) scale(0.5);
   }
 }
 .sprite-avatar-p-86 {
-  transform: translateX(-69px) translateY(138px) rotate(-119deg) scale(0.5);
+  transform: translateX(120px) translateY(-139px) rotate(-159deg) scale(0.5);
   animation-name: avatar-part-86;
 }
 
@@ -5030,7 +5036,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-85 {
   0% {
-    transform: translateX(-57px) translateY(110px) rotate(-2deg) scale(0.5);
+    transform: translateX(144px) translateY(66px) rotate(-26deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5041,11 +5047,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-57px) translateY(110px) rotate(-2deg) scale(0.5);
+    transform: translateX(144px) translateY(66px) rotate(-26deg) scale(0.5);
   }
 }
 .sprite-avatar-p-85 {
-  transform: translateX(-57px) translateY(110px) rotate(-2deg) scale(0.5);
+  transform: translateX(144px) translateY(66px) rotate(-26deg) scale(0.5);
   animation-name: avatar-part-85;
 }
 
@@ -5056,7 +5062,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-84 {
   0% {
-    transform: translateX(-203px) translateY(-53px) rotate(39deg) scale(0.5);
+    transform: translateX(-167px) translateY(-87px) rotate(-165deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5067,11 +5073,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-203px) translateY(-53px) rotate(39deg) scale(0.5);
+    transform: translateX(-167px) translateY(-87px) rotate(-165deg) scale(0.5);
   }
 }
 .sprite-avatar-p-84 {
-  transform: translateX(-203px) translateY(-53px) rotate(39deg) scale(0.5);
+  transform: translateX(-167px) translateY(-87px) rotate(-165deg) scale(0.5);
   animation-name: avatar-part-84;
 }
 
@@ -5082,7 +5088,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-83 {
   0% {
-    transform: translateX(-145px) translateY(-12px) rotate(-35deg) scale(0.5);
+    transform: translateX(-247px) translateY(216px) rotate(-55deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5093,11 +5099,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-145px) translateY(-12px) rotate(-35deg) scale(0.5);
+    transform: translateX(-247px) translateY(216px) rotate(-55deg) scale(0.5);
   }
 }
 .sprite-avatar-p-83 {
-  transform: translateX(-145px) translateY(-12px) rotate(-35deg) scale(0.5);
+  transform: translateX(-247px) translateY(216px) rotate(-55deg) scale(0.5);
   animation-name: avatar-part-83;
 }
 
@@ -5108,7 +5114,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-82 {
   0% {
-    transform: translateX(80px) translateY(-190px) rotate(134deg) scale(0.5);
+    transform: translateX(-18px) translateY(-64px) rotate(-55deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5119,11 +5125,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(80px) translateY(-190px) rotate(134deg) scale(0.5);
+    transform: translateX(-18px) translateY(-64px) rotate(-55deg) scale(0.5);
   }
 }
 .sprite-avatar-p-82 {
-  transform: translateX(80px) translateY(-190px) rotate(134deg) scale(0.5);
+  transform: translateX(-18px) translateY(-64px) rotate(-55deg) scale(0.5);
   animation-name: avatar-part-82;
 }
 
@@ -5134,7 +5140,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-81 {
   0% {
-    transform: translateX(-227px) translateY(226px) rotate(-175deg) scale(0.5);
+    transform: translateX(123px) translateY(-140px) rotate(-61deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5145,11 +5151,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-227px) translateY(226px) rotate(-175deg) scale(0.5);
+    transform: translateX(123px) translateY(-140px) rotate(-61deg) scale(0.5);
   }
 }
 .sprite-avatar-p-81 {
-  transform: translateX(-227px) translateY(226px) rotate(-175deg) scale(0.5);
+  transform: translateX(123px) translateY(-140px) rotate(-61deg) scale(0.5);
   animation-name: avatar-part-81;
 }
 
@@ -5160,7 +5166,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-80 {
   0% {
-    transform: translateX(54px) translateY(-221px) rotate(-30deg) scale(0.5);
+    transform: translateX(18px) translateY(177px) rotate(-137deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5171,11 +5177,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(54px) translateY(-221px) rotate(-30deg) scale(0.5);
+    transform: translateX(18px) translateY(177px) rotate(-137deg) scale(0.5);
   }
 }
 .sprite-avatar-p-80 {
-  transform: translateX(54px) translateY(-221px) rotate(-30deg) scale(0.5);
+  transform: translateX(18px) translateY(177px) rotate(-137deg) scale(0.5);
   animation-name: avatar-part-80;
 }
 
@@ -5186,7 +5192,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-79 {
   0% {
-    transform: translateX(-228px) translateY(72px) rotate(59deg) scale(0.5);
+    transform: translateX(15px) translateY(-43px) rotate(78deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5197,11 +5203,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-228px) translateY(72px) rotate(59deg) scale(0.5);
+    transform: translateX(15px) translateY(-43px) rotate(78deg) scale(0.5);
   }
 }
 .sprite-avatar-p-79 {
-  transform: translateX(-228px) translateY(72px) rotate(59deg) scale(0.5);
+  transform: translateX(15px) translateY(-43px) rotate(78deg) scale(0.5);
   animation-name: avatar-part-79;
 }
 
@@ -5212,7 +5218,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-78 {
   0% {
-    transform: translateX(232px) translateY(96px) rotate(-104deg) scale(0.5);
+    transform: translateX(58px) translateY(76px) rotate(83deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5223,11 +5229,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(232px) translateY(96px) rotate(-104deg) scale(0.5);
+    transform: translateX(58px) translateY(76px) rotate(83deg) scale(0.5);
   }
 }
 .sprite-avatar-p-78 {
-  transform: translateX(232px) translateY(96px) rotate(-104deg) scale(0.5);
+  transform: translateX(58px) translateY(76px) rotate(83deg) scale(0.5);
   animation-name: avatar-part-78;
 }
 
@@ -5238,7 +5244,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-77 {
   0% {
-    transform: translateX(205px) translateY(16px) rotate(-18deg) scale(0.5);
+    transform: translateX(-110px) translateY(226px) rotate(-19deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5249,11 +5255,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(205px) translateY(16px) rotate(-18deg) scale(0.5);
+    transform: translateX(-110px) translateY(226px) rotate(-19deg) scale(0.5);
   }
 }
 .sprite-avatar-p-77 {
-  transform: translateX(205px) translateY(16px) rotate(-18deg) scale(0.5);
+  transform: translateX(-110px) translateY(226px) rotate(-19deg) scale(0.5);
   animation-name: avatar-part-77;
 }
 
@@ -5264,7 +5270,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-76 {
   0% {
-    transform: translateX(21px) translateY(-33px) rotate(109deg) scale(0.5);
+    transform: translateX(-170px) translateY(-42px) rotate(-46deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5275,11 +5281,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(21px) translateY(-33px) rotate(109deg) scale(0.5);
+    transform: translateX(-170px) translateY(-42px) rotate(-46deg) scale(0.5);
   }
 }
 .sprite-avatar-p-76 {
-  transform: translateX(21px) translateY(-33px) rotate(109deg) scale(0.5);
+  transform: translateX(-170px) translateY(-42px) rotate(-46deg) scale(0.5);
   animation-name: avatar-part-76;
 }
 
@@ -5290,7 +5296,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-75 {
   0% {
-    transform: translateX(22px) translateY(-248px) rotate(-141deg) scale(0.5);
+    transform: translateX(239px) translateY(237px) rotate(-58deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5301,11 +5307,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(22px) translateY(-248px) rotate(-141deg) scale(0.5);
+    transform: translateX(239px) translateY(237px) rotate(-58deg) scale(0.5);
   }
 }
 .sprite-avatar-p-75 {
-  transform: translateX(22px) translateY(-248px) rotate(-141deg) scale(0.5);
+  transform: translateX(239px) translateY(237px) rotate(-58deg) scale(0.5);
   animation-name: avatar-part-75;
 }
 
@@ -5316,7 +5322,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-74 {
   0% {
-    transform: translateX(-25px) translateY(124px) rotate(-175deg) scale(0.5);
+    transform: translateX(114px) translateY(-35px) rotate(136deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5327,11 +5333,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-25px) translateY(124px) rotate(-175deg) scale(0.5);
+    transform: translateX(114px) translateY(-35px) rotate(136deg) scale(0.5);
   }
 }
 .sprite-avatar-p-74 {
-  transform: translateX(-25px) translateY(124px) rotate(-175deg) scale(0.5);
+  transform: translateX(114px) translateY(-35px) rotate(136deg) scale(0.5);
   animation-name: avatar-part-74;
 }
 
@@ -5342,7 +5348,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-73 {
   0% {
-    transform: translateX(244px) translateY(40px) rotate(-159deg) scale(0.5);
+    transform: translateX(31px) translateY(78px) rotate(167deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5353,11 +5359,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(244px) translateY(40px) rotate(-159deg) scale(0.5);
+    transform: translateX(31px) translateY(78px) rotate(167deg) scale(0.5);
   }
 }
 .sprite-avatar-p-73 {
-  transform: translateX(244px) translateY(40px) rotate(-159deg) scale(0.5);
+  transform: translateX(31px) translateY(78px) rotate(167deg) scale(0.5);
   animation-name: avatar-part-73;
 }
 
@@ -5368,7 +5374,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-72 {
   0% {
-    transform: translateX(158px) translateY(-42px) rotate(61deg) scale(0.5);
+    transform: translateX(96px) translateY(217px) rotate(-122deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5379,11 +5385,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(158px) translateY(-42px) rotate(61deg) scale(0.5);
+    transform: translateX(96px) translateY(217px) rotate(-122deg) scale(0.5);
   }
 }
 .sprite-avatar-p-72 {
-  transform: translateX(158px) translateY(-42px) rotate(61deg) scale(0.5);
+  transform: translateX(96px) translateY(217px) rotate(-122deg) scale(0.5);
   animation-name: avatar-part-72;
 }
 
@@ -5394,7 +5400,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-71 {
   0% {
-    transform: translateX(-95px) translateY(-150px) rotate(107deg) scale(0.5);
+    transform: translateX(-226px) translateY(-31px) rotate(114deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5405,11 +5411,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-95px) translateY(-150px) rotate(107deg) scale(0.5);
+    transform: translateX(-226px) translateY(-31px) rotate(114deg) scale(0.5);
   }
 }
 .sprite-avatar-p-71 {
-  transform: translateX(-95px) translateY(-150px) rotate(107deg) scale(0.5);
+  transform: translateX(-226px) translateY(-31px) rotate(114deg) scale(0.5);
   animation-name: avatar-part-71;
 }
 
@@ -5420,7 +5426,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-70 {
   0% {
-    transform: translateX(75px) translateY(237px) rotate(157deg) scale(0.5);
+    transform: translateX(-173px) translateY(84px) rotate(12deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5431,11 +5437,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(75px) translateY(237px) rotate(157deg) scale(0.5);
+    transform: translateX(-173px) translateY(84px) rotate(12deg) scale(0.5);
   }
 }
 .sprite-avatar-p-70 {
-  transform: translateX(75px) translateY(237px) rotate(157deg) scale(0.5);
+  transform: translateX(-173px) translateY(84px) rotate(12deg) scale(0.5);
   animation-name: avatar-part-70;
 }
 
@@ -5446,7 +5452,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-69 {
   0% {
-    transform: translateX(162px) translateY(151px) rotate(-125deg) scale(0.5);
+    transform: translateX(71px) translateY(-176px) rotate(-118deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5457,11 +5463,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(162px) translateY(151px) rotate(-125deg) scale(0.5);
+    transform: translateX(71px) translateY(-176px) rotate(-118deg) scale(0.5);
   }
 }
 .sprite-avatar-p-69 {
-  transform: translateX(162px) translateY(151px) rotate(-125deg) scale(0.5);
+  transform: translateX(71px) translateY(-176px) rotate(-118deg) scale(0.5);
   animation-name: avatar-part-69;
 }
 
@@ -5472,7 +5478,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-68 {
   0% {
-    transform: translateX(-39px) translateY(2px) rotate(-18deg) scale(0.5);
+    transform: translateX(-25px) translateY(-203px) rotate(-74deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5483,11 +5489,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-39px) translateY(2px) rotate(-18deg) scale(0.5);
+    transform: translateX(-25px) translateY(-203px) rotate(-74deg) scale(0.5);
   }
 }
 .sprite-avatar-p-68 {
-  transform: translateX(-39px) translateY(2px) rotate(-18deg) scale(0.5);
+  transform: translateX(-25px) translateY(-203px) rotate(-74deg) scale(0.5);
   animation-name: avatar-part-68;
 }
 
@@ -5498,7 +5504,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-67 {
   0% {
-    transform: translateX(-203px) translateY(221px) rotate(-139deg) scale(0.5);
+    transform: translateX(-173px) translateY(-136px) rotate(-170deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5509,11 +5515,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-203px) translateY(221px) rotate(-139deg) scale(0.5);
+    transform: translateX(-173px) translateY(-136px) rotate(-170deg) scale(0.5);
   }
 }
 .sprite-avatar-p-67 {
-  transform: translateX(-203px) translateY(221px) rotate(-139deg) scale(0.5);
+  transform: translateX(-173px) translateY(-136px) rotate(-170deg) scale(0.5);
   animation-name: avatar-part-67;
 }
 
@@ -5524,7 +5530,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-66 {
   0% {
-    transform: translateX(187px) translateY(151px) rotate(-96deg) scale(0.5);
+    transform: translateX(-169px) translateY(-232px) rotate(-134deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5535,11 +5541,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(187px) translateY(151px) rotate(-96deg) scale(0.5);
+    transform: translateX(-169px) translateY(-232px) rotate(-134deg) scale(0.5);
   }
 }
 .sprite-avatar-p-66 {
-  transform: translateX(187px) translateY(151px) rotate(-96deg) scale(0.5);
+  transform: translateX(-169px) translateY(-232px) rotate(-134deg) scale(0.5);
   animation-name: avatar-part-66;
 }
 
@@ -5550,7 +5556,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-65 {
   0% {
-    transform: translateX(185px) translateY(-42px) rotate(110deg) scale(0.5);
+    transform: translateX(-62px) translateY(223px) rotate(127deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5561,11 +5567,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(185px) translateY(-42px) rotate(110deg) scale(0.5);
+    transform: translateX(-62px) translateY(223px) rotate(127deg) scale(0.5);
   }
 }
 .sprite-avatar-p-65 {
-  transform: translateX(185px) translateY(-42px) rotate(110deg) scale(0.5);
+  transform: translateX(-62px) translateY(223px) rotate(127deg) scale(0.5);
   animation-name: avatar-part-65;
 }
 
@@ -5576,7 +5582,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-64 {
   0% {
-    transform: translateX(-33px) translateY(-128px) rotate(111deg) scale(0.5);
+    transform: translateX(-38px) translateY(-57px) rotate(-134deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5587,11 +5593,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-33px) translateY(-128px) rotate(111deg) scale(0.5);
+    transform: translateX(-38px) translateY(-57px) rotate(-134deg) scale(0.5);
   }
 }
 .sprite-avatar-p-64 {
-  transform: translateX(-33px) translateY(-128px) rotate(111deg) scale(0.5);
+  transform: translateX(-38px) translateY(-57px) rotate(-134deg) scale(0.5);
   animation-name: avatar-part-64;
 }
 
@@ -5602,7 +5608,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-63 {
   0% {
-    transform: translateX(4px) translateY(-144px) rotate(15deg) scale(0.5);
+    transform: translateX(6px) translateY(22px) rotate(-88deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5613,11 +5619,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(4px) translateY(-144px) rotate(15deg) scale(0.5);
+    transform: translateX(6px) translateY(22px) rotate(-88deg) scale(0.5);
   }
 }
 .sprite-avatar-p-63 {
-  transform: translateX(4px) translateY(-144px) rotate(15deg) scale(0.5);
+  transform: translateX(6px) translateY(22px) rotate(-88deg) scale(0.5);
   animation-name: avatar-part-63;
 }
 
@@ -5628,7 +5634,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-62 {
   0% {
-    transform: translateX(-102px) translateY(-177px) rotate(-172deg) scale(0.5);
+    transform: translateX(230px) translateY(149px) rotate(-3deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5639,11 +5645,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-102px) translateY(-177px) rotate(-172deg) scale(0.5);
+    transform: translateX(230px) translateY(149px) rotate(-3deg) scale(0.5);
   }
 }
 .sprite-avatar-p-62 {
-  transform: translateX(-102px) translateY(-177px) rotate(-172deg) scale(0.5);
+  transform: translateX(230px) translateY(149px) rotate(-3deg) scale(0.5);
   animation-name: avatar-part-62;
 }
 
@@ -5654,7 +5660,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-61 {
   0% {
-    transform: translateX(-71px) translateY(201px) rotate(121deg) scale(0.5);
+    transform: translateX(191px) translateY(-39px) rotate(137deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5665,11 +5671,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-71px) translateY(201px) rotate(121deg) scale(0.5);
+    transform: translateX(191px) translateY(-39px) rotate(137deg) scale(0.5);
   }
 }
 .sprite-avatar-p-61 {
-  transform: translateX(-71px) translateY(201px) rotate(121deg) scale(0.5);
+  transform: translateX(191px) translateY(-39px) rotate(137deg) scale(0.5);
   animation-name: avatar-part-61;
 }
 
@@ -5680,7 +5686,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-60 {
   0% {
-    transform: translateX(231px) translateY(212px) rotate(-49deg) scale(0.5);
+    transform: translateX(-53px) translateY(187px) rotate(-165deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5691,11 +5697,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(231px) translateY(212px) rotate(-49deg) scale(0.5);
+    transform: translateX(-53px) translateY(187px) rotate(-165deg) scale(0.5);
   }
 }
 .sprite-avatar-p-60 {
-  transform: translateX(231px) translateY(212px) rotate(-49deg) scale(0.5);
+  transform: translateX(-53px) translateY(187px) rotate(-165deg) scale(0.5);
   animation-name: avatar-part-60;
 }
 
@@ -5706,7 +5712,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-59 {
   0% {
-    transform: translateX(-109px) translateY(-74px) rotate(-94deg) scale(0.5);
+    transform: translateX(-213px) translateY(-120px) rotate(-88deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5717,11 +5723,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-109px) translateY(-74px) rotate(-94deg) scale(0.5);
+    transform: translateX(-213px) translateY(-120px) rotate(-88deg) scale(0.5);
   }
 }
 .sprite-avatar-p-59 {
-  transform: translateX(-109px) translateY(-74px) rotate(-94deg) scale(0.5);
+  transform: translateX(-213px) translateY(-120px) rotate(-88deg) scale(0.5);
   animation-name: avatar-part-59;
 }
 
@@ -5732,7 +5738,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-58 {
   0% {
-    transform: translateX(46px) translateY(169px) rotate(90deg) scale(0.5);
+    transform: translateX(165px) translateY(-35px) rotate(165deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5743,11 +5749,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(46px) translateY(169px) rotate(90deg) scale(0.5);
+    transform: translateX(165px) translateY(-35px) rotate(165deg) scale(0.5);
   }
 }
 .sprite-avatar-p-58 {
-  transform: translateX(46px) translateY(169px) rotate(90deg) scale(0.5);
+  transform: translateX(165px) translateY(-35px) rotate(165deg) scale(0.5);
   animation-name: avatar-part-58;
 }
 
@@ -5758,7 +5764,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-57 {
   0% {
-    transform: translateX(188px) translateY(4px) rotate(167deg) scale(0.5);
+    transform: translateX(232px) translateY(18px) rotate(167deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5769,11 +5775,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(188px) translateY(4px) rotate(167deg) scale(0.5);
+    transform: translateX(232px) translateY(18px) rotate(167deg) scale(0.5);
   }
 }
 .sprite-avatar-p-57 {
-  transform: translateX(188px) translateY(4px) rotate(167deg) scale(0.5);
+  transform: translateX(232px) translateY(18px) rotate(167deg) scale(0.5);
   animation-name: avatar-part-57;
 }
 
@@ -5784,7 +5790,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-56 {
   0% {
-    transform: translateX(-44px) translateY(-214px) rotate(12deg) scale(0.5);
+    transform: translateX(-140px) translateY(-9px) rotate(-90deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5795,11 +5801,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-44px) translateY(-214px) rotate(12deg) scale(0.5);
+    transform: translateX(-140px) translateY(-9px) rotate(-90deg) scale(0.5);
   }
 }
 .sprite-avatar-p-56 {
-  transform: translateX(-44px) translateY(-214px) rotate(12deg) scale(0.5);
+  transform: translateX(-140px) translateY(-9px) rotate(-90deg) scale(0.5);
   animation-name: avatar-part-56;
 }
 
@@ -5810,7 +5816,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-55 {
   0% {
-    transform: translateX(-142px) translateY(214px) rotate(-99deg) scale(0.5);
+    transform: translateX(67px) translateY(-161px) rotate(109deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5821,11 +5827,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-142px) translateY(214px) rotate(-99deg) scale(0.5);
+    transform: translateX(67px) translateY(-161px) rotate(109deg) scale(0.5);
   }
 }
 .sprite-avatar-p-55 {
-  transform: translateX(-142px) translateY(214px) rotate(-99deg) scale(0.5);
+  transform: translateX(67px) translateY(-161px) rotate(109deg) scale(0.5);
   animation-name: avatar-part-55;
 }
 
@@ -5836,7 +5842,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-54 {
   0% {
-    transform: translateX(-203px) translateY(-87px) rotate(-48deg) scale(0.5);
+    transform: translateX(-80px) translateY(42px) rotate(-9deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5847,11 +5853,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-203px) translateY(-87px) rotate(-48deg) scale(0.5);
+    transform: translateX(-80px) translateY(42px) rotate(-9deg) scale(0.5);
   }
 }
 .sprite-avatar-p-54 {
-  transform: translateX(-203px) translateY(-87px) rotate(-48deg) scale(0.5);
+  transform: translateX(-80px) translateY(42px) rotate(-9deg) scale(0.5);
   animation-name: avatar-part-54;
 }
 
@@ -5862,7 +5868,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-53 {
   0% {
-    transform: translateX(106px) translateY(-33px) rotate(-74deg) scale(0.5);
+    transform: translateX(-215px) translateY(100px) rotate(-28deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5873,11 +5879,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(106px) translateY(-33px) rotate(-74deg) scale(0.5);
+    transform: translateX(-215px) translateY(100px) rotate(-28deg) scale(0.5);
   }
 }
 .sprite-avatar-p-53 {
-  transform: translateX(106px) translateY(-33px) rotate(-74deg) scale(0.5);
+  transform: translateX(-215px) translateY(100px) rotate(-28deg) scale(0.5);
   animation-name: avatar-part-53;
 }
 
@@ -5888,7 +5894,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-52 {
   0% {
-    transform: translateX(-111px) translateY(157px) rotate(169deg) scale(0.5);
+    transform: translateX(-103px) translateY(49px) rotate(-90deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5899,11 +5905,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-111px) translateY(157px) rotate(169deg) scale(0.5);
+    transform: translateX(-103px) translateY(49px) rotate(-90deg) scale(0.5);
   }
 }
 .sprite-avatar-p-52 {
-  transform: translateX(-111px) translateY(157px) rotate(169deg) scale(0.5);
+  transform: translateX(-103px) translateY(49px) rotate(-90deg) scale(0.5);
   animation-name: avatar-part-52;
 }
 
@@ -5914,7 +5920,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-51 {
   0% {
-    transform: translateX(113px) translateY(-222px) rotate(7deg) scale(0.5);
+    transform: translateX(208px) translateY(116px) rotate(43deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5925,11 +5931,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(113px) translateY(-222px) rotate(7deg) scale(0.5);
+    transform: translateX(208px) translateY(116px) rotate(43deg) scale(0.5);
   }
 }
 .sprite-avatar-p-51 {
-  transform: translateX(113px) translateY(-222px) rotate(7deg) scale(0.5);
+  transform: translateX(208px) translateY(116px) rotate(43deg) scale(0.5);
   animation-name: avatar-part-51;
 }
 
@@ -5940,7 +5946,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-50 {
   0% {
-    transform: translateX(77px) translateY(-116px) rotate(75deg) scale(0.5);
+    transform: translateX(189px) translateY(-86px) rotate(-13deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5951,11 +5957,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(77px) translateY(-116px) rotate(75deg) scale(0.5);
+    transform: translateX(189px) translateY(-86px) rotate(-13deg) scale(0.5);
   }
 }
 .sprite-avatar-p-50 {
-  transform: translateX(77px) translateY(-116px) rotate(75deg) scale(0.5);
+  transform: translateX(189px) translateY(-86px) rotate(-13deg) scale(0.5);
   animation-name: avatar-part-50;
 }
 
@@ -5966,7 +5972,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-49 {
   0% {
-    transform: translateX(104px) translateY(-36px) rotate(68deg) scale(0.5);
+    transform: translateX(76px) translateY(-88px) rotate(71deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -5977,11 +5983,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(104px) translateY(-36px) rotate(68deg) scale(0.5);
+    transform: translateX(76px) translateY(-88px) rotate(71deg) scale(0.5);
   }
 }
 .sprite-avatar-p-49 {
-  transform: translateX(104px) translateY(-36px) rotate(68deg) scale(0.5);
+  transform: translateX(76px) translateY(-88px) rotate(71deg) scale(0.5);
   animation-name: avatar-part-49;
 }
 
@@ -5992,7 +5998,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-48 {
   0% {
-    transform: translateX(50px) translateY(-229px) rotate(-164deg) scale(0.5);
+    transform: translateX(-37px) translateY(80px) rotate(8deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6003,11 +6009,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(50px) translateY(-229px) rotate(-164deg) scale(0.5);
+    transform: translateX(-37px) translateY(80px) rotate(8deg) scale(0.5);
   }
 }
 .sprite-avatar-p-48 {
-  transform: translateX(50px) translateY(-229px) rotate(-164deg) scale(0.5);
+  transform: translateX(-37px) translateY(80px) rotate(8deg) scale(0.5);
   animation-name: avatar-part-48;
 }
 
@@ -6018,7 +6024,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-47 {
   0% {
-    transform: translateX(-137px) translateY(47px) rotate(45deg) scale(0.5);
+    transform: translateX(-73px) translateY(214px) rotate(-57deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6029,11 +6035,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-137px) translateY(47px) rotate(45deg) scale(0.5);
+    transform: translateX(-73px) translateY(214px) rotate(-57deg) scale(0.5);
   }
 }
 .sprite-avatar-p-47 {
-  transform: translateX(-137px) translateY(47px) rotate(45deg) scale(0.5);
+  transform: translateX(-73px) translateY(214px) rotate(-57deg) scale(0.5);
   animation-name: avatar-part-47;
 }
 
@@ -6044,7 +6050,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-46 {
   0% {
-    transform: translateX(-122px) translateY(42px) rotate(-35deg) scale(0.5);
+    transform: translateX(142px) translateY(-137px) rotate(148deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6055,11 +6061,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-122px) translateY(42px) rotate(-35deg) scale(0.5);
+    transform: translateX(142px) translateY(-137px) rotate(148deg) scale(0.5);
   }
 }
 .sprite-avatar-p-46 {
-  transform: translateX(-122px) translateY(42px) rotate(-35deg) scale(0.5);
+  transform: translateX(142px) translateY(-137px) rotate(148deg) scale(0.5);
   animation-name: avatar-part-46;
 }
 
@@ -6070,7 +6076,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-45 {
   0% {
-    transform: translateX(-87px) translateY(235px) rotate(-158deg) scale(0.5);
+    transform: translateX(-204px) translateY(25px) rotate(-130deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6081,11 +6087,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-87px) translateY(235px) rotate(-158deg) scale(0.5);
+    transform: translateX(-204px) translateY(25px) rotate(-130deg) scale(0.5);
   }
 }
 .sprite-avatar-p-45 {
-  transform: translateX(-87px) translateY(235px) rotate(-158deg) scale(0.5);
+  transform: translateX(-204px) translateY(25px) rotate(-130deg) scale(0.5);
   animation-name: avatar-part-45;
 }
 
@@ -6096,7 +6102,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-44 {
   0% {
-    transform: translateX(-205px) translateY(112px) rotate(67deg) scale(0.5);
+    transform: translateX(-228px) translateY(-118px) rotate(146deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6107,11 +6113,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-205px) translateY(112px) rotate(67deg) scale(0.5);
+    transform: translateX(-228px) translateY(-118px) rotate(146deg) scale(0.5);
   }
 }
 .sprite-avatar-p-44 {
-  transform: translateX(-205px) translateY(112px) rotate(67deg) scale(0.5);
+  transform: translateX(-228px) translateY(-118px) rotate(146deg) scale(0.5);
   animation-name: avatar-part-44;
 }
 
@@ -6122,7 +6128,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-43 {
   0% {
-    transform: translateX(111px) translateY(-47px) rotate(-32deg) scale(0.5);
+    transform: translateX(-91px) translateY(195px) rotate(-100deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6133,11 +6139,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(111px) translateY(-47px) rotate(-32deg) scale(0.5);
+    transform: translateX(-91px) translateY(195px) rotate(-100deg) scale(0.5);
   }
 }
 .sprite-avatar-p-43 {
-  transform: translateX(111px) translateY(-47px) rotate(-32deg) scale(0.5);
+  transform: translateX(-91px) translateY(195px) rotate(-100deg) scale(0.5);
   animation-name: avatar-part-43;
 }
 
@@ -6148,7 +6154,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-42 {
   0% {
-    transform: translateX(-76px) translateY(-122px) rotate(150deg) scale(0.5);
+    transform: translateX(237px) translateY(23px) rotate(-105deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6159,11 +6165,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-76px) translateY(-122px) rotate(150deg) scale(0.5);
+    transform: translateX(237px) translateY(23px) rotate(-105deg) scale(0.5);
   }
 }
 .sprite-avatar-p-42 {
-  transform: translateX(-76px) translateY(-122px) rotate(150deg) scale(0.5);
+  transform: translateX(237px) translateY(23px) rotate(-105deg) scale(0.5);
   animation-name: avatar-part-42;
 }
 
@@ -6174,7 +6180,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-41 {
   0% {
-    transform: translateX(-248px) translateY(-182px) rotate(55deg) scale(0.5);
+    transform: translateX(-97px) translateY(-99px) rotate(-4deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6185,11 +6191,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-248px) translateY(-182px) rotate(55deg) scale(0.5);
+    transform: translateX(-97px) translateY(-99px) rotate(-4deg) scale(0.5);
   }
 }
 .sprite-avatar-p-41 {
-  transform: translateX(-248px) translateY(-182px) rotate(55deg) scale(0.5);
+  transform: translateX(-97px) translateY(-99px) rotate(-4deg) scale(0.5);
   animation-name: avatar-part-41;
 }
 
@@ -6200,7 +6206,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-40 {
   0% {
-    transform: translateX(161px) translateY(90px) rotate(27deg) scale(0.5);
+    transform: translateX(32px) translateY(213px) rotate(48deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6211,11 +6217,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(161px) translateY(90px) rotate(27deg) scale(0.5);
+    transform: translateX(32px) translateY(213px) rotate(48deg) scale(0.5);
   }
 }
 .sprite-avatar-p-40 {
-  transform: translateX(161px) translateY(90px) rotate(27deg) scale(0.5);
+  transform: translateX(32px) translateY(213px) rotate(48deg) scale(0.5);
   animation-name: avatar-part-40;
 }
 
@@ -6226,7 +6232,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-39 {
   0% {
-    transform: translateX(-183px) translateY(186px) rotate(-152deg) scale(0.5);
+    transform: translateX(59px) translateY(237px) rotate(-179deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6237,11 +6243,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-183px) translateY(186px) rotate(-152deg) scale(0.5);
+    transform: translateX(59px) translateY(237px) rotate(-179deg) scale(0.5);
   }
 }
 .sprite-avatar-p-39 {
-  transform: translateX(-183px) translateY(186px) rotate(-152deg) scale(0.5);
+  transform: translateX(59px) translateY(237px) rotate(-179deg) scale(0.5);
   animation-name: avatar-part-39;
 }
 
@@ -6252,7 +6258,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-38 {
   0% {
-    transform: translateX(-115px) translateY(142px) rotate(26deg) scale(0.5);
+    transform: translateX(-59px) translateY(-173px) rotate(120deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6263,11 +6269,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-115px) translateY(142px) rotate(26deg) scale(0.5);
+    transform: translateX(-59px) translateY(-173px) rotate(120deg) scale(0.5);
   }
 }
 .sprite-avatar-p-38 {
-  transform: translateX(-115px) translateY(142px) rotate(26deg) scale(0.5);
+  transform: translateX(-59px) translateY(-173px) rotate(120deg) scale(0.5);
   animation-name: avatar-part-38;
 }
 
@@ -6278,7 +6284,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-37 {
   0% {
-    transform: translateX(40px) translateY(24px) rotate(90deg) scale(0.5);
+    transform: translateX(-138px) translateY(-186px) rotate(-61deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6289,11 +6295,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(40px) translateY(24px) rotate(90deg) scale(0.5);
+    transform: translateX(-138px) translateY(-186px) rotate(-61deg) scale(0.5);
   }
 }
 .sprite-avatar-p-37 {
-  transform: translateX(40px) translateY(24px) rotate(90deg) scale(0.5);
+  transform: translateX(-138px) translateY(-186px) rotate(-61deg) scale(0.5);
   animation-name: avatar-part-37;
 }
 
@@ -6304,7 +6310,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-36 {
   0% {
-    transform: translateX(-171px) translateY(63px) rotate(-37deg) scale(0.5);
+    transform: translateX(131px) translateY(4px) rotate(101deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6315,11 +6321,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-171px) translateY(63px) rotate(-37deg) scale(0.5);
+    transform: translateX(131px) translateY(4px) rotate(101deg) scale(0.5);
   }
 }
 .sprite-avatar-p-36 {
-  transform: translateX(-171px) translateY(63px) rotate(-37deg) scale(0.5);
+  transform: translateX(131px) translateY(4px) rotate(101deg) scale(0.5);
   animation-name: avatar-part-36;
 }
 
@@ -6330,7 +6336,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-35 {
   0% {
-    transform: translateX(-238px) translateY(-63px) rotate(152deg) scale(0.5);
+    transform: translateX(-164px) translateY(205px) rotate(40deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6341,11 +6347,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-238px) translateY(-63px) rotate(152deg) scale(0.5);
+    transform: translateX(-164px) translateY(205px) rotate(40deg) scale(0.5);
   }
 }
 .sprite-avatar-p-35 {
-  transform: translateX(-238px) translateY(-63px) rotate(152deg) scale(0.5);
+  transform: translateX(-164px) translateY(205px) rotate(40deg) scale(0.5);
   animation-name: avatar-part-35;
 }
 
@@ -6356,7 +6362,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-34 {
   0% {
-    transform: translateX(12px) translateY(-197px) rotate(5deg) scale(0.5);
+    transform: translateX(151px) translateY(95px) rotate(-174deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6367,11 +6373,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(12px) translateY(-197px) rotate(5deg) scale(0.5);
+    transform: translateX(151px) translateY(95px) rotate(-174deg) scale(0.5);
   }
 }
 .sprite-avatar-p-34 {
-  transform: translateX(12px) translateY(-197px) rotate(5deg) scale(0.5);
+  transform: translateX(151px) translateY(95px) rotate(-174deg) scale(0.5);
   animation-name: avatar-part-34;
 }
 
@@ -6382,7 +6388,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-33 {
   0% {
-    transform: translateX(136px) translateY(121px) rotate(114deg) scale(0.5);
+    transform: translateX(18px) translateY(-230px) rotate(-65deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6393,11 +6399,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(136px) translateY(121px) rotate(114deg) scale(0.5);
+    transform: translateX(18px) translateY(-230px) rotate(-65deg) scale(0.5);
   }
 }
 .sprite-avatar-p-33 {
-  transform: translateX(136px) translateY(121px) rotate(114deg) scale(0.5);
+  transform: translateX(18px) translateY(-230px) rotate(-65deg) scale(0.5);
   animation-name: avatar-part-33;
 }
 
@@ -6408,7 +6414,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-32 {
   0% {
-    transform: translateX(-237px) translateY(-126px) rotate(143deg) scale(0.5);
+    transform: translateX(162px) translateY(-55px) rotate(-161deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6419,11 +6425,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-237px) translateY(-126px) rotate(143deg) scale(0.5);
+    transform: translateX(162px) translateY(-55px) rotate(-161deg) scale(0.5);
   }
 }
 .sprite-avatar-p-32 {
-  transform: translateX(-237px) translateY(-126px) rotate(143deg) scale(0.5);
+  transform: translateX(162px) translateY(-55px) rotate(-161deg) scale(0.5);
   animation-name: avatar-part-32;
 }
 
@@ -6434,7 +6440,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-31 {
   0% {
-    transform: translateX(249px) translateY(155px) rotate(76deg) scale(0.5);
+    transform: translateX(-57px) translateY(-24px) rotate(114deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6445,11 +6451,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(249px) translateY(155px) rotate(76deg) scale(0.5);
+    transform: translateX(-57px) translateY(-24px) rotate(114deg) scale(0.5);
   }
 }
 .sprite-avatar-p-31 {
-  transform: translateX(249px) translateY(155px) rotate(76deg) scale(0.5);
+  transform: translateX(-57px) translateY(-24px) rotate(114deg) scale(0.5);
   animation-name: avatar-part-31;
 }
 
@@ -6460,7 +6466,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-30 {
   0% {
-    transform: translateX(-180px) translateY(144px) rotate(-124deg) scale(0.5);
+    transform: translateX(73px) translateY(68px) rotate(-147deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6471,11 +6477,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-180px) translateY(144px) rotate(-124deg) scale(0.5);
+    transform: translateX(73px) translateY(68px) rotate(-147deg) scale(0.5);
   }
 }
 .sprite-avatar-p-30 {
-  transform: translateX(-180px) translateY(144px) rotate(-124deg) scale(0.5);
+  transform: translateX(73px) translateY(68px) rotate(-147deg) scale(0.5);
   animation-name: avatar-part-30;
 }
 
@@ -6486,7 +6492,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-29 {
   0% {
-    transform: translateX(-109px) translateY(-167px) rotate(-81deg) scale(0.5);
+    transform: translateX(-72px) translateY(196px) rotate(121deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6497,11 +6503,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-109px) translateY(-167px) rotate(-81deg) scale(0.5);
+    transform: translateX(-72px) translateY(196px) rotate(121deg) scale(0.5);
   }
 }
 .sprite-avatar-p-29 {
-  transform: translateX(-109px) translateY(-167px) rotate(-81deg) scale(0.5);
+  transform: translateX(-72px) translateY(196px) rotate(121deg) scale(0.5);
   animation-name: avatar-part-29;
 }
 
@@ -6512,7 +6518,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-28 {
   0% {
-    transform: translateX(3px) translateY(-27px) rotate(-40deg) scale(0.5);
+    transform: translateX(187px) translateY(205px) rotate(-83deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6523,11 +6529,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(3px) translateY(-27px) rotate(-40deg) scale(0.5);
+    transform: translateX(187px) translateY(205px) rotate(-83deg) scale(0.5);
   }
 }
 .sprite-avatar-p-28 {
-  transform: translateX(3px) translateY(-27px) rotate(-40deg) scale(0.5);
+  transform: translateX(187px) translateY(205px) rotate(-83deg) scale(0.5);
   animation-name: avatar-part-28;
 }
 
@@ -6538,7 +6544,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-27 {
   0% {
-    transform: translateX(131px) translateY(241px) rotate(49deg) scale(0.5);
+    transform: translateX(-137px) translateY(107px) rotate(29deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6549,11 +6555,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(131px) translateY(241px) rotate(49deg) scale(0.5);
+    transform: translateX(-137px) translateY(107px) rotate(29deg) scale(0.5);
   }
 }
 .sprite-avatar-p-27 {
-  transform: translateX(131px) translateY(241px) rotate(49deg) scale(0.5);
+  transform: translateX(-137px) translateY(107px) rotate(29deg) scale(0.5);
   animation-name: avatar-part-27;
 }
 
@@ -6564,7 +6570,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-26 {
   0% {
-    transform: translateX(208px) translateY(33px) rotate(163deg) scale(0.5);
+    transform: translateX(23px) translateY(-228px) rotate(-52deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6575,11 +6581,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(208px) translateY(33px) rotate(163deg) scale(0.5);
+    transform: translateX(23px) translateY(-228px) rotate(-52deg) scale(0.5);
   }
 }
 .sprite-avatar-p-26 {
-  transform: translateX(208px) translateY(33px) rotate(163deg) scale(0.5);
+  transform: translateX(23px) translateY(-228px) rotate(-52deg) scale(0.5);
   animation-name: avatar-part-26;
 }
 
@@ -6590,7 +6596,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-25 {
   0% {
-    transform: translateX(-106px) translateY(135px) rotate(51deg) scale(0.5);
+    transform: translateX(-92px) translateY(-192px) rotate(0deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6601,11 +6607,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-106px) translateY(135px) rotate(51deg) scale(0.5);
+    transform: translateX(-92px) translateY(-192px) rotate(0deg) scale(0.5);
   }
 }
 .sprite-avatar-p-25 {
-  transform: translateX(-106px) translateY(135px) rotate(51deg) scale(0.5);
+  transform: translateX(-92px) translateY(-192px) rotate(0deg) scale(0.5);
   animation-name: avatar-part-25;
 }
 
@@ -6616,7 +6622,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-24 {
   0% {
-    transform: translateX(-146px) translateY(-133px) rotate(178deg) scale(0.5);
+    transform: translateX(241px) translateY(-238px) rotate(167deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6627,11 +6633,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-146px) translateY(-133px) rotate(178deg) scale(0.5);
+    transform: translateX(241px) translateY(-238px) rotate(167deg) scale(0.5);
   }
 }
 .sprite-avatar-p-24 {
-  transform: translateX(-146px) translateY(-133px) rotate(178deg) scale(0.5);
+  transform: translateX(241px) translateY(-238px) rotate(167deg) scale(0.5);
   animation-name: avatar-part-24;
 }
 
@@ -6642,7 +6648,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-23 {
   0% {
-    transform: translateX(-162px) translateY(-108px) rotate(64deg) scale(0.5);
+    transform: translateX(45px) translateY(-211px) rotate(89deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6653,11 +6659,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-162px) translateY(-108px) rotate(64deg) scale(0.5);
+    transform: translateX(45px) translateY(-211px) rotate(89deg) scale(0.5);
   }
 }
 .sprite-avatar-p-23 {
-  transform: translateX(-162px) translateY(-108px) rotate(64deg) scale(0.5);
+  transform: translateX(45px) translateY(-211px) rotate(89deg) scale(0.5);
   animation-name: avatar-part-23;
 }
 
@@ -6668,7 +6674,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-22 {
   0% {
-    transform: translateX(-182px) translateY(106px) rotate(-113deg) scale(0.5);
+    transform: translateX(58px) translateY(-19px) rotate(3deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6679,11 +6685,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-182px) translateY(106px) rotate(-113deg) scale(0.5);
+    transform: translateX(58px) translateY(-19px) rotate(3deg) scale(0.5);
   }
 }
 .sprite-avatar-p-22 {
-  transform: translateX(-182px) translateY(106px) rotate(-113deg) scale(0.5);
+  transform: translateX(58px) translateY(-19px) rotate(3deg) scale(0.5);
   animation-name: avatar-part-22;
 }
 
@@ -6694,7 +6700,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-21 {
   0% {
-    transform: translateX(-122px) translateY(-22px) rotate(41deg) scale(0.5);
+    transform: translateX(-72px) translateY(73px) rotate(132deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6705,11 +6711,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-122px) translateY(-22px) rotate(41deg) scale(0.5);
+    transform: translateX(-72px) translateY(73px) rotate(132deg) scale(0.5);
   }
 }
 .sprite-avatar-p-21 {
-  transform: translateX(-122px) translateY(-22px) rotate(41deg) scale(0.5);
+  transform: translateX(-72px) translateY(73px) rotate(132deg) scale(0.5);
   animation-name: avatar-part-21;
 }
 
@@ -6720,7 +6726,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-20 {
   0% {
-    transform: translateX(103px) translateY(-167px) rotate(-77deg) scale(0.5);
+    transform: translateX(-185px) translateY(-160px) rotate(-47deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6731,11 +6737,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(103px) translateY(-167px) rotate(-77deg) scale(0.5);
+    transform: translateX(-185px) translateY(-160px) rotate(-47deg) scale(0.5);
   }
 }
 .sprite-avatar-p-20 {
-  transform: translateX(103px) translateY(-167px) rotate(-77deg) scale(0.5);
+  transform: translateX(-185px) translateY(-160px) rotate(-47deg) scale(0.5);
   animation-name: avatar-part-20;
 }
 
@@ -6746,7 +6752,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-19 {
   0% {
-    transform: translateX(39px) translateY(-108px) rotate(65deg) scale(0.5);
+    transform: translateX(-213px) translateY(108px) rotate(142deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6757,11 +6763,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(39px) translateY(-108px) rotate(65deg) scale(0.5);
+    transform: translateX(-213px) translateY(108px) rotate(142deg) scale(0.5);
   }
 }
 .sprite-avatar-p-19 {
-  transform: translateX(39px) translateY(-108px) rotate(65deg) scale(0.5);
+  transform: translateX(-213px) translateY(108px) rotate(142deg) scale(0.5);
   animation-name: avatar-part-19;
 }
 
@@ -6772,7 +6778,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-18 {
   0% {
-    transform: translateX(-207px) translateY(199px) rotate(93deg) scale(0.5);
+    transform: translateX(5px) translateY(-47px) rotate(124deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6783,11 +6789,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-207px) translateY(199px) rotate(93deg) scale(0.5);
+    transform: translateX(5px) translateY(-47px) rotate(124deg) scale(0.5);
   }
 }
 .sprite-avatar-p-18 {
-  transform: translateX(-207px) translateY(199px) rotate(93deg) scale(0.5);
+  transform: translateX(5px) translateY(-47px) rotate(124deg) scale(0.5);
   animation-name: avatar-part-18;
 }
 
@@ -6798,7 +6804,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-17 {
   0% {
-    transform: translateX(-72px) translateY(-46px) rotate(147deg) scale(0.5);
+    transform: translateX(246px) translateY(96px) rotate(-84deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6809,11 +6815,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-72px) translateY(-46px) rotate(147deg) scale(0.5);
+    transform: translateX(246px) translateY(96px) rotate(-84deg) scale(0.5);
   }
 }
 .sprite-avatar-p-17 {
-  transform: translateX(-72px) translateY(-46px) rotate(147deg) scale(0.5);
+  transform: translateX(246px) translateY(96px) rotate(-84deg) scale(0.5);
   animation-name: avatar-part-17;
 }
 
@@ -6824,7 +6830,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-16 {
   0% {
-    transform: translateX(54px) translateY(-236px) rotate(134deg) scale(0.5);
+    transform: translateX(239px) translateY(44px) rotate(50deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6835,11 +6841,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(54px) translateY(-236px) rotate(134deg) scale(0.5);
+    transform: translateX(239px) translateY(44px) rotate(50deg) scale(0.5);
   }
 }
 .sprite-avatar-p-16 {
-  transform: translateX(54px) translateY(-236px) rotate(134deg) scale(0.5);
+  transform: translateX(239px) translateY(44px) rotate(50deg) scale(0.5);
   animation-name: avatar-part-16;
 }
 
@@ -6850,7 +6856,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-15 {
   0% {
-    transform: translateX(124px) translateY(48px) rotate(64deg) scale(0.5);
+    transform: translateX(-123px) translateY(-242px) rotate(-56deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6861,11 +6867,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(124px) translateY(48px) rotate(64deg) scale(0.5);
+    transform: translateX(-123px) translateY(-242px) rotate(-56deg) scale(0.5);
   }
 }
 .sprite-avatar-p-15 {
-  transform: translateX(124px) translateY(48px) rotate(64deg) scale(0.5);
+  transform: translateX(-123px) translateY(-242px) rotate(-56deg) scale(0.5);
   animation-name: avatar-part-15;
 }
 
@@ -6876,7 +6882,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-14 {
   0% {
-    transform: translateX(-162px) translateY(75px) rotate(94deg) scale(0.5);
+    transform: translateX(-228px) translateY(-158px) rotate(106deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6887,11 +6893,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-162px) translateY(75px) rotate(94deg) scale(0.5);
+    transform: translateX(-228px) translateY(-158px) rotate(106deg) scale(0.5);
   }
 }
 .sprite-avatar-p-14 {
-  transform: translateX(-162px) translateY(75px) rotate(94deg) scale(0.5);
+  transform: translateX(-228px) translateY(-158px) rotate(106deg) scale(0.5);
   animation-name: avatar-part-14;
 }
 
@@ -6902,7 +6908,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-13 {
   0% {
-    transform: translateX(-34px) translateY(123px) rotate(69deg) scale(0.5);
+    transform: translateX(200px) translateY(-153px) rotate(100deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6913,11 +6919,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-34px) translateY(123px) rotate(69deg) scale(0.5);
+    transform: translateX(200px) translateY(-153px) rotate(100deg) scale(0.5);
   }
 }
 .sprite-avatar-p-13 {
-  transform: translateX(-34px) translateY(123px) rotate(69deg) scale(0.5);
+  transform: translateX(200px) translateY(-153px) rotate(100deg) scale(0.5);
   animation-name: avatar-part-13;
 }
 
@@ -6928,7 +6934,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-12 {
   0% {
-    transform: translateX(230px) translateY(92px) rotate(-68deg) scale(0.5);
+    transform: translateX(-127px) translateY(-99px) rotate(-70deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6939,11 +6945,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(230px) translateY(92px) rotate(-68deg) scale(0.5);
+    transform: translateX(-127px) translateY(-99px) rotate(-70deg) scale(0.5);
   }
 }
 .sprite-avatar-p-12 {
-  transform: translateX(230px) translateY(92px) rotate(-68deg) scale(0.5);
+  transform: translateX(-127px) translateY(-99px) rotate(-70deg) scale(0.5);
   animation-name: avatar-part-12;
 }
 
@@ -6954,7 +6960,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-11 {
   0% {
-    transform: translateX(155px) translateY(-220px) rotate(171deg) scale(0.5);
+    transform: translateX(-236px) translateY(-227px) rotate(30deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6965,11 +6971,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(155px) translateY(-220px) rotate(171deg) scale(0.5);
+    transform: translateX(-236px) translateY(-227px) rotate(30deg) scale(0.5);
   }
 }
 .sprite-avatar-p-11 {
-  transform: translateX(155px) translateY(-220px) rotate(171deg) scale(0.5);
+  transform: translateX(-236px) translateY(-227px) rotate(30deg) scale(0.5);
   animation-name: avatar-part-11;
 }
 
@@ -6980,7 +6986,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-10 {
   0% {
-    transform: translateX(-41px) translateY(-4px) rotate(-52deg) scale(0.5);
+    transform: translateX(145px) translateY(162px) rotate(-16deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -6991,11 +6997,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-41px) translateY(-4px) rotate(-52deg) scale(0.5);
+    transform: translateX(145px) translateY(162px) rotate(-16deg) scale(0.5);
   }
 }
 .sprite-avatar-p-10 {
-  transform: translateX(-41px) translateY(-4px) rotate(-52deg) scale(0.5);
+  transform: translateX(145px) translateY(162px) rotate(-16deg) scale(0.5);
   animation-name: avatar-part-10;
 }
 
@@ -7006,7 +7012,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-9 {
   0% {
-    transform: translateX(168px) translateY(-72px) rotate(-151deg) scale(0.5);
+    transform: translateX(-106px) translateY(242px) rotate(12deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -7017,11 +7023,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(168px) translateY(-72px) rotate(-151deg) scale(0.5);
+    transform: translateX(-106px) translateY(242px) rotate(12deg) scale(0.5);
   }
 }
 .sprite-avatar-p-9 {
-  transform: translateX(168px) translateY(-72px) rotate(-151deg) scale(0.5);
+  transform: translateX(-106px) translateY(242px) rotate(12deg) scale(0.5);
   animation-name: avatar-part-9;
 }
 
@@ -7032,7 +7038,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-8 {
   0% {
-    transform: translateX(144px) translateY(173px) rotate(-8deg) scale(0.5);
+    transform: translateX(2px) translateY(-102px) rotate(167deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -7043,11 +7049,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(144px) translateY(173px) rotate(-8deg) scale(0.5);
+    transform: translateX(2px) translateY(-102px) rotate(167deg) scale(0.5);
   }
 }
 .sprite-avatar-p-8 {
-  transform: translateX(144px) translateY(173px) rotate(-8deg) scale(0.5);
+  transform: translateX(2px) translateY(-102px) rotate(167deg) scale(0.5);
   animation-name: avatar-part-8;
 }
 
@@ -7058,7 +7064,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-7 {
   0% {
-    transform: translateX(-231px) translateY(141px) rotate(-47deg) scale(0.5);
+    transform: translateX(19px) translateY(-222px) rotate(132deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -7069,11 +7075,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-231px) translateY(141px) rotate(-47deg) scale(0.5);
+    transform: translateX(19px) translateY(-222px) rotate(132deg) scale(0.5);
   }
 }
 .sprite-avatar-p-7 {
-  transform: translateX(-231px) translateY(141px) rotate(-47deg) scale(0.5);
+  transform: translateX(19px) translateY(-222px) rotate(132deg) scale(0.5);
   animation-name: avatar-part-7;
 }
 
@@ -7084,7 +7090,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-6 {
   0% {
-    transform: translateX(-145px) translateY(-9px) rotate(-91deg) scale(0.5);
+    transform: translateX(-106px) translateY(-104px) rotate(-109deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -7095,11 +7101,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-145px) translateY(-9px) rotate(-91deg) scale(0.5);
+    transform: translateX(-106px) translateY(-104px) rotate(-109deg) scale(0.5);
   }
 }
 .sprite-avatar-p-6 {
-  transform: translateX(-145px) translateY(-9px) rotate(-91deg) scale(0.5);
+  transform: translateX(-106px) translateY(-104px) rotate(-109deg) scale(0.5);
   animation-name: avatar-part-6;
 }
 
@@ -7110,7 +7116,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-5 {
   0% {
-    transform: translateX(115px) translateY(62px) rotate(-124deg) scale(0.5);
+    transform: translateX(5px) translateY(-109px) rotate(-137deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -7121,11 +7127,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(115px) translateY(62px) rotate(-124deg) scale(0.5);
+    transform: translateX(5px) translateY(-109px) rotate(-137deg) scale(0.5);
   }
 }
 .sprite-avatar-p-5 {
-  transform: translateX(115px) translateY(62px) rotate(-124deg) scale(0.5);
+  transform: translateX(5px) translateY(-109px) rotate(-137deg) scale(0.5);
   animation-name: avatar-part-5;
 }
 
@@ -7136,7 +7142,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-4 {
   0% {
-    transform: translateX(-64px) translateY(164px) rotate(-108deg) scale(0.5);
+    transform: translateX(-194px) translateY(-206px) rotate(-115deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -7147,11 +7153,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-64px) translateY(164px) rotate(-108deg) scale(0.5);
+    transform: translateX(-194px) translateY(-206px) rotate(-115deg) scale(0.5);
   }
 }
 .sprite-avatar-p-4 {
-  transform: translateX(-64px) translateY(164px) rotate(-108deg) scale(0.5);
+  transform: translateX(-194px) translateY(-206px) rotate(-115deg) scale(0.5);
   animation-name: avatar-part-4;
 }
 
@@ -7162,7 +7168,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-3 {
   0% {
-    transform: translateX(-165px) translateY(173px) rotate(95deg) scale(0.5);
+    transform: translateX(-175px) translateY(-151px) rotate(154deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -7173,11 +7179,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-165px) translateY(173px) rotate(95deg) scale(0.5);
+    transform: translateX(-175px) translateY(-151px) rotate(154deg) scale(0.5);
   }
 }
 .sprite-avatar-p-3 {
-  transform: translateX(-165px) translateY(173px) rotate(95deg) scale(0.5);
+  transform: translateX(-175px) translateY(-151px) rotate(154deg) scale(0.5);
   animation-name: avatar-part-3;
 }
 
@@ -7188,7 +7194,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-2 {
   0% {
-    transform: translateX(-224px) translateY(-215px) rotate(-91deg) scale(0.5);
+    transform: translateX(-58px) translateY(-242px) rotate(29deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -7199,11 +7205,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(-224px) translateY(-215px) rotate(-91deg) scale(0.5);
+    transform: translateX(-58px) translateY(-242px) rotate(29deg) scale(0.5);
   }
 }
 .sprite-avatar-p-2 {
-  transform: translateX(-224px) translateY(-215px) rotate(-91deg) scale(0.5);
+  transform: translateX(-58px) translateY(-242px) rotate(29deg) scale(0.5);
   animation-name: avatar-part-2;
 }
 
@@ -7214,7 +7220,7 @@ span[class*='sprite-avatar-p-'] {
 
 @keyframes avatar-part-1 {
   0% {
-    transform: translateX(73px) translateY(-143px) rotate(25deg) scale(0.5);
+    transform: translateX(-107px) translateY(-80px) rotate(-163deg) scale(0.5);
   }
   100% {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
@@ -7225,11 +7231,11 @@ span[class*='sprite-avatar-p-'] {
     transform: translateX(0) translateY(0) rotate(0) scale(1.1);
   }
   100% {
-    transform: translateX(73px) translateY(-143px) rotate(25deg) scale(0.5);
+    transform: translateX(-107px) translateY(-80px) rotate(-163deg) scale(0.5);
   }
 }
 .sprite-avatar-p-1 {
-  transform: translateX(73px) translateY(-143px) rotate(25deg) scale(0.5);
+  transform: translateX(-107px) translateY(-80px) rotate(-163deg) scale(0.5);
   animation-name: avatar-part-1;
 }
 
