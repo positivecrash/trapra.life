@@ -12,8 +12,8 @@ block html
 	- var bodyclass = ''
 
 block content
-	.screen.section-main.section-title
-		.w-wide
+	.screen.section-main
+		.clipped-reveal
 			.w-text
 				.text-clipped.text-smooth(style="background-image:url('assets/i/index-titles/P1010241.JPG');")
 					| Столбы различной кривизны
@@ -26,6 +26,8 @@ block content
 					br/
 					| То крошатся, то заржавеют.
 
-			nav
-				a(href="index.html") Главная
-				a(href="poem-2.html") Вперед &rarr;
+			.clipped-reveal-block(style="background-image:url('assets/i/index-titles/P1010241.JPG');")
+
+		nav
+			a(href="index.html") Главная
+			a(href="poem-2.html") Вперед &rarr;

@@ -12,13 +12,14 @@ block html
 	- var bodyclass = 'dark'
 
 block content
-	.screen.section-main.section-title
+	.screen.section-main
 		.w-wide
 
 			#avatar
 				- var n = 1;
 				while n < 213
 					span(class="sprite-avatar-p-" + n++)
+			a.btn(href="https://www.instagram.com/av.trapra/", target="_blank") Instagram av.trapra ↗
 
 			nav
 				a(href="index.html") Главная

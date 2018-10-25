@@ -77,6 +77,7 @@ body
 .d-b { display: block; }
 
 .align-v-m { vertical-align: middle; }
+.align-v-m-flex { @extend %flex-align--center; }
 
 
 .screen

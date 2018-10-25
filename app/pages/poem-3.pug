@@ -12,8 +12,8 @@ block html
 	- var bodyclass = ''
 
 block content
-	.screen.section-main.section-title
-		.w-wide
+	.screen.section-main
+		.clipped-reveal
 			.w-text
 				.text-clipped.text-smooth(style="background-image:url('assets/i/index-titles/P1010241.JPG');")
 					| Мелькают вдалеке
@@ -36,8 +36,10 @@ block content
 					| Стою на месте на
 					br/
 					| Огромной скорости.
+					
+			.clipped-reveal-block(style="background-image:url('assets/i/index-titles/P1010241.JPG');")
 
-			nav
-				a(href="poem-2.html") &larr; Назад
-				a(href="index.html") Главная
-				a(href="end.html") Вперед &rarr;
+		nav
+			a(href="poem-2.html") &larr; Назад
+			a(href="index.html") Главная
+			a(href="end.html") Вперед &rarr;
